@@ -23,7 +23,9 @@
 	"Veteran"				"Абсурдно"
 	"Result"				"Результат"
 
+	"#DOTA_GoodGuys"					"Стражи Вселенной"
 	"DOTA_GoodGuys"						"Стражи Вселенной"
+	"#DOTA_BadGuys"						"Воины Орай"
 	"DOTA_BadGuys"						"Воины Орай"
 
 	"boss_dif_1"			"Сложность: <font color='#89eb49'>«Лёгкая»</font>"
@@ -209,17 +211,30 @@
 
 
             "npc_dota_hero_legion_commander"							     "Legate of the Legion「★★★★」"
+		"DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds"                    "<font color='#F86708'>「Auxilia sagittarius」</font>"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_Description"        "Обрушивает на врагов мощь легиона. Наносит базовый урон, а также дополнительный урон за каждого задетого врага. За каждого задетого юнита владелец получает бонус к скорости передвижения на время."
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_radius"             "РАДИУС:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_base_damage"        "БАЗОВЫЙ УРОН:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_creep"   "УРОН ЗА КРИПА:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_hero"    "УРОН ЗА ГЕРОЯ:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_creep"  "%СКОРОСТЬ ЗА КРИПА:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_hero"   "%СКОРОСТЬ ЗА ГЕРОЯ:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_duration"           "ДЛИТЕЛЬНОСТЬ БОНУСА:"
 
-        "DOTA_Tooltip_ability_legion_commander_overwhelming_odds"						"<font color='#F86708'>「Auxilia sagittarius」</font> "
-        "DOTA_Tooltip_ability_legion_commander_overwhelming_odds_Description"				"Лучники войск поддержки, последовавшие за Легатом, обстреливают врагов."
-        "DOTA_Tooltip_ability_legion_commander_overwhelming_odds_damage"					"Урон: "
-            
-        "DOTA_Tooltip_ability_legion_commander_press_the_attack"						"<font color='#F86708'>「Fortitude」</font> "
-        "DOTA_Tooltip_ability_legion_commander_press_the_attack_Description"				"Легат способен воодушевить любого продолжать свой бой до победного конца. Повышает регенерацию здоровья и скорость атаки себя или союзника."
-        "DOTA_Tooltip_ability_legion_commander_press_the_attack_duration"				    "Длительность: "
-        "DOTA_Tooltip_ability_legion_commander_press_the_attack_attack_speed"				"Дополнительная скорость атаки: "
-        "DOTA_Tooltip_ability_legion_commander_press_the_attack_hp_regen"					"Восстановление здоровья: "
-       
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack"                     "<font color='#F86708'>「Fortitude」</font> "
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_Description"         "Снимает с выбранной союзной цели все отрицательные эффекты и оглушение (сильное развеивание), а также дарит дополнительную скорость атаки и восстановление здоровья на короткое время."
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "ДЛИТЕЛЬНОСТЬ:"
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ:"
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_attack_speed"        "ДОП. СКОРОСТЬ АТАКИ:"
+
+		// Локализация модификатора Overwhelming Odds
+        "DOTA_Tooltip_modifier_gu_overwhelming_odds"                "Overwhelming Odds"
+        "DOTA_Tooltip_modifier_gu_overwhelming_odds_Description"    "Скорость передвижения увеличена на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
+
+        // Локализация модификатора Press the Attack
+        "DOTA_Tooltip_modifier_gu_press_the_attack"                 "Press the Attack"
+        "DOTA_Tooltip_modifier_gu_press_the_attack_Description"     "Скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%, а восстановление здоровья — на %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%."
+
 		"DOTA_Tooltip_ability_axe_counter_helix2"										"<font color='#F86708'>「Legion Strike 」</font>"
         "DOTA_Tooltip_ability_axe_counter_helix2_Description"								"Легион хранит своего Легата, атакуя всех противников, угрожающих ему."
         "DOTA_Tooltip_ability_axe_counter_helix2_radius"									"Радиус: "
@@ -286,39 +301,39 @@
 
 		    "npc_dota_hero_windrunner"										"Warrior of the Wind「★★★★★」"
 		
-		"DOTA_Tooltip_ability_chase_moon_and_star"                                        "<font color='#32CA0D'>「Chasing the stars」</font> "
-        "DOTA_Tooltip_ability_chase_moon_and_star_Description"                                "При автоатаке выполняет дополнительную атаку, которая наносит базовый урон и снижает броню цели на %armor%. Дополнительные атаки могут вызвать еще одну дополнительную атаку. Атаки наносят дополнительный урон."
-        "DOTA_Tooltip_ability_chase_moon_and_star_rate"                                        "%Шанс: "
-        "DOTA_Tooltip_ability_chase_moon_and_star_damage"                                    "Дополнительный урон: "
+		"DOTA_Tooltip_ability_gu_chase_moon_and_star"                                        "<font color='#32CA0D'>「Chasing the stars」</font> "
+        "DOTA_Tooltip_ability_gu_chase_moon_and_star_Description"                                "При автоатаке выполняет дополнительную атаку, которая наносит базовый урон и снижает броню цели на %armor%. Дополнительные атаки могут вызвать еще одну дополнительную атаку. Атаки наносят дополнительный урон."
+        "DOTA_Tooltip_ability_gu_chase_moon_and_star_rate"                                        "%Шанс: "
+        "DOTA_Tooltip_ability_gu_chase_moon_and_star_damage"                                    "Дополнительный урон: "
 
-        "DOTA_Tooltip_ability_multiple_shoot"                                            "<font color='#32CA0D'>「Five times shot」</font> "
-        "DOTA_Tooltip_ability_multiple_shoot_Description"                                    "Выпускает 5 стрел, наносящих урон в области перед героем."
-        "DOTA_Tooltip_ability_multiple_shoot_Note0"                                         "Наносит урон по формуле - %basedamage% + (Ловкость * 1.5)"
-        "DOTA_Tooltip_ability_multiple_shoot_basedamage"                                    "Урон: "
-        "DOTA_Tooltip_ability_multiple_shoot_damage"                                        "Множитель: "
-        "DOTA_Tooltip_ability_multiple_shoot_scepter_Description"                        "Уменьшает перезарядку способности до 15 секунд."
+        "DOTA_Tooltip_ability_gu_multiple_shoot"                                            "<font color='#32CA0D'>「Five times shot」</font> "
+        "DOTA_Tooltip_ability_gu_multiple_shoot_Description"                                    "Выпускает 5 стрел, наносящих урон в области перед героем."
+        "DOTA_Tooltip_ability_gu_multiple_shoot_Note0"                                         "Наносит урон по формуле - %basedamage% + (Ловкость * 1.5)"
+        "DOTA_Tooltip_ability_gu_multiple_shoot_basedamage"                                    "Урон: "
+        "DOTA_Tooltip_ability_gu_multiple_shoot_damage"                                        "Множитель: "
+        "DOTA_Tooltip_ability_gu_multiple_shoot_scepter_Description"                        "Уменьшает перезарядку способности до 15 секунд."
 
-		"DOTA_Tooltip_ability_gust"														"<font color='#32CA0D'>「Windflaw」</font> "
-		"DOTA_Tooltip_ability_gust_Description"												"Использует силу ветра, чтобы заставить врага всегда промахиваться."
-		"DOTA_Tooltip_ability_gust_Note0"                                                   "Наносит урон по формуле - %damage% + (Ловкость * 1.5)"
-        "DOTA_Tooltip_ability_gust_damage"													"Урон: "
-		"DOTA_Tooltip_ability_gust_miss"													"%Шанс промаха: "
-		    "DOTA_Tooltip_modifier_gust"														"<font color='#32CA0D'>「Windflaw」</font> "
-		    "DOTA_Tooltip_modifier_gust_Description"											"Снижает боеспособность врага."
+		"DOTA_Tooltip_ability_gu_gust"														"<font color='#32CA0D'>「Windflaw」</font> "
+		"DOTA_Tooltip_ability_gu_gust_Description"												"Использует силу ветра, чтобы заставить врага всегда промахиваться."
+		"DOTA_Tooltip_ability_gu_gust_Note0"                                                   "Наносит урон по формуле - %damage% + (Ловкость * 1.5)"
+        "DOTA_Tooltip_ability_gu_gust_damage"													"Урон: "
+		"DOTA_Tooltip_ability_gu_gust_miss"													"%Шанс промаха: "
+		    "DOTA_Tooltip_modifier_gu_gust"														"<font color='#32CA0D'>「Windflaw」</font> "
+		    "DOTA_Tooltip_modifier_gu_gust_Description"											"Снижает боеспособность врага."
 
-		"DOTA_Tooltip_ability_alacrity"													"<font color='#32CA0D'>「Eagerness」</font> "
-		"DOTA_Tooltip_ability_alacrity_Description"											"Сила ветра будет влиять на направление вражеских атак и поможет вам уклоняться от них. Также пассивно увеличивает скорость передвижения. Когда активна, дарует %evasion%% уклонения и замедляет скорость передвижения врага. Не дает эффектов во время перезарядки."
-		"DOTA_Tooltip_ability_alacrity_Note0"                                               "Повышение скорости передвижения: %movespeed%<br></br>Шанс уклонения: 10 + 2 * Уровень способности<br></br>Длительность: 4<br></br>Замедление %reduce_movespeed%%"
-        "DOTA_Tooltip_ability_alacrity_duration"											"Длительность:"	
-			"DOTA_Tooltip_modifier_alacrity"												    "<font color='#32CA0D'>「Eagerness」</font> "
-		    "DOTA_Tooltip_modifier_alacrity_Description"									    "Уворачивается от всех атак"
+		"DOTA_Tooltip_ability_gu_alacrity"													"<font color='#32CA0D'>「Eagerness」</font> "
+		"DOTA_Tooltip_ability_gu_alacrity_Description"											"Сила ветра будет влиять на направление вражеских атак и поможет вам уклоняться от них. Также пассивно увеличивает скорость передвижения. Когда активна, дарует %evasion%% уклонения и замедляет скорость передвижения врага. Не дает эффектов во время перезарядки."
+		"DOTA_Tooltip_ability_gu_alacrity_Note0"                                               "Повышение скорости передвижения: %movespeed%<br></br>Шанс уклонения: 10 + 2 * Уровень способности<br></br>Длительность: 4<br></br>Замедление %reduce_movespeed%%"
+        "DOTA_Tooltip_ability_gu_alacrity_duration"											"Длительность:"	
+			"DOTA_Tooltip_modifier_gu_alacrity"												    "<font color='#32CA0D'>「Eagerness」</font> "
+		    "DOTA_Tooltip_modifier_gu_alacrity_Description"									    "Уворачивается от всех атак"
 
-		"DOTA_Tooltip_ability_arrow_strom"												"<font color='#32CA0D'>「A Storm of Arrows」</font>"
-		"DOTA_Tooltip_ability_arrow_strom_Description"										"Выстреливает множеством стрел в небо, создавая дождь из них."
-		"DOTA_Tooltip_ability_arrow_strom_Note0"                                            "Наносит урон по формуле - %damage% + Ловкость * 1.5"
-        "DOTA_Tooltip_ability_arrow_strom_damage"											"Базовый урон: "
+		"DOTA_Tooltip_ability_gu_arrow_strom"												"<font color='#32CA0D'>「A Storm of Arrows」</font>"
+		"DOTA_Tooltip_ability_gu_arrow_strom_Description"										"Выстреливает множеством стрел в небо, создавая дождь из них."
+		"DOTA_Tooltip_ability_gu_arrow_strom_Note0"                                            "Наносит урон по формуле - %damage% + Ловкость * 1.5"
+        "DOTA_Tooltip_ability_gu_arrow_strom_damage"											"Базовый урон: "
 		    "DOTA_Tooltip_modifier_star_buff"												    "<font color='#32CA0D'>「A Storm of Arrows」</font>"
-			"DOTA_Tooltip_ability_arrow_strom_shard_Description"								"Попадание стрелой оглушает цель на 0.3 секунды."
+			"DOTA_Tooltip_ability_gu_arrow_strom_shard_Description"								"Попадание стрелой оглушает цель на 0.3 секунды."
 		
 		
 		    "npc_dota_hero_sniper"											"Sniper「★★★★★」"
@@ -813,23 +828,26 @@
 		"DOTA_Tooltip_Ability_madokaarmor_Description"										"Мадока способна выдержать гораздо больше, чем может показаться на первый взгляд."
 		"DOTA_Tooltip_Ability_madokaarmor_arm"												"%Снижение урона: "
 
-		"DOTA_Tooltip_Ability_clinkz_strafe"											"<font color='#F2509F'>「Infernal arrows」</font>"
-		"DOTA_Tooltip_Ability_clinkz_strafe_Description"									"Начинает обстреливать територию стрелами. Наносит 60% урона от атаки."
-		"DOTA_Tooltip_Ability_clinkz_strafe_wave_count"										"Количество стрел: "
-		"DOTA_Tooltip_Ability_clinkz_strafe_attack_speed_bonus_pct"							"Скорость атаки: "
+		"DOTA_Tooltip_Ability_gu_madoka_strafe"											"<font color='#F2509F'>「Infernal arrows」</font>"
+		"DOTA_Tooltip_Ability_gu_madoka_strafe_Description"									"Начинает обстреливать територию стрелами. Наносит 60% урона от атаки."
+		"DOTA_Tooltip_Ability_gu_madoka_strafe_wave_count"										"Количество стрел: "
+		"DOTA_Tooltip_Ability_gu_madoka_strafe_attack_speed_bonus_pct"							"Скорость атаки: "
+		"DOTA_Tooltip_Ability_gu_madoka_strafe_duration"										"Длительность: "
+		"DOTA_Tooltip_Ability_gu_madoka_strafe_radius"											"Радиус: "
+		"DOTA_Tooltip_Ability_gu_madoka_strafe_damage_pct"										"Урон%: "
 		
-		"DOTA_Tooltip_ability_madokasave"												"<font color='#F2509F'>「Arrows of salvation」</font>"
-		"DOTA_Tooltip_ability_madokasave_Description"										"Атака, создающая град стрел, направляющихся к умирающим союзникам. При достижении своих целей назначения стрелы превращаются в воплощения Мадоки, которые восстанавливают здоровье союзников."
-		"DOTA_Tooltip_ability_madokasave_radius"											"Радиус:"
-		"DOTA_Tooltip_ability_madokasave_time"												"Длительность:"
-		"DOTA_Tooltip_ability_madokasave_heal"												"Восстановление здоровья:"
-			"DOTA_Tooltip_modifier_madokasave"													"<font color='#F2509F'>「Arrows of salvation」</font>"
-			"DOTA_Tooltip_modifier_madokasave_Description"										"Воплощения Мадоки восстанавливают ваше здоровье"
-			"DOTA_Tooltip_modifier_madokasave_buff"												"<font color='#F2509F'>「Arrows of salvation」</font>"
-			"DOTA_Tooltip_modifier_madokasave_buff_Description"									""
-			"DOTA_Tooltip_modifier_madokasave_stack"											"<font color='#F2509F'>「Arrows of salvation」</font>"
-			"DOTA_Tooltip_modifier_madokasave_stack_Description"								"Даёт дополнительную дальность атаки."
-		"DOTA_Tooltip_ability_madokasave_scepter_Description"								"Накладывает на цель эффект неуязвимости к магии на 3 секунды."
+		"DOTA_Tooltip_ability_gu_madokasave"												"<font color='#F2509F'>「Arrows of salvation」</font>"
+		"DOTA_Tooltip_ability_gu_madokasave_Description"										"Атака, создающая град стрел, направляющихся к умирающим союзникам. При достижении своих целей назначения стрелы превращаются в воплощения Мадоки, которые восстанавливают здоровье союзников."
+		"DOTA_Tooltip_ability_gu_madokasave_radius"											"Радиус:"
+		"DOTA_Tooltip_ability_gu_madokasave_time"												"Длительность:"
+		"DOTA_Tooltip_ability_gu_madokasave_heal"												"Восстановление здоровья:"
+			"DOTA_Tooltip_modifier_gu_madokasave"													"<font color='#F2509F'>「Arrows of salvation」</font>"
+			"DOTA_Tooltip_modifier_gu_madokasave_Description"										"Воплощения Мадоки восстанавливают ваше здоровье"
+			"DOTA_Tooltip_modifier_gu_madokasave_buff"												"<font color='#F2509F'>「Arrows of salvation」</font>"
+			"DOTA_Tooltip_modifier_gu_madokasave_buff_Description"									""
+			"DOTA_Tooltip_modifier_gu_madokasave_stack"											"<font color='#F2509F'>「Arrows of salvation」</font>"
+			"DOTA_Tooltip_modifier_gu_madokasave_stack_Description"								"Даёт дополнительную дальность атаки."
+		"DOTA_Tooltip_ability_gu_madokasave_scepter_Description"								"Накладывает на цель эффект неуязвимости к магии на 3 секунды."
 			
 			"DOTA_Tooltip_modifier_madokagh"													"Мана"
 			"DOTA_Tooltip_modifier_madokagh_Description"										"Мадока восстанавливает тебе ману"
@@ -840,18 +858,15 @@
 			"DOTA_Tooltip_modifier_soul_leader"													"Душа"
 			"DOTA_Tooltip_modifier_soul_leader_Description"										""
 		
-		"DOTA_Tooltip_ability_madokami"													"<font color='#F2509F'>「Advent ceremony」</font>"
-		"DOTA_Tooltip_ability_madokami_Description"											"Могущественное существо, в которое превратилась Мадока, исполнив своё желание. Благодаря случившемуся Канамэ получила возможность изменить Вселенную и ее законы. За каждого убитого противника с шансом 6% получает заряд, который увеличивает характеристики Мадоки."
-		"DOTA_Tooltip_ability_madokami_shard_Description"									"Увеличивает максимальное количество стаков на 10. Работает только с талантом на 3 уровне!"
-		"DOTA_Tooltip_ability_madokami_agility"												"Бонус к ловкости: "
-		"DOTA_Tooltip_ability_madokami_int"													"Бонус к интеллекту и силе: "
-		"DOTA_Tooltip_ability_madokami_madokami_max_souls"									"Всего зарядов: "
-		"DOTA_Tooltip_ability_madokami_madokazl"											""
-			"DOTA_Tooltip_modifier_madokami"													"<font color='#F2509F'>「Advent ceremony」</font>"
-			"DOTA_Tooltip_modifier_madokami_buff"												""
-			"DOTA_Tooltip_modifier_madokami_buff_Description"									""
-			"DOTA_Tooltip_modifier_madokami_stack"												"<font color='#F2509F'>「Advent ceremony」</font>"
-			"DOTA_Tooltip_modifier_madokami_stack_Description"									"Твои характеристики повышены"
+		"DOTA_Tooltip_ability_gu_madokami"													"<font color='#F2509F'>「Advent ceremony」</font>"
+		"DOTA_Tooltip_ability_gu_madokami_Description"											"Могущественное существо, в которое превратилась Мадока, исполнив своё желание. Благодаря случившемуся Канамэ получила возможность изменить Вселенную и ее законы. За каждого убитого противника с шансом 6% получает заряд, который увеличивает характеристики Мадоки."
+		"DOTA_Tooltip_ability_gu_madokami_shard_Description"									"Увеличивает максимальное количество стаков на 10. Работает только с талантом на 3 уровне!"
+		"DOTA_Tooltip_ability_gu_madokami_agility"												"Бонус к ловкости: "
+		"DOTA_Tooltip_ability_gu_madokami_int"													"Бонус к интеллекту и силе: "
+		"DOTA_Tooltip_ability_gu_madokami_gu_madokami_max_souls"									"Всего зарядов: "
+		"DOTA_Tooltip_ability_gu_madokami_madokazl"											""
+			"DOTA_Tooltip_modifier_gu_madokami_passive"													"<font color='#F2509F'>「Advent ceremony」</font>"
+			"DOTA_Tooltip_modifier_gu_madokami_passive_Description"									"Твои характеристики повышены"
 		
 		"DOTA_Tooltip_ability_madokaruler"												"<font color='#F2509F'>「A hail of arrows」</font>"
 		"DOTA_Tooltip_ability_madokaruler_Description"										"Имея в снаряжении огромный лук, Мадока может выстрелить градом светящихся стрел"
@@ -1781,7 +1796,7 @@
 		"DOTA_Tooltip_ability_alroth_raze_radius" 											"Радиус: "
 
 		"DOTA_Tooltip_ability_alroth_shatter" 											"<font color='#F7DF17'>「Subspace Energy」</font> "
-		"DOTA_Tooltip_ability_alroth_shatter_Description" 									"Каждые %cd% секунд, герой нанесёт в %damage_mult% раза больше урона с атаки, также замедлит врага и выжжет некое количество маны, которое зависит от базового урона героя * на %mana_burn%. При попадании по цели уменьшит магическое сопротивление на %mres_reduction%%% на %duration% секунд"
+		"DOTA_Tooltip_ability_alroth_shatter_Description" 									"Каждые %cd% секунд, герой нанесёт в %damage_mult% раза больше урона с атаки, также замедлит врага и выжжет некое количество маны, которое зависит от базового урона героя * на %mana_burn%. При попадании по цели уменьшит физическое сопротивление на %mres_reduction% на %duration% секунд"
 		"DOTA_Tooltip_ability_alroth_shatter_slow" 											"%Замедление: "
 			"DOTA_Tooltip_modifier_shatter"														"<font color='#F7DF17'>「Subspace Energy」</font> "
 			"DOTA_Tooltip_modifier_shatter_slow" 												"Замедлен."
@@ -4063,7 +4078,7 @@
 		"DOTA_Tooltip_ability_item_gu_dead_sword_7_mana_regen"								"Регенерация маны: "
 
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8"										"Unstable Dead Fury"
-		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% \n <h1>Пассивная: Goldmine </h1>За каждую атаку вся команда будет получать по 2 золота."
+		"DOTA_Tooltip_ability_item_gu_dead_sword_8_description"								"<h1>Активная: Break World  </h1> При использовании выведет из строя всех вражеских юнитов в радиусе 300 на 2.5-4 сек.\n <h1>Пассивная: Deadly Essence </h1> Увеличивает ваш урон %bonus_dmg_target%% от белого.\n <h1>Пассивная: Bush </h1>Если предмет не перезаряжается, то с шансом для героев дальнего боя - 3%, для ближнего - 5% может ошеломить цель на %bush_duration% "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_damage"									"Урон: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_hp_regen"								"Регенерация здоровья: "
 		"DOTA_Tooltip_ability_item_gu_dead_sword_8_mana_regen"								"Регенерация маны: "
@@ -5297,7 +5312,7 @@
 		"alter_anromeda_3"				"Вы отправляетесь туда немедленно! Я не смогу ни пойти с вами, ни поддерживать связь."
 		"alter_anromeda_4"				"Я и Оверлорд остаёмся здесь, принесите нам хорошие новости. Удачи!"
 
-
+		"npc_gu_lich_king_f"			"Lich King"
 		"antogonist_name_1"				"Lich King"
 		"lich_king_repli_1"				"Что же, я полагаю, вас стоит поприветствовать. Добро пожаловать, насекомые. Добро пожаловать в мой мир."
 		"lich_king_repli_2"				"Вы пришли в мир мертвых в поисках ответов. Желание помочь твоему союзнику заставило тебя рисковать жизнью, чтобы попасть сюда. Позволь мне помочь тебе."
@@ -5314,6 +5329,20 @@
 		"lich_king_repli_13"			"Хахахаха. Бежать некуда, теперь вы мои!"
 		"lich_king_repli_14"			"Ты ответишь за это! Радуйся, что твоя смерть будет быстрой..."
 		"lich_king_repli_15"			"ВААААРХ!! ЛЕДЯНАЯ СКОРБЬ, ПОВИНУЙСЯ МНЕ!"
+
+		"lich_king_replic_2"       "И помни, пока я дарую тебе право выбора, ты можешь выбрать свою сторону, но в конце концов ты будешь принадлежать мне, так или иначе."
+		"lich_king_replic_5"       "Что касается тебя..."
+		"lich_king_replic_7"       "При следующей нашей встречи мне потребуются веские причины, чтобы сохранить тебе жизнь."
+		"lich_king_replic_8"       "Души твоих павших чемпионов будут принадлежать мне!!"
+		"lich_king_replic_9"       "Восстань, и прими мой дар!"
+		"lich_king_replic_10"      "Всё что составляет мою сущность: злость, безжалостность, отомщение... я вкладываю в тебя, достойнейший рыцарь."
+		"lich_king_replic_25"      "Глупая девчонка."
+		"lich_king_replic_38"      "Трогательно."
+
+		"alter_anromeda_base_1"    "Внимание. Зафиксирован всплеск аномальной некротической энергии в зоне Звёздных Врат. Неопознанная сущность, немедленно назовите себя."
+		"alter_anromeda_base_2"    "Я Андромеда! Мои сканеры показывают, что ваши жизненные показатели отсутствуют, однако вы обладаете огромной разрушительной силой. Протоколы защиты базы активированы."
+		"alter_anromeda_base_3"    "Вероятность вашего успеха крайне мала. В данный момент нам выгодно временное перемирие для уничтожения сил Орай. Но если вы попытаетесь навредить моим чемпионам, я обрушу на вас всю мощь орбитальных орудий."
+		"alter_anromeda_base_4"    "Посмотрим. Протокол совместной обороны подтверждён. Чемпионы, возвращайтесь на позиции, битва ещё не окончена."
 
 		"alter_anromeda_5"				"С возвращением! Я вижу вы преуспели в поисках. Кристаллы, которые берут энергию из подпространства... Очень хорошо."
 		"alter_anromeda_6"				"В некоторых точках на карте я синтезировала данные Кристаллы, это должно помочь вам в обороне!"
@@ -6774,9 +6803,8 @@
 		"DOTA_Tooltip_Ability_moai_1_bonus_armor"					"Дополнительная броня: "
 		"DOTA_Tooltip_Ability_moai_1_hp_regen"						"%Регенерация здоровья: "
 		"DOTA_Tooltip_Ability_moai_1_dmg_res"						"%Уменьшение всего входящего урона: "
-		"DOTA_Tooltip_modifier_moai_1"                                    "<font color='#3fff05'>「Moai」</font>"
-        "DOTA_Tooltip_modifier_moai_1_Description"                            "Нажми альт"
-
+		"DOTA_Tooltip_modifier_moai_1_buff"             "<font color='#3fff05'>「Moai」</font>"
+"DOTA_Tooltip_modifier_moai_1_buff_Description" "🗿 <font color='#a2e2fe'>Величие камня:</font> Дарует +%hp% здоровья, +%bonus_armor% брони и %dmg_res%%% сопротивления урону. <br><br> <font color='#b0b0b0'> БРУХ. Статуи Моаи неподвижны и молчаливы, как твои союзники в чате...</font>"
 		"DOTA_Tooltip_Ability_moai_2"							"<font color='#3fff05'>「Moai Rift」</font>"
 		"DOTA_Tooltip_Ability_moai_2_Description"					"Так как Moai является камнем, то он не может передвигаться, но он может совершить прыжок в указанную точку (Никто не знает каким образом это происходит)"
 		"DOTA_Tooltip_Ability_moai_2_damage"						"Урон:"
@@ -7211,9 +7239,8 @@
 
 		"kurumigu_stash_text"									"Тайник"
 		"kurumigu_stash_text1"									"Волны"
-		"kurumigu_stash_text2"									"Цветы"
+		"kurumigu_stash_text2"									"Нейтралки"
 		"kurumigu_stash_text3"									"Боссы"
-		"kurumigu_stash_text44"									"Нейтрал."
 
 		"zpm_icon_main"											"МНТ"
 		"zpm_icon_text"											"Основной источник энергии которая нужна для многих игровых механик, например - Звёздные Врата.<br>Набор адреса Пегаса потребляет - 0.05% Максимальной Энергии.<br>Набор адреса Вселенной потребляет - 0.2% Максимальной Энергии.<br>Вы можете восполнить энергию МНТ при помощи проведения реакций в Ядерном Реакторе."
@@ -7341,7 +7368,7 @@
 		"gilded_dreams_3"							"Золотые годы"
 		"gilded_dreams_4"							"Последний медовый пир"
 		"gilded_dreams_5"							"Тень Короля песков"
-		"gilded_dreams_effect_des" 					"2 предмета: Увеличивает количество получаемых МНТ до 2. <br><br> 5 предметов: Увеличивает шанс на получение персонажа 5★ на 500%! При атаке есть шанс в 5% что вы создадите свою копию которая будет существовать 10 секунд. <br>"
+		"gilded_dreams_effect_des" 					"2 предмета: Каждую секунду ваше МНТ заряжается на 100 единиц. <br><br> 5 предметов: Увеличивает шанс на получение персонажа 5★ на 100%! При атаке есть шанс в 5% что вы создадите свою копию которая будет существовать 10 секунд. <br>"
 
 		"protagonist_name_5"						"Один 6-2"
 
@@ -7525,6 +7552,7 @@
 		"skin_type_vocaloid"									"Vocaloid Super Idol"
 		"skin_type_rt2pm2"										"RT-2PM2 Topol-M"
 		"skin_type_t72b"										"Т-72Б2 «Рогатка»"
+		"skin_type_whitequeen"									"Белая Королева"
 
 		"hammond_repli_1" 										"Начать набор адреса!" 
 		"hammond_repli_2" 										"Наша цель планета под названием p3x-439, к нам пришёл неизвестный сигнал с этой планеты."
@@ -7654,13 +7682,13 @@
 		"nuclear_reaction_2"														"Реакция Слияния"
 
 		"nuclear_resourse_picked"													"Выберите синтезируемый материал"
-		"nuclear_resourse_1"														"Железо-56"
+		"nuclear_resourse_1"														"Титан-44"
 		"nuclear_resourse_2"														"Кислород-16"
-		"nuclear_resourse_3"														"Полоний-210"
+		"nuclear_resourse_3"														"Полоний-210 / Свинец-206"
 		"nuclear_resourse_4"														"Протон-Протонная цепочка"
 		"nuclear_resourse_5"														"Стронций-90"
 		"nuclear_resourse_6"														"Кобальт-60"
-
+		"nuclear_resourse_7"														"Железо-56"
 
 
 
@@ -7799,56 +7827,52 @@
 
 
 
-		"iron56_1"																	"(-2000) Вход - 2 углерод-12, выход - неон-20, гелий-4 (2 мин)"
-		"iron56_2"																	"(-2000) Вход - неон-20 + гелий-4, выход - магний-24 (1 мин)"
-		"iron56_3"																	"(-3000) Вход - магний-24 + гелий-4, выход - кремний-28 (1 мин)"
-		"iron56_4"																	"(-3000) Вход - кремний-28 + гелий-4, выход - сера-32 (40 сек)"
-		"iron56_5"																	"(-3000) Вход - сера-32 + гелий-4, выход - аргон-36 (25 сек)"
-		"iron56_6"																	"(-4500) Вход - аргон-36 + гелий-4, выход - кальций-40 (15 сек)"
-		"iron56_7"																	"(-5000) Вход - кальций-40 + гелий-4, выход - титан-44 (15 сек)"
-		"iron56_8"																	"(-4800) Вход - титан-44 + гелий-4, выход - хром-48 (25 сек)"
-		"iron56_9"																	"(-3500) Вход - хром-48 + гелий-4, выход - железо-52 (20 сек)"
-		"iron56_10"																	"(-3100) Вход - железо-52 + гелий-4, выход - никель-56 (1 мин)"
-		"iron56_11"																	"(+1200) Вход - никель-56 + выход - кобальт-56 (77 сек)"
-		"iron56_12"																	"(+2700) Вход - кобальт-56 + выход - железо-56 (6 сек)"
+		"titanium44_1"																		"Вход: <font color='#FE0033'>Углерод-12 </font>2 шт.<br>Выход: <font color='#249A41'>Неон-20 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: -2000<br>Время: 120 секунд"
+		"titanium44_2"																		"Вход: <font color='#FE0033'>Неон-20 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Магний-24 </font>1 шт.<br>Энергия МНТ: -2000<br>Время: 60 секунд"
+		"titanium44_3"																		"Вход: <font color='#FE0033'>Магний-24 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Кремний-28 </font>1 шт.<br>Энергия МНТ: -3000<br>Время: 60 секунд"
+		"titanium44_4"																		"Вход: <font color='#FE0033'>Кремний-28 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Сера-32 </font>1 шт.<br>Энергия МНТ: -3000<br>Время: 40 секунд"
+		"titanium44_5"																		"Вход: <font color='#FE0033'>Сера-32 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Аргон-36 </font>1 шт.<br>Энергия МНТ: -3000<br>Время: 25 секунд"
+		"titanium44_6"																		"Вход: <font color='#FE0033'>Аргон-36 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Кальций-40 </font>1 шт.<br>Энергия МНТ: -4500<br>Время: 15 секунд"
+		"titanium44_7"																		"Вход: <font color='#FE0033'>Кальций-40 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Титан-44 </font>1 шт.<br>Энергия МНТ: -5000<br>Время: 15 секунд"
+		"iron56_1"																		"Вход: <font color='#FE0033'>Титан-44 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Хром-48 </font>1 шт.<br>Энергия МНТ: -4800<br>Время: 25 секунд"
+		"iron56_2"																		"Вход: <font color='#FE0033'>Хром-48 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Железо-52 </font>1 шт.<br>Энергия МНТ: -3500<br>Время: 20 секунд"
+		"iron56_3"																		"Вход: <font color='#FE0033'>Железо-52 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Никель-56 </font>1 шт.<br>Энергия МНТ: -3100<br>Время: 60 секунд"
+		"iron56_4"																		"Вход: <font color='#FE0033'>Никель-56 </font>1 шт.<br>Выход: <font color='#249A41'>Кобальт-56 </font>1 шт.<br>Энергия МНТ: +1200<br>Время: 77 секунд"
+		"iron56_5"																		"Вход: <font color='#FE0033'>Кобальт-56 </font>1 шт.<br>Выход: <font color='#249A41'>Железо-56 </font>1 шт.<br>Энергия МНТ: +2700<br>Время: 6 секунд"
 
-		"oxygen_1"																	"(+1000) Вход - 2 Гелия-4, выход - Бериллий-8 (20 секунд)"
-		"oxygen_2"																	"(+9500) Вход - Бериллий-8 + гелий-4, выход - углерод-12, 2 гамма-кванта (40 секунд)"
-		"oxygen_3"																	"(+1500) Вход - Углерод-12 + гелий-4, выход - кислород-16, гамма-квант (1 минута)"
+		"oxygen_1"																		"Вход: <font color='#FE0033'>Гелий-4 </font>2 шт.<br>Выход: <font color='#249A41'>Бериллий-8 </font>1 шт.<br>Энергия МНТ: -1000<br>Время: 20 секунд"
+		"oxygen_2"																		"Вход: <font color='#FE0033'>Бериллий-8 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Углерод-12 </font>1 шт., <font color='#249A41'>Гамма-квант </font>2 шт.<br>Энергия МНТ: -9500<br>Время: 40 секунд"
+		"oxygen_3"																		"Вход: <font color='#FE0033'>Углерод-12 </font>1 шт., <font color='#FE0033'>Гелий-4 </font>1 шт.<br>Выход: <font color='#249A41'>Кислород-16 </font>1 шт., <font color='#249A41'>Гамма-квант </font>1 шт.<br>Энергия МНТ: -1500<br>Время: 60 секунд"
 
+		"polonium210_1"																	"Вход: <font color='#FE0033'>Уран-238 </font>1 шт., <font color='#FE0033'>Кобальт-60 </font>1 шт.<br>Выход: <font color='#249A41'>Торий-234 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт., <font color='#249A41'>Никель-60 </font>1 шт.<br>Энергия МНТ: -500<br>Время: 15 секунд"
+		"polonium210_2"																	"Вход: <font color='#FE0033'>Торий-234 </font>1 шт., <font color='#FE0033'>Кобальт-60 </font>1 шт.<br>Выход: <font color='#249A41'>Протактиний-234 </font>1 шт., <font color='#249A41'>Никель-60 </font>1 шт.<br>Энергия МНТ: -500<br>Время: 15 секунд"
+		"polonium210_3"																	"Вход: <font color='#FE0033'>Протактиний-234 </font>1 шт.<br>Выход: <font color='#249A41'>Уран-234 </font>1 шт.<br>Энергия МНТ: +500<br>Время: 1 секунда"
+		"polonium210_4"																	"Вход: <font color='#FE0033'>Уран-234 </font>1 шт.<br>Выход: <font color='#249A41'>Торий-230 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: +400<br>Время: 24 секунды"
+		"polonium210_5"																	"Вход: <font color='#FE0033'>Торий-230 </font>1 шт., <font color='#FE0033'>Кобальт-60 </font>1 шт.<br>Выход: <font color='#249A41'>Радий-226 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт., <font color='#249A41'>Никель-60 </font>1 шт.<br>Энергия МНТ: -500<br>Время: 15 секунд"
+		"polonium210_6"																	"Вход: <font color='#FE0033'>Радий-226 </font>1 шт., <font color='#FE0033'>Кобальт-60 </font>1 шт.<br>Выход: <font color='#249A41'>Радон-222 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт., <font color='#249A41'>Никель-60 </font>1 шт.<br>Энергия МНТ: -500<br>Время: 15 секунд"
+		"polonium210_7"																	"Вход: <font color='#FE0033'>Радон-222 </font>1 шт.<br>Выход: <font color='#249A41'>Полоний-218 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: +1600<br>Время: 3 секунды"
+		"polonium210_8"																	"Вход: <font color='#FE0033'>Полоний-218 </font>1 шт.<br>Выход: <font color='#249A41'>Свинец-214 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: +2500<br>Время: 1 секунда"
+		"polonium210_9"																	"Вход: <font color='#FE0033'>Свинец-214 </font>1 шт.<br>Выход: <font color='#249A41'>Висмут-214 </font>1 шт.<br>Энергия МНТ: +2500<br>Время: 1 секунда"
+		"polonium210_10"																"Вход: <font color='#FE0033'>Висмут-214 </font>1 шт.<br>Выход: <font color='#249A41'>Полоний-214 </font>1 шт.<br>Энергия МНТ: +3000<br>Время: 1 секунда"
+		"polonium210_11"																"Вход: <font color='#FE0033'>Полоний-214 </font>1 шт.<br>Выход: <font color='#249A41'>Свинец-210 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: +3000<br>Время: 1 секунда"
+		"polonium210_12"																"Вход: <font color='#FE0033'>Свинец-210 </font>1 шт., <font color='#FE0033'>Кобальт-60 </font>1 шт.<br>Выход: <font color='#249A41'>Висмут-210 </font>1 шт., <font color='#249A41'>Никель-60 </font>1 шт.<br>Энергия МНТ: -500<br>Время: 15 секунд"
+		"polonium210_13"																"Вход: <font color='#FE0033'>Висмут-210 </font>1 шт.<br>Выход: <font color='#249A41'>Полоний-210 </font>1 шт.<br>Энергия МНТ: +1000<br>Время: 5 секунд"
+		"polonium210_14"																"Вход: <font color='#FE0033'>Полоний-210 </font>1 шт.<br>Выход: <font color='#249A41'>Свинец-206 </font>1 шт., <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: +500<br>Время: 10 секунд"
 
+		"pp_1"																		"Вход: <font color='#FE0033'>Протон </font>4 шт.<br>Выход: <font color='#249A41'>Гелий-4 </font>1 шт.<br>Энергия МНТ: +32000<br>Время: 30 cекунд"
 
+		"strontium90_1"																	"Вход: <font color='#FE0033'>Уран-235 </font>1 шт., <font color='#FE0033'>Нейтрон </font>1 шт.<br>Выход: <font color='#249A41'>Стронций-90 </font>1 шт., <font color='#249A41'>Ксенон-133 </font>1 шт., <font color='#249A41'>Нейтрон </font>2 шт.<br>Энергия МНТ: 0<br>Время: 5 секунд"
 
-		"polonium210_1"																"(-500)Вход - уран-238 + кобальт-60, выход - торий-234, гелий-4, никель-60 (15 сек)"
-		"polonium210_2"																"(-500)Вход - торий-234 + кобальт-60, выход - протактиний-234, никель-60 (15 сек)"
-		"polonium210_3"																"(+500)Вход - протактиний-234, выход - уран-234 (1 сек)"
-		"polonium210_4"																"(+400)Вход - уран-234, выход - торий-230, гелий-4 (24 сек)"
-		"polonium210_5"																"(-500)Вход - торий-230 + кобальт-60, выход - радий-226, гелий-4, никель-60 (15 сек)"
-		"polonium210_6"																"(-500)Вход - радий-226 + кобальт-60, выход - радон-222, гелий-4, никель-60 (15 сек)"
-		"polonium210_7"																"(+1600)Вход - радон-222, выход - полоний-218, гелий-4 (3 сек)"
-		"polonium210_8"																"(+2500)Вход - полоний-218, выход - свинец-214, гелий-4 (1 сек)"
-		"polonium210_9"																"(+2500)Вход - свинец-214, выход - висмут-214 (1 сек)"
-		"polonium210_10"															"(+3000)Вход - висмут-214, выход - полоний-214 (1 сек)"
-		"polonium210_11"															"(+3000)Вход - полоний-214, выход - свинец-210, гелий-4 (1 сек)"
-		"polonium210_12"															"(-500)Вход - свинец-210 + кобальт-60, выход - висмут-210, никель-60(15 сек)"
-		"polonium210_13"															"(+1000)Вход - висмут-210, выход - полоний-210 (5 сек)"
-		"polonium210_14"															"(+500)Вход - полоний-210, выход - свинец-206, гелий-4 (10 сек)"
-
-		"pp_1"																		"(+14000): Вход - 2 протона, выход - 1 дейтерия (15 cекунд)"
-		"pp_2"																		"(+9000): Вход - протона + дейтерий, выход - 1 гелий-3 (15 секунд)"
-		"pp_3"																		"(+1000): Вход - 2 гелий-3, выход - 1 гелий-4, 2 протона (30 секунд)"
-
-		"strontium90_1"																"(0) Вход - уран-235 + нейтрон, выход - стронций-90, ксенон-133, 2 нейтрона (5 секунд)"
-
-		"cobalt60_1"																"(-10000) Вход - кобальт-59 + нейтрон, выход - 3 кобальт-60 (1 сек)"
+		"cobalt60_1"																	"Вход: <font color='#FE0033'>Кобальт-59 </font>1 шт., <font color='#FE0033'>Нейтрон </font>1 шт.<br>Выход: <font color='#249A41'>Кобальт-60 </font>3 шт.<br>Энергия МНТ: -10000<br>Время: 1 секунда"
 
 		"reactions_des_0"															"Выберите желаемую реакию в списке выше."
-		"reactions_des_1"															"Синтез железа - цепочка реакций, проходящих при постоянно возрастающем давлении внутри звезды, при которой вследствие соударения ядер химических элементов тяжелее неона с гелием синтезируются всё более тяжелые элементы, останавливаясь на железе (из-за того, что у него самая большая энергия связи на нуклон в ядре синтез элементов тяжелее железа таким образом невозможен) (требует 30000 энергии, производит железо, необходимое для некоторых улучшений брони)."
+		"reactions_des_1"															"Синтез титана-44 - термоядерная реакция альфа-процесса, протекающая в недрах массивных звёзд на стадии горения кремния или при взрыве сверхновой. В результате слияния ядра кальция-40 с альфа-частицей (гелием-4) образуется радиоактивный изотоп титана-44 (является важным переходным звеном для дальнейшего нуклеосинтеза более тяжелых элементов)"
 		"reactions_des_2"															"Тройной альфа процесс - цепочка термоядерных реакций в недрах звёзд, в ходе которой три ядра гелия-4 образуют ядро углерода-12. При достаточно высоком давлении этот цикл может продолжиться синтезом кислорода (суммарно требует 12000 ед. энергии, производит кислород, необходимый для фарма абсурдного леса)."
 		"reactions_des_3"															"Распад урана-238 (радиевая серия, урановый каскад) - происходящий естественно каскадный распад ядра изотопа урана-238 на более легкие элементы с излучением множественных альфа-частиц (вырабатывает 12000 энергии, производит полоний-210, необходимый для некоторых улучшений на оружие, а также свинец-206, необходимый для создания противорадиационной защиты)."
 		"reactions_des_4"															"Протон-протонная цепочка -  совокупность термоядерных реакций, в ходе которых водород превращается в гелий в звёздах, находящихся на главной звёздной последовательности. Этот цикл может приносить до 98% общей энергии звезды (вырабаетывает 32000 ед. энергии). "
 		"reactions_des_5"															"Распад урана-235 - реакция вынужденного распада урана-235 под воздействием облучающих его нейтронов, в результате чего ядро делится на два осколка (стронций-90 и ксенон-133) и отделяются 2 свободных нейтрона. Стронций-90, получаемый в этой реакции необходим как один из компонентов для получения комплекса противорадиационной защиты для прохождения финального квеста."
 		"reactions_des_6"															"Получение кобальта-60 - реакция взаимодействия стабильного кобальта-59 с тепловыми нейтронами, в результате которого образуется радиоактивный изотоп кобальта-60, необходимый как катализатор для проведения некоторых реакций распада."
+		"reactions_des_7"															"Синтез железа - цепочка реакций, проходящих при постоянно возрастающем давлении внутри звезды, при которой вследствие соударения ядер химических элементов тяжелее неона с гелием синтезируются всё более тяжелые элементы, останавливаясь на железе (из-за того, что у него самая большая энергия связи на нуклон в ядре синтез элементов тяжелее железа таким образом невозможен) (требует 30000 энергии, производит железо, необходимое для некоторых улучшений брони)."
 		
 
 		"DOTA_Tooltip_modifier_radiation"											"Радиация"
@@ -7933,6 +7957,72 @@
 		"DOTA_Tooltip_modifier_reih_strange"                                    				"МОЩЬ 3 РЕЙХА 卍卍卍"
         	"DOTA_Tooltip_modifier_reih_strange_Description"                        				    "3 Рейх за ваши великие достижения в Нацизме, выдаёт вам каждую секунду + 3 к белому урону."
 
+		
+		"DOTA_Tooltip_ability_item_gu_rune_gold_1"										"Рунный амулет богатства [Ур. 1]"
+		"DOTA_Tooltip_ability_item_gu_rune_gold_1_Description"							"Пассивно дает <font color='#FFD700'>%base_gpm%</font> золота в минуту.\n\nЗа каждую поднятую героем <font color='#DA70D6'>руну</font> (с самого начала игры) пассивный приток золота дополнительно увеличивается на <font color='#FFD700'>%gpm_per_rune%</font> в минуту."
+		"DOTA_Tooltip_ability_item_gu_rune_gold_1_base_gpm"								"БАЗОВОЕ ЗОЛОТО/МИН:"
+		"DOTA_Tooltip_ability_item_gu_rune_gold_1_gpm_per_rune"							"ЗОЛОТО/МИН ЗА РУНУ:"
 
+		"DOTA_Tooltip_ability_item_gu_rune_gold_2"										"Рунный амулет богатства [Ур. 2]"
+		"DOTA_Tooltip_ability_item_gu_rune_gold_2_Description"							"Пассивно дает <font color='#FFD700'>%base_gpm%</font> золота в минуту.\n\nЗа каждую поднятую героем <font color='#DA70D6'>руну</font> (с самого начала игры) пассивный приток золота дополнительно увеличивается на <font color='#FFD700'>%gpm_per_rune%</font> в минуту."
+		"DOTA_Tooltip_ability_item_gu_rune_gold_2_base_gpm"								"БАЗОВОЕ ЗОЛОТО/МИН:"
+		"DOTA_Tooltip_ability_item_gu_rune_gold_2_gpm_per_rune"							"ЗОЛОТО/МИН ЗА РУНУ:"
+
+		"DOTA_Tooltip_ability_item_gu_rune_gold_3"										"Рунный амулет богатства [Ур. 3]"
+		"DOTA_Tooltip_ability_item_gu_rune_gold_3_Description"							"Пассивно дает <font color='#FFD700'>%base_gpm%</font> золота в минуту.\n\nЗа каждую поднятую героем <font color='#DA70D6'>руну</font> (с самого начала игры) пассивный приток золота дополнительно увеличивается на <font color='#FFD700'>%gpm_per_rune%</font> в минуту."
+		"DOTA_Tooltip_ability_item_gu_rune_gold_3_base_gpm"								"БАЗОВОЕ ЗОЛОТО/МИН:"
+		"DOTA_Tooltip_ability_item_gu_rune_gold_3_gpm_per_rune"							"ЗОЛОТО/МИН ЗА РУНУ:"
+
+
+// =========================================
+// 1. ИНВЕРСИЯ (Трансформация)
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_inverse"                       "Инверсия: Белая Королева"
+        "DOTA_Tooltip_ability_kurumi_inverse_Description"           "Куруми принимает свою истинную форму <font color='#ffffff'>Белой Королевы</font>, получая колоссальную прибавку в <font color='#33ff33'>%bonus_agi%</font> к ловкости. Её способности полностью заменяются на разрушительные заклинания контроля пространства и времени.\n\n<font color='#ff4c4c'>Перезарядку этой способности невозможно уменьшить предметами или рунами.</font>"
+        "DOTA_Tooltip_ability_kurumi_inverse_bonus_agi"             "БОНУСНАЯ ЛОВКОСТЬ:"
+        "DOTA_Tooltip_ability_kurumi_inverse_duration"              "ДЛИТЕЛЬНОСТЬ ФОРМЫ:"
+
+        // =========================================
+        // 2. ПРОСТРАНСТВЕННЫЙ РАЗЛОМ
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_spatial_rift"                  "Пространственный разлом"
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_Description"      "Куруми совершает выстрел, разрывающий ткань пространства в радиусе <font color='#ffd700'>%radius%</font>. Разлом наносит <font color='#ffaa00'>чистый урон</font> и замедляет врагов на <font color='#00e5ff'>%slow_pct%%%</font>.\n\nУрон состоит из базовых <font color='#ff4c4c'>%damage%</font> единиц и дополнительно <font color='#33ff33'>50%</font> от текущей ловкости Куруми."
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_damage"           "БАЗОВЫЙ УРОН:"
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_duration"         "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:"
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_radius"           "РАДИУС РАЗЛОМА:"
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_slow_pct"         "%ЗАМЕДЛЕНИЕ:"
+
+        // =========================================
+        // 3. ОСТАНОВКА МГНОВЕНИЯ
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_time_stop"                     "Остановка мгновения"
+        "DOTA_Tooltip_ability_kurumi_time_stop_Description"         "Куруми замораживает время в области радиусом <font color='#ffd700'>%radius%</font>. Все враги внутри полностью останавливаются на <font color='#ffd700'>%duration%</font> сек. В замороженном состоянии они не могут двигаться, атаковать или применять способности, но уязвимы для любого урона."
+        "DOTA_Tooltip_ability_kurumi_time_stop_radius"              "РАДИУС ОСТАНОВКИ:"
+        "DOTA_Tooltip_ability_kurumi_time_stop_duration"            "ДЛИТЕЛЬНОСТЬ (СЕК):"
+
+        // =========================================
+        // 4. ОБРАТНЫЙ ОТСЧЕТ (Аура)
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_countdown_aura"                "Обратный отсчет"
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_Description"    "Пассивно: само присутствие Белой Королевы крадет время врагов в радиусе <font color='#ffd700'>%radius%</font>, разрушая их защиту. Враги теряют <font color='#ff4c4c'>%armor_reduction%</font> брони и <font color='#00e5ff'>%ms_reduction%%%</font> от своей скорости передвижения."
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_radius"         "РАДИУС АУРЫ:"
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_armor_reduction" "СНИЖЕНИЕ БРОНИ:"
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_ms_reduction"   "%ЗАМЕДЛЕНИЕ:"
+
+// Дебафф от первого скилла (Разлом)
+        "DOTA_Tooltip_modifier_kurumi_spatial_rift_slow"                "Пространственная нестабильность"
+        "DOTA_Tooltip_modifier_kurumi_spatial_rift_slow_Description"    "Ткань реальности разорвана. Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+        // Дебафф от второго скилла (Стан)
+        "DOTA_Tooltip_modifier_kurumi_time_stop_freeze"                 "Вне времени"
+        "DOTA_Tooltip_modifier_kurumi_time_stop_freeze_Description"     "Для этого существа время остановилось. Оно не может совершать никаких действий."
+
+        // Эффект ауры
+        "DOTA_Tooltip_modifier_kurumi_countdown_aura_effect"            "Обратный отсчет"
+        "DOTA_Tooltip_modifier_kurumi_countdown_aura_effect_Description" "Ваше время истекает. Броня снижена на <font color='#ff4c4c'>%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%</font>, а скорость — на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+        // Бафф самой трансформации (Босс)
+        "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff"             "Форма Белой Королевы"
+        "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff_Description" " sssКуруми высвободила истинную силу Инверсии: Размер увеличен на 100%, Максимальное здоровье увеличено в 20 раз, Сила атаки увеличена в 10 раз"
 	}	
 }
