@@ -415,7 +415,7 @@
 		"DOTA_Tooltip_modifier_gu_sniper_ap_bullet"										"<font color='#A7561E'>「Armor Piercing Incendiary MK 211 .50」</font>"
 		"DOTA_Tooltip_modifier_gu_sniper_ap_bullet_description"								"За каждый стак получает + 1 к урону."
 
-		    "npc_dota_hero_lina" 										    "Lina「★★★★★」"
+		    "npc_dota_hero_lina" 										    "Lina「★★★★★★」"
 	
 		"DOTA_Tooltip_ability_lina_dragon_slave"								        "<font color='#FE5C2C'>「Fire Breath」</font> "
 		"DOTA_Tooltip_ability_lina_dragon_slave_Description"						        "Лина высвобождает дыхание дракона, которое сжигает всё на своем пути."
@@ -754,7 +754,7 @@
 		"DOTA_Tooltip_ability_modifier_fight_me_description"								"Противник хочет сдохнуть."
 	
 	
-		"npc_dota_hero_weaver"										         "Kurumi Tokisaki「★★★★★」"
+		"npc_dota_hero_weaver"										         "Kurumi Tokisaki「★★★★★★」"
 
 		"DOTA_Tooltip_modifier_kurumi_zafkiel"										    "Седьмая Пуля: Заин"
 		"DOTA_Tooltip_modifier_kurumi_zafkiel_Description" 								    "Остановлено время."
@@ -810,7 +810,7 @@
 		"DOTA_Tooltip_modifier_hydro_status_Description"							"Реакции в разработке..."
 		
 
-		"npc_dota_hero_spectre" 								            "Kanade Tachibana「★★★★」"
+		"npc_dota_hero_spectre" 								            "Kanade Tachibana「★★★★★」"
 
 		"DOTA_Tooltip_ability_gu_kanade_1"						                        "<font color='#B9B9B9'>「Blades on hand」</font>"
 		"DOTA_Tooltip_ability_gu_kanade_1_Description"				                        "После активации, добавляет +%bonus_damage% к урону, +%bonus_ats% к скорости атаки и +%bonus_agility% к ловкости. Пассивно наносит дополнительный урон в зависимости от вашей ловкости и становит - %passive_agility_dmg_persent%%% от текущей ловкости."
@@ -1144,7 +1144,7 @@
 
 
 
-			"npc_dota_hero_slark"											"Enterprise「★★★★★」"
+			"npc_dota_hero_slark"											"Enterprise「★★★★」"
 
 		"npc_dota_anime_enterprise_plane"												"「Squadron: Fighter」"
 		
@@ -1570,7 +1570,7 @@
 		"DOTA_Tooltip_passive_eirinex_int_Description"										"Добавляет дополнительный интеллект."
 
 
-			"npc_dota_hero_antimage" 										 "Demon Hunter「★★★★★」"
+			"npc_dota_hero_antimage" 										 "Demon Hunter「★★★★★★」"
 
 		"DOTA_Tooltip_ability_demon_hunter"												"<font color='#1EA72B'>「Demon hunter」</font> "
 		"DOTA_Tooltip_ability_demon_hunter_Description"										"Охотник захватывает души противников, каждая душа дает +1 к ловкости. Максимальное количество душ - 10000."
@@ -2392,9 +2392,6 @@
 		"DOTA_Tooltip_ability_item_drink_ent_2_Description"									"Увеличивает регенерацию здоровья."
 		"DOTA_Tooltip_ability_item_drink_ent_2_bonus_hp_regen"								"Восстановление здоровья: "
 		
-		"DOTA_Tooltip_ability_item_stellar_base"										"Осколок Солнца"
-	    "DOTA_Tooltip_ability_item_stellar_base_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит %damage% урона всем врагам в радиусе %range%\n"
-
 		"DOTA_Tooltip_ability_item_sharpness"											"Когти"
 		"DOTA_Tooltip_ability_item_sharpness_bonus_damage"									"Урон: "
 
@@ -2615,18 +2612,21 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r"              			"Talisman of the Arcane Archon"
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 					"Можно получить выполнив квест за Кастера"
  
-        "DOTA_Tooltip_ability_item_stellar_flare"										"Звёздная вспышка"
-	    "DOTA_Tooltip_ability_item_stellar_flare_Description"								"<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). <br>Внимание! Данный предмет работает только у героев с основным атрибутом Интеллект, урон не может юыть более 1-10% от максимального здоровья цели! \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
-		"DOTA_Tooltip_ability_item_stellar_flare_Note0"										"Урон предмета не зависит от магического усиления"
-	    "DOTA_Tooltip_ability_item_stellar_flare_int"										"+к интеллекту:" 
-		"DOTA_Tooltip_ability_item_stellar_flare_mana"										"+к мане"
+      "DOTA_Tooltip_ability_item_stellar_base"                                    "Осколок Солнца"
+		"DOTA_Tooltip_ability_item_stellar_base_Description"                        "<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта."
 
-		"DOTA_Tooltip_ability_item_stellar_flare_veil"									"Нестабильная Звёздная вспышка"
-	    "DOTA_Tooltip_ability_item_stellar_flare_veil_Description"							"<h1>Активная: Нестабильность</h1> При активации на точку уменьшает магическое сопротивление всех вражеских юнитов на 30%. <br>Внимание! Данный предмет работает только у героев с основным атрибутом - Интеллект, урон не может юыть более 1-10% от максимального здоровья цели!\n<h1>Пассивная: Излучение</h1> С интервалом в %dps% наносит всем врагам в радиусе %range% магический урон по формуле %damage% + (%damage_int% * ваш интеллект). \n <h1>Пассивная: Звёздная вспышка</h1> За каждую единицу интеллекта даёт дополнительно 2 единицы маны."
-		"DOTA_Tooltip_ability_item_stellar_flare_veil_Note0" 								"Урон предмета не зависит от магического усиления"
-	    "DOTA_Tooltip_ability_item_stellar_flare_veil_int"									"+к интеллекту:" 
-		"DOTA_Tooltip_ability_item_stellar_flare_veil_mana"									"+к мане"
+		"DOTA_Tooltip_ability_item_stellar_flare"                                   "Звёздная вспышка"
+		"DOTA_Tooltip_ability_item_stellar_flare_Description"                       "<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта.\n<h1>Пассивная: Звёздный разум</h1> За каждую единицу интеллекта владелец получает 2 дополнительных единицы маны."
+		"DOTA_Tooltip_ability_item_stellar_flare_Note0"                             "Урон космических колебаний не зависит от магического усиления."
+		"DOTA_Tooltip_ability_item_stellar_flare_int"                               "+ к интеллекту:" 
+		"DOTA_Tooltip_ability_item_stellar_flare_mana"                              "+ к мане:"
 
+		"DOTA_Tooltip_ability_item_stellar_flare_veil"                              "Нестабильная Звёздная вспышка"
+		"DOTA_Tooltip_ability_item_stellar_flare_veil_Description"                  "<h1>Активная: Нестабильность</h1> Поражает выбранную область, снижая магическое сопротивление всех врагов в ней на 30%.\n<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта.\n<h1>Пассивная: Звёздный разум</h1> За каждую единицу интеллекта владелец получает 2 дополнительных единицы маны."
+		"DOTA_Tooltip_ability_item_stellar_flare_veil_Note0"                        "Урон космических колебаний не зависит от магического усиления."
+		"DOTA_Tooltip_ability_item_stellar_flare_veil_int"                          "+ к интеллекту:" 
+		"DOTA_Tooltip_ability_item_stellar_flare_veil_mana"                         "+ к мане:"
+		
 		"DOTA_Tooltip_ability_item_octarine_core_cu"									"Ядро Галактики"
 		"DOTA_Tooltip_ability_item_octarine_core_cu_Description"							"<h1>Пассивная: Ядро Галактики</h1> Уменьшает время перезарядки ваших способностей на %cd%%. <font color='#fc0303'>Снижение перезарядки от 2 и более Ядер Галактики не складывается.</font> \n <font color='#ff1100'>Внимание!</font> Данный предмет является частью системы артефактов, уменьшение перезарядки от нескольких типов предметов не складываются!"
 		"DOTA_Tooltip_ability_item_octarine_core_cu_bonus_health"							"+к здоровью"
@@ -4207,23 +4207,21 @@
 Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу.
 <br><br>〓 Список героев 〓<br><br>
 <font color='#c27913'>Герои 5★</font><br>
--Kurumi Tokisaki<br>
--Lich King<br>
--Demon Hunter<br>
 -Warrior of the Wind<br>
 -Sniper<br>
--Lina<br>
 -Chloe von Einzbern<br>
--Hatsune Miku<br>
--Enterprise<br>
+-Hatsune Miku<br> 
+-Kanade Tachibana<br>
 -Origami Tobiichi<br>
 -Yagokoro Eirin<br>
 -Lunasa Prismriver<br>
 -Т-90М «Прорыв»<br>
--2С25 «Спрут-СД»<br><br>
+-2С25 «Спрут-СД»<br>
+-MI-24V<br><br>
 
 <font color='#8e13c2'>Герои 4★</font><br>
--Т-72 «Ural»
+-Enterprise<br>
+-Т-72 «Ural»<br>
 -Legate of the Legion<br>
 -Ghost Warrior<br>
 -Earth Mage<br>
@@ -4237,12 +4235,9 @@
 -Yumemi Okazaki<br>
 -Megumin<br>
 -AH-64D «Apache»<br>
--MI-24V<br>
--Kanade Tachibana<br>
 -Illyasviel von Einzbern<br>
 -AH-1Z Super Cobra<br>
--Mystical Samurai<br>
--Kanade Tachibana<br><br>
+-Mystical Samurai<br><br>
 
 <font color='#1368c2'>Герои 3★</font><br>
 -Rem<br>
@@ -6011,10 +6006,11 @@
 <font color='#c27913'>Герои 5★</font><br>
 «Nero Claudius»<br>
 «Mona Megistus»<br>
-«Ram»<br><br>
+«Ram»<br>
+«Tyrael»<br><br>
 
 <font color='#8e13c2'>Герои 4★</font><br>
--Т-72 «Ural»
+-Т-72 «Ural»<br>
 -Legate of the Legion<br>
 -Ghost Warrior<br>
 -Earth Mage<br>
@@ -6028,12 +6024,9 @@
 -Yumemi Okazaki<br>
 -Megumin<br>
 -AH-64D «Apache»<br>
--MI-24V<br>
--Kanade Tachibana<br>
 -Illyasviel von Einzbern<br>
 -AH-1Z Super Cobra<br>
--Mystical Samurai<br>
--Kanade Tachibana<br><br>
+-Mystical Samurai<br><br>
 
 <font color='#1368c2'>Герои 3★</font><br>
 -Rem<br>
@@ -6912,6 +6905,85 @@
 
 
 		"npc_dota_hero_troll_warlord"									"Archer 「★」"
+	//Caladbolg II
+		"DOTA_Tooltip_ability_archer_arrow"														"Caladbolg II"
+		"DOTA_Tooltip_ability_archer_arrow_Description"											"Shoots a global range arrow that explodes over a given area, damaging enemies and providing vision for %duration% seconds."
+		"DOTA_Tooltip_ability_archer_arrow_Lore"												"The version that Archer projects has been altered to improve its function as an arrow."
+		"DOTA_Tooltip_ability_archer_arrow_radius"												"RADIUS:"
+		"DOTA_Tooltip_ability_archer_arrow_damage"												"DAMAGE:"
+		"DOTA_Tooltip_ability_archer_arrow_shard_Description"									"Add bonus damage - agility * 10"
+
+		//Sword Barrage
+		"DOTA_Tooltip_ability_archer_blades"													"Sword Barrage"
+		"DOTA_Tooltip_ability_archer_blades_Description"										"Archer throws projection of %blades_count% swords in a cone shape over %blades_range% range, slowing and damaging enemy units. This slow can stack with itself."
+		"DOTA_Tooltip_ability_archer_blades_Note0"												"Each sword deals one instance of damage."
+		//"DOTA_Tooltip_ability_archer_blades_blades_range"										"CAST RANGE:" //removed
+		"DOTA_Tooltip_ability_archer_blades_blades_damage"										"SWORD DAMAGE:"
+		"DOTA_Tooltip_ability_archer_blades_duration"											"SLOW DURATION:"
+		"DOTA_Tooltip_ability_archer_blades_ms_reduce"											"%MOVEMENT SLOW:"
+		//"DOTA_Tooltip_ability_archer_blades_blades_count"										"SWORDS:" //removed
+
+		"DOTA_Tooltip_modifier_archer_blades"													"Sword Barrage Slow"
+		"DOTA_Tooltip_modifier_archer_blades_Description"										"Slowed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
+
+		//Mind's Eye (True)
+		"DOTA_Tooltip_ability_archer_evasion"													"Mind's Eye (True)"
+		"DOTA_Tooltip_ability_archer_evasion_Description"										"Increases attack speed and adds evasion from all physical attacks."
+		"DOTA_Tooltip_ability_archer_evasion_duration"											"DURATION:"
+		"DOTA_Tooltip_ability_archer_evasion_as"												"BONUS ATTACK SPEED:"
+		"DOTA_Tooltip_ability_archer_evasion_evasion"											"%EVASION:"
+
+		"DOTA_Tooltip_modifier_archer_evasion"													"Mind's Eye (True)"
+		"DOTA_Tooltip_modifier_archer_evasion_Description"										"Gaining %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed and %dMODIFIER_PROPERTY_EVASION_CONSTANT%%% evasion."
+
+		//Kanshou and Bakuya
+		"DOTA_Tooltip_ability_archer_kab"														"Kanshou and Bakuya"
+		"DOTA_Tooltip_ability_archer_kab_Description"											"Archer throws his signature weapons with deadly precision, damaging each enemy unit it strikes.<br><br>Kanshou <font color='#FF0000'>RED</font> deals pure damage.<br>Bakuya <font color='#0033FF'>BLUE</font> deals magical damage."
+		"DOTA_Tooltip_ability_archer_kab_scepter_description"									"Grants %scepter_charges% charges to Kanshou and Bakuya."
+		"DOTA_Tooltip_ability_archer_kab_Note0"													"Each blade can hit the same enemy once."
+		"DOTA_Tooltip_ability_archer_kab_Lore"													"The Yin-Yang paired swords which Archer favoured."
+		//"DOTA_Tooltip_ability_archer_kab_hit_radius"											"HIT RADIUS:" //removed
+		//"DOTA_Tooltip_ability_archer_kab_spread"												"SPREAD:" //removed
+		"DOTA_Tooltip_ability_archer_kab_castrange"												"CAST RANGE:"
+		//"DOTA_Tooltip_ability_archer_kab_speed"												"FLY SPEED:" //removed
+		"DOTA_Tooltip_ability_archer_kab_damage"												"DAMAGE PER BLADE:"
+		"DOTA_Tooltip_ability_archer_kab_scepter_charges"										"SCEPTER CHARGES:"
+		//ONE LINE SPACE
+		"DOTA_Tooltip_modifier_archer_kab_ability_charges"										"Mind's Eye (True) CHARGES"
+		"DOTA_Tooltip_modifier_archer_kab_ability_charges_Description"							" "
+		//Clairvoyance
+		"DOTA_Tooltip_ability_archer_vision"													"Clairvoyance"
+		"DOTA_Tooltip_ability_archer_vision_Description"										"Grants unobstructed vision of a targeted area for %duration% seconds."
+		"DOTA_Tooltip_ability_archer_vision_Lore"												"Archer acquires this by applying Reinforcement to his eyes."
+		//"DOTA_Tooltip_ability_archer_vision_duration"											"DURATION:" //removed
+		"DOTA_Tooltip_ability_archer_vision_radius"												"RADIUS:"
+
+		//Weapon Exchange
+		"DOTA_Tooltip_ability_archer_weapons"													"Weapon Exchange"
+		"DOTA_Tooltip_ability_archer_weapons_Description"										"While active, Archer swaps from using ranged to melee attacks. Melee attacks have bonus damage, ranged attacks have bonus attack range."
+		"DOTA_Tooltip_ability_archer_weapons_meele_damage"										"MELEE BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_archer_weapons_range_attack"										"RANGED BONUS RANGE:"
+
+		//Chants
+		"DOTA_Tooltip_ability_archer_ubw_charge"												"Chant"
+		"DOTA_Tooltip_ability_archer_ubw_charge_Description"									"CHANNELED - Archer recites a part of his incantations, gaining one charge for this ability. Replaces with the Unlimited Blade Works ability after the entire chants completed."
+		"DOTA_Tooltip_ability_archer_ubw_charge_charge_count"									"REQUIRED CHARGES:"
+		"DOTA_Tooltip_ability_archer_ubw_charge_charge_time"									"CHANNEL TIME:"
+
+		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling"									"Chant - Channeling"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling_Description"						"Channeling Unlimited Blade Works"
+
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff"											"Chant"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff_Description"								"Chanting Unlimited Blade Works."
+
+		//Unlimited Blade Works
+		"DOTA_Tooltip_ability_archer_ubw"														"Unlimited Blade Works"
+		"DOTA_Tooltip_ability_archer_ubw_Description"											"Brings everyone around Archer into a Reality Marble for %duration% seconds with swords raining down in it, dealing magical damage. Mind’s Eye (True) is automatically casted whenever Archer starts the Reality Marble, regardless of its cooldown.<br><br>Everyone in range will become briefly invulnerable and disabled while this ability is activated."
+		"DOTA_Tooltip_ability_archer_ubw_Note0"													"Units inside the Reality Marble cannot deal or receive damage from outside."
+		"DOTA_Tooltip_ability_archer_ubw_Note1"													"Flying units, and units affected by spell immunity can enter and leave the Reality Marble at any time."
+		"DOTA_Tooltip_ability_archer_ubw_radius"												"RADIUS:"
+		"DOTA_Tooltip_ability_archer_ubw_sword_damage"											"DAMAGE PER SECOND:"
+		"DOTA_Tooltip_ability_archer_ubw_scepter_Description"									"Add bonus damage - agility * 10"
 		"npc_dota_hero_brewmaster"										"Jagdpanzer E-100「★★★★★★」"
 		"DOTA_Tooltip_ability_gu_jpz_e100" 								"<font color='#fd2727'>「Jagdpanzer E-100」</font>"
 		"DOTA_Tooltip_ability_gu_jpz_e100_Description" 					"Немецкая противотанковая САУ. Представляет собой мощное 170-мм орудие, размещенное в закрытой тяжелобронированной рубке, установленной на базу тяжёлого танка E 100. Высокий разовый урон и надежная броня — главные достоинства этой машины. Прокачивает основные характеристики ПТ-САУ. Добавляет + %bonus_health% к здоровью, + %bonus_armor% к броне, + %attack_range_bonus% к дальности выстрела и + %damage% к урону. Предметы на уменьшение базового времени атаки не работают. Получает на 20% меньше любого урона по себе."
@@ -8075,5 +8147,77 @@
         // Бафф самой трансформации (Босс)
         "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff"             "Форма Белой Королевы"
         "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff_Description" " sssКуруми высвободила истинную силу Инверсии: Размер увеличен на 100%, Максимальное здоровье увеличено в 20 раз, Сила атаки увеличена в 10 раз"
+
+		// 1. Темное пламя (dark_fire)
+		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「Темное Пламя」</font>"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"Лина выпускает разрушительную волну темного огня, наносящую чистый урон и оглушающую врагов на линии.\n\nУрон способности увеличивается в зависимости от Интеллекта героя. Пораженные враги дополнительно получают заряды <font color='#FF3333'>「Вечного Пламени」</font>."
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОН ОТ ИНТЕЛЛЕКТА:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"ОГЛУШЕНИЕ:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"ЗАРЯДОВ ПОДЖОГА:"
+
+		// 2. Вспышка Света (light_array)
+		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「Вспышка Света」</font>"
+		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"Призывает столб концентрированного пламени, который оглушает врагов на %stun_duration% сек., наносит урон и оставляет выжженную землю. \n\nВраги, оставшиеся на выжженной земле, получают периодический урон и дополнительные заряды <font color='#FF3333'>「Вечного Пламени」</font>, а после окончания оглушения их скорость передвижения сильно снижается."
+		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН ОТ ИНТЕЛЛЕКТА:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"РАДИУС ВЗРЫВА:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"ВРЕМЯ ГОРЕНИЯ ЗЕМЛИ:"
+		
+		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「Оглушение вспышкой」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"Оглушен столбом пламени."
+		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「Ожоги вспышки」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+		// 3. Пепел (ashes)
+		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「Прах к Праху」</font>"
+		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"Каждое применение заклинаний окружает Лину вихрем пепла, даруя ей стаки усиления."
+		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"ДЛИТЕЛЬНОСТЬ ПЕПЛА:"
+		
+		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「Прах к Праху」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"Пепел от примененных заклинаний обволакивает героя."
+
+		// 4. Вечное пламя (endless_ignite)
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「Вечное Пламя」</font>"
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"Атаки и способности Лины поджигают врагов чистым пламенем. Каждый заряд наносит периодический чистый урон, размер которого напрямую зависит от текущего показателя Интеллекта Лины."
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"ДЛИТЕЛЬНОСТЬ ПОДЖОГА:"
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"БАЗОВЫЙ УРОН (ЗА СТАК):"
+		
+		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「Вечное пламя」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"Этот юнит горит. Он получает огромный периодический чистый урон в зависимости от Интеллекта заклинателя."
+	
+		"Talent_Header_Main"    "🌟 ТАЛАНТЫ ВОЗВЫШЕНИЯ"
+        "Talent_Status_Active"  "[АКТИВЕН]"
+        "Talent_Status_Locked"  "[НЕАКТИВЕН]"
+        "Talent_Lvl_Abbr"       "Ур."
+        "Talent_Bonus_Souls"    "Бонус душ"
+        "Talent_Bonus_Int_Dmg"  "Урон от интеллекта"
+        "Talent_Bonus_Dmg"      "Бонус урона"
+        "Talent_Extra_Dmg"      "Доп. урон"
+        "Talent_Current_Charges" "Текущие заряды"
+        "Talent_Gain_X2"        "прирост: +2"
+
+		"Talent_Label_BonusSouls"    "Бонус душ"
+		"Talent_Label_IntDmg"        "Урон от интеллекта"
+		"Talent_Label_BonusDmg"      "Бонус урона"
+		"Talent_Label_ExtraDmg"      "Доп. урон"
+		"Talent_Label_FromInt"       "от инты"
+		"Talent_Label_CurrentCharges" "Текущие заряды"
+		"Talent_Label_GainX2"        "прирост: +2"
+		"Talent_Label_Restore"       "Восстановление"
+
+		// Описания талантов Лины
+		"Talent_Lina_Laguna_1"      "Увеличивает множитель убийств до x4."
+		"Talent_Lina_Laguna_5"      "Добавляет урон от интеллекта (x1.5)."
+		"Talent_Lina_Laguna_15"     "Восстановление здоровья: 10% от урона."
+		"Talent_Lina_Laguna_20"     "Перезарядка уменьшена до 50 секунд."
+
+		// Описания талантов Эйрин
+		"Talent_Eirin_02_1"         "Добавляет урон от интеллекта (x3.0)."
+		"Talent_Eirin_01_5"         "Добавляет урон от интеллекта (x3.0)."
+		"Talent_Eirin_EX_10"        "Наносит дополнительный магический урон, зависящий от интеллекта."
+		"Talent_Eirin_EX_20"        "<b>Прорыв интеллекта:</b> удваивает количество получаемых зарядов при использовании способности (дает +2 стака вместо +1)."
+		"Talent_Eirin_04_15"        "<b>Спасение от смерти:</b> при получении смертельного урона снимает негативные эффекты и полностью восстанавливает здоровье цели."
+	
 	}	
 }

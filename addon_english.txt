@@ -528,7 +528,7 @@
 		"DOTA_Tooltip_ability_war_fight_me_radius"		"Radius:"
 		"DOTA_Tooltip_ability_modifier_fight_me"		"<font color='#A78B4A'>「Provocation」</font>"
 		"DOTA_Tooltip_ability_modifier_fight_me_description"		"The enemy wants to die."
-		"npc_dota_hero_weaver"		"Kurumi Tokisaki「★★★★★」"
+		"npc_dota_hero_weaver"		"Kurumi Tokisaki「★★★★★★」"
 		"DOTA_Tooltip_modifier_kurumi_zafkiel"		"Seventh Bullet: Zain"
 		"DOTA_Tooltip_modifier_kurumi_zafkiel_Description"		"Time has stopped."
 		"DOTA_Tooltip_ability_gu_kurumi_seven_bullets"		"<font color='#F81717'>「Seventh Bullet: Zayin」</font>"
@@ -567,7 +567,7 @@
 		"DOTA_Tooltip_ability_gu_mona_4_scepter_Description"		"Increases all incoming damage by an additional 50% at all levels."
 		"DOTA_Tooltip_modifier_hydro_status"		"<font color='#44C5FC'>「Hydro Status」</font>"
 		"DOTA_Tooltip_modifier_hydro_status_Description"		"Reactions in development..."
-		"npc_dota_hero_spectre"		"Kanade Tachibana「★★★★」"
+		"npc_dota_hero_spectre"		"Kanade Tachibana「★★★★★」"
 		"DOTA_Tooltip_ability_gu_kanade_1"		"<font color='#B9B9B9'>「Blades on hand」</font>"
 		"DOTA_Tooltip_ability_gu_kanade_1_Description"		"Once activated, adds +%bonus_damage%to damage, +%bonus_ats%to attack speed and +%bonus_agility%to agility. Passively deals additional damage based on your agility and becomes -%passive_agility_dmg_persent%%% of your current agility."
 		"DOTA_Tooltip_modifier_gu_kanade_1"		"<font color='#B9B9B9'>「Blades on hand」</font>"
@@ -835,7 +835,7 @@
 		"DOTA_Tooltip_modifier_sakuya_time_buff_Description"		"Time has stopped"
 		"npc_dota_hero_dragon_knight"		"Mash Kyrielight「★★★★★」"
 		"npc_dota_hero_hoodwink"		"Nero Claudius「★★★★★」"
-		"npc_dota_hero_slark"		"Enterprise「★★★★★」"
+		"npc_dota_hero_slark"		"Enterprise「★★★★」"
 		"npc_dota_anime_enterprise_plane"		"「Squadron: Fighter」"
 		"DOTA_Tooltip_ability_enterprise_fighter"		"<font color='#F7A22E'>「Squadron: Fighter」</font>"
 		"DOTA_Tooltip_ability_enterprise_fighter_Description"		"Summons a combat aircraft that circles the target and attacks the nearest enemy within its attack radius. Cast on yourself or an ally, causes the plane to follow them.<br><br>Does not recharge on its own. The ability can only be recharged using 「Tactical rearmament」."
@@ -1176,7 +1176,7 @@
 		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		"Every%think_interval%seconds Eirin gains +1 Intelligence. With talent - Eirin deals%int_scale%% of intelligence as magic damage with a basic attack."
 		"DOTA_Tooltip_passive_eirinex_int"		"<font color='#649dfa'>Brain of the Moon</font>"
 		"DOTA_Tooltip_passive_eirinex_int_Description"		"Adds additional intelligence."
-		"npc_dota_hero_antimage"		"Demon Hunter「★★★★★」"
+		"npc_dota_hero_antimage"		"Demon Hunter「★★★★★★」"
 		"DOTA_Tooltip_ability_demon_hunter"		"<font color='#1EA72B'>「Demon hunter」</font>"
 		"DOTA_Tooltip_ability_demon_hunter_Description"		"The hunter captures the souls of opponents, each soul gives +1 to agility. The maximum number of souls is 10,000."
 		"DOTA_Tooltip_modifier_demon_stack"		"<font color='#1EA72B'>「Demon hunter」</font>"
@@ -3301,8 +3301,72 @@
 		"pray_button"		"Prayer"
 		"hero_const"		"Ascension Level:"
 		"pray_info"		"Details"
-		"pray_info_standart_name"		"Standard Prayer: The Story of Andromeda"
-		"pray_info_standart"		"Подробнее о Молитвах<br><br> <font color='#d63131ef'>Нет ограничения по времени</font><br><br> Жажда странствий – это стандартная Молитва. Она не ограничена по времени. В рамках Молитвы доступны не эксклюзивные персонажи.<br><br> За каждые 10 Молитв вы гарантированно получите как минимум одного персонажа 4★.<br><br> ※ При обычных условиях базовая вероятность выпадения всех персонажей распределяется равномерно. Если действуют какие-либо усиления или гарантии, пожалуйста, прочтите соответствующие правила.<br><br> 〓 Правила 〓<br> Базовая вероятность получения героя 5★ = 1,600%. Гарантированное получение героя 5★ как минимум один раз за 90 попыток.<br><br> Базовая вероятность получения героя 4★ = 13,100%. Гарантированное получение героя 4★ как минимум один раз за 10 попыток.<br><br> Базовая вероятность получения героя 3★ = 85,300%.<br><br> <font color='#c2133f'>Важно!<br> Если при опросе вы указали негативное отношение к аниме тематике, то вам не будут выпадать персонажи данной категории!</font><br> <br>〓 Дубликаты 〓<br><br> Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу. <br><br>〓 Список героев 〓<br><br> <font color='#c27913'>Герои 5★</font><br> -Kurumi Tokisaki<br> -Lich King<br> -Demon Hunter<br> -Warrior of the Wind<br> -Sniper<br> -Lina<br> -Chloe von Einzbern<br> -Hatsune Miku<br> -Enterprise<br> -Origami Tobiichi<br> -Yagokoro Eirin<br> -Lunasa Prismriver<br> -Т-90М 'Прорыв'<br> -2С25 'Спрут-СД'<br><br> <font color='#8e13c2'>Герои 4★</font><br> -Т-72 'Ural' -Legate of the Legion<br> -Ghost Warrior<br> -Earth Mage<br> -Interdimensional Parrot<br> -Lalatina Dustiness Ford<br> -Marisa Kirisame<br> -Neptune<br> -Kaname Madoka<br> -Kongou<br> -Noire<br> -Yumemi Okazaki<br> -Megumin<br> -AH-64D 'Apache'<br> -MI-24V<br> -Kanade Tachibana<br> -Illyasviel von Einzbern<br> -AH-1Z Super Cobra<br> -Mystical Samurai<br> -Kanade Tachibana<br><br> <font color='#1368c2'>Герои 3★</font><br> -Rem<br> -Biyao<br> -Mote of Energy<br> -Merlin<br> -Kotori Itsuka<br> -Izayoi Sakuya<br> -Kizaru<br> -Cirno<br> -9K31 'Strela-1'<br> -Eternity<br> -Emilia<br> -Ran Yakumo<br> -BTR-82А<br>"
+		"pray_info_standart_name"	"      Стандартная Молитва: История Андромеды"
+		"pray_info_standart"	"Подробнее о Молитвах<br><br>
+
+<font color='#d63131ef'>Нет ограничения по времени</font><br><br>
+
+Жажда странствий – это стандартная Молитва. Она не ограничена по времени. В рамках Молитвы доступны не эксклюзивные персонажи.<br><br>
+За каждые 10 Молитв вы гарантированно получите как минимум одного персонажа 4★.<br><br>
+※ При обычных условиях базовая вероятность выпадения всех персонажей распределяется равномерно. Если действуют какие-либо усиления или гарантии, пожалуйста, прочтите соответствующие правила.<br><br>
+〓 Правила 〓<br>
+Базовая вероятность получения героя 5★ = 1,600%. Гарантированное получение героя 5★ как минимум один раз за 90 попыток.<br><br>
+Базовая вероятность получения героя 4★ = 13,100%. Гарантированное получение героя 4★ как минимум один раз за 10 попыток.<br><br>
+Базовая вероятность получения героя 3★ = 85,300%.<br><br>
+
+<font color='#c2133f'>Важно!<br>
+Если при опросе вы указали негативное отношение к аниме тематике, то вам не будут выпадать персонажи данной категории!</font><br>
+
+<br>〓 Дубликаты 〓<br><br>
+Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу.
+<br><br>〓 Список героев 〓<br><br>
+<font color='#c27913'>Герои 5★</font><br>
+-Warrior of the Wind<br>
+-Sniper<br>
+-Chloe von Einzbern<br>
+-Hatsune Miku<br> 
+-Kanade Tachibana<br>
+-Origami Tobiichi<br>
+-Yagokoro Eirin<br>
+-Lunasa Prismriver<br>
+-Т-90М «Прорыв»<br>
+-2С25 «Спрут-СД»<br>
+-MI-24V<br><br>
+
+<font color='#8e13c2'>Герои 4★</font><br>
+-Enterprise<br>
+-Т-72 «Ural»<br>
+-Legate of the Legion<br>
+-Ghost Warrior<br>
+-Earth Mage<br>
+-Interdimensional Parrot<br>
+-Lalatina Dustiness Ford<br>
+-Marisa Kirisame<br>
+-Neptune<br>
+-Kaname Madoka<br>
+-Kongou<br>
+-Noire<br>
+-Yumemi Okazaki<br>
+-Megumin<br>
+-AH-64D «Apache»<br>
+-Illyasviel von Einzbern<br>
+-AH-1Z Super Cobra<br>
+-Mystical Samurai<br><br>
+
+<font color='#1368c2'>Герои 3★</font><br>
+-Rem<br>
+-Biyao<br>
+-Mote of Energy<br>
+-Merlin<br>
+-Kotori Itsuka<br>
+-Izayoi Sakuya<br>
+-Kizaru<br>
+-Cirno<br>
+-9K31 «Strela-1»<br>
+-Eternity<br>
+-Emilia<br>
+-Ran Yakumo<br>
+-BTR-82А<br>"
 		"custom_sound_pack_text"		"If you have a unique music pack change key, please enter it below."
 		"custom_sound_pack"		"Enter key..."
 		"new_player_text_a"		"Welcome to Guardians of Universe"
@@ -4230,6 +4294,22 @@
 		"lich_king_repli_13"		"Hahahaha. There is nowhere to run, now you are mine!"
 		"lich_king_repli_14"		"You will answer for this! Be glad that your death will be quick..."
 		"lich_king_repli_15"		"WAAAARGH!! ICEMORE, OBEY ME!"
+
+		"lich_king_replic_2"       "И помни, пока я дарую тебе право выбора, ты можешь выбрать свою сторону, но в конце концов ты будешь принадлежать мне, так или иначе."
+		"lich_king_replic_5"       "Что касается тебя..."
+		"lich_king_replic_7"       "При следующей нашей встречи мне потребуются веские причины, чтобы сохранить тебе жизнь."
+		"lich_king_replic_8"       "Души твоих павших чемпионов будут принадлежать мне!!"
+		"lich_king_replic_9"       "Восстань, и прими мой дар!"
+		"lich_king_replic_10"      "Всё что составляет мою сущность: злость, безжалостность, отомщение... я вкладываю в тебя, достойнейший рыцарь."
+		"lich_king_replic_25"      "Глупая девчонка."
+		"lich_king_replic_38"      "Трогательно."
+
+		"alter_anromeda_base_1"    "Внимание. Зафиксирован всплеск аномальной некротической энергии в зоне Звёздных Врат. Неопознанная сущность, немедленно назовите себя."
+		"alter_anromeda_base_2"    "Я Андромеда! Мои сканеры показывают, что ваши жизненные показатели отсутствуют, однако вы обладаете огромной разрушительной силой. Протоколы защиты базы активированы."
+		"alter_anromeda_base_3"    "Вероятность вашего успеха крайне мала. В данный момент нам выгодно временное перемирие для уничтожения сил Орай. Но если вы попытаетесь навредить моим чемпионам, я обрушу на вас всю мощь орбитальных орудий."
+		"alter_anromeda_base_4"    "Посмотрим. Протокол совместной обороны подтверждён. Чемпионы, возвращайтесь на позиции, битва ещё не окончена."
+
+
 		"alter_anromeda_5"		"Welcome back! I see you have succeeded in your search. Crystals that take energy from subspace... Very good."
 		"alter_anromeda_6"		"At some points on the map I synthesized these Crystals, this should help you in defense!"
 		"alter_anromeda_7"		"These crystals significantly slow down enemies and also increase incoming physical damage to them."
@@ -4769,8 +4849,66 @@
 		"PauseDemo_Button"		"Console"
 		"QuitDemo_Button"		""
 		"load_string"		"Enter code...."
-		"pray_info_event_name"		"'Prayer Event: Mysterious Guardians'"
-		"pray_info_event"		"Подробнее о Молитвах<br><br> <font color='#d63131ef'>Временное событие</font><br><br> 'Молитва события: Mysterious Guardians ' уже доступна! Во время этого события вероятность получения следующих персонажей резко увеличится. Эксклюзивные для события персонажи 5★ 'Emperor of the Roses' Nero Claudius, 5★ 'Kingdom of Lugnica' Ram, 5★ 'Mind Eater' Tyrael и 'Enigmatic Astrologer' Mona Megistus<br><br> За каждые 10 Молитв вы гарантированно получите как минимум одного персонажа 4★.<br><br> ※ При обычных условиях базовая вероятность выпадения всех персонажей распределяется равномерно. Если действуют какие-либо усиления или гарантии, пожалуйста, прочтите соответствующие правила.<br><br> 〓 Правила 〓<br> Базовая вероятность получения героя 5★ = 1,600%. Гарантированное получение героя 5★ как минимум один раз за 90 попыток.<br><br> Базовая вероятность получения героя 4★ = 13,100%. Гарантированное получение героя 4★ как минимум один раз за 10 попыток.<br><br> Базовая вероятность получения героя 3★ = 85,300%.<br><br> <font color='#c2133f'>Важно!</font><br> Если при опросе вы указали негативное отношение к аниме тематике, то вам не будут выпадать персонажи данной категории! (Данное правило не распространяеться на персонажей 5★)<br> Гарант на выпадение 5★ персонажа различный между стандартным и этим Баннером, при выпадении 5★ вы гарантировано получите одного из персонажа 5★ 'Emperor of the Roses' Nero Claudius, 5★ 'Kingdom of Lugnica' Ram, 5★ 'Mind Eater' Tyrael и 'Enigmatic Astrologer' Mona Megistus<br> При выпадении 4★ ваш шанс получить персонажей которые изображены на Баннере увеличен на 50%! <br><br> <br>〓 Дубликаты 〓<br><br> Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу <br><br>〓 Список героев 〓<br><br> <font color='#c27913'>Герои 5★</font><br> 'Nero Claudius'<br> 'Mona Megistus'<br> 'Ram'<br><br> <font color='#8e13c2'>Герои 4★</font><br> -Т-72 'Ural' -Legate of the Legion<br> -Ghost Warrior<br> -Earth Mage<br> -Interdimensional Parrot<br> -Lalatina Dustiness Ford<br> -Marisa Kirisame<br> -Neptune<br> -Kaname Madoka<br> -Kongou<br> -Noire<br> -Yumemi Okazaki<br> -Megumin<br> -AH-64D 'Apache'<br> -MI-24V<br> -Kanade Tachibana<br> -Illyasviel von Einzbern<br> -AH-1Z Super Cobra<br> -Mystical Samurai<br> -Kanade Tachibana<br><br> <font color='#1368c2'>Герои 3★</font><br> -Rem<br> -Biyao<br> -Mote of Energy<br> -Merlin<br> -Kotori Itsuka<br> -Izayoi Sakuya<br> -Kizaru<br> -Cirno<br> -9K31 'Strela-1'<br> -Eternity<br> -Emilia<br> -Ran Yakumo<br> -BTR-82А<br>"
+		"pray_info_event_name"	"«Молитва События: Mysterious Guardians » "
+		"pray_info_event"	"Подробнее о Молитвах<br><br>
+<font color='#d63131ef'>Временное событие</font><br><br>
+
+«Молитва события: Mysterious Guardians » уже доступна! Во время этого события вероятность получения следующих персонажей резко увеличится. Эксклюзивные для события персонажи 5★ «Emperor of the Roses» Nero Claudius, 5★ «Kingdom of Lugnica» Ram, 5★ «Mind Eater» Tyrael и «Enigmatic Astrologer» Mona Megistus<br><br>
+За каждые 10 Молитв вы гарантированно получите как минимум одного персонажа 4★.<br><br>
+※ При обычных условиях базовая вероятность выпадения всех персонажей распределяется равномерно. Если действуют какие-либо усиления или гарантии, пожалуйста, прочтите соответствующие правила.<br><br>
+〓 Правила 〓<br>
+Базовая вероятность получения героя 5★ = 1,600%. Гарантированное получение героя 5★ как минимум один раз за 90 попыток.<br><br>
+Базовая вероятность получения героя 4★ = 13,100%. Гарантированное получение героя 4★ как минимум один раз за 10 попыток.<br><br>
+Базовая вероятность получения героя 3★ = 85,300%.<br><br>
+
+<font color='#c2133f'>Важно!</font><br>
+Если при опросе вы указали негативное отношение к аниме тематике, то вам не будут выпадать персонажи данной категории! (Данное правило не распространяеться на персонажей 5★)<br>
+Гарант на выпадение 5★ персонажа различный между стандартным и этим Баннером, при выпадении 5★ вы гарантировано получите одного из персонажа 5★ «Emperor of the Roses» Nero Claudius, 5★ «Kingdom of Lugnica» Ram, 5★ «Mind Eater» Tyrael и «Enigmatic Astrologer» Mona Megistus<br>
+При выпадении 4★ ваш шанс получить персонажей которые изображены на Баннере увеличен на 50%! <br><br>
+
+<br>〓 Дубликаты 〓<br><br>
+Если у вас есть повторяющиеся персонажи (открытые в игре, купленные в магазине или выигранные в Молитве), то начиная с 2 по 20 вы будете прокачивать уникальные таланты каждому персонажу
+<br><br>〓 Список героев 〓<br><br>
+<font color='#c27913'>Герои 5★</font><br>
+«Nero Claudius»<br>
+«Mona Megistus»<br>
+«Ram»<br>
+«Tyrael»<br><br>
+
+<font color='#8e13c2'>Герои 4★</font><br>
+-Т-72 «Ural»<br>
+-Legate of the Legion<br>
+-Ghost Warrior<br>
+-Earth Mage<br>
+-Interdimensional Parrot<br>
+-Lalatina Dustiness Ford<br>
+-Marisa Kirisame<br>
+-Neptune<br>
+-Kaname Madoka<br>
+-Kongou<br>
+-Noire<br>
+-Yumemi Okazaki<br>
+-Megumin<br>
+-AH-64D «Apache»<br>
+-Illyasviel von Einzbern<br>
+-AH-1Z Super Cobra<br>
+-Mystical Samurai<br><br>
+
+<font color='#1368c2'>Герои 3★</font><br>
+-Rem<br>
+-Biyao<br>
+-Mote of Energy<br>
+-Merlin<br>
+-Kotori Itsuka<br>
+-Izayoi Sakuya<br>
+-Kizaru<br>
+-Cirno<br>
+-9K31 «Strela-1»<br>
+-Eternity<br>
+-Emilia<br>
+-Ran Yakumo<br>
+-BTR-82А<br>"
+
 		"npc_dota_hero_skeleton_king_prew_text"		"You will become my retribution, and the fate of those who stand in your way will be terrible. Come and face your fate, my death knight."
 		"npc_dota_hero_queenofpain_prew_text"		"Kore ga unmei, watashi wa tou ni shitte imashita yo."
 		"profile_round_record"		"Record of completed rounds:"
@@ -5419,6 +5557,85 @@
 		"DOTA_Tooltip_modifier_wave_abuse_Description"		"You were unable to destroy the wave in 2 minutes (or you didn’t want to), now every second all remaining enemies will receive 0.05% additional pure damage from the maximum health of the attacked target once every 1 second."
 		"DOTA_Tooltip_modifier_generic_lua_stun"		"Stunned"
 		"npc_dota_hero_troll_warlord"		"Archer「★」"
+	//Caladbolg II
+		"DOTA_Tooltip_ability_archer_arrow"														"Caladbolg II"
+		"DOTA_Tooltip_ability_archer_arrow_Description"											"Shoots a global range arrow that explodes over a given area, damaging enemies and providing vision for %duration% seconds."
+		"DOTA_Tooltip_ability_archer_arrow_Lore"												"The version that Archer projects has been altered to improve its function as an arrow."
+		"DOTA_Tooltip_ability_archer_arrow_radius"												"RADIUS:"
+		"DOTA_Tooltip_ability_archer_arrow_damage"												"DAMAGE:"
+		"DOTA_Tooltip_ability_archer_arrow_shard_Description"									"Add bonus damage - agility * 10"
+
+		//Sword Barrage
+		"DOTA_Tooltip_ability_archer_blades"													"Sword Barrage"
+		"DOTA_Tooltip_ability_archer_blades_Description"										"Archer throws projection of %blades_count% swords in a cone shape over %blades_range% range, slowing and damaging enemy units. This slow can stack with itself."
+		"DOTA_Tooltip_ability_archer_blades_Note0"												"Each sword deals one instance of damage."
+		//"DOTA_Tooltip_ability_archer_blades_blades_range"										"CAST RANGE:" //removed
+		"DOTA_Tooltip_ability_archer_blades_blades_damage"										"SWORD DAMAGE:"
+		"DOTA_Tooltip_ability_archer_blades_duration"											"SLOW DURATION:"
+		"DOTA_Tooltip_ability_archer_blades_ms_reduce"											"%MOVEMENT SLOW:"
+		//"DOTA_Tooltip_ability_archer_blades_blades_count"										"SWORDS:" //removed
+
+		"DOTA_Tooltip_modifier_archer_blades"													"Sword Barrage Slow"
+		"DOTA_Tooltip_modifier_archer_blades_Description"										"Slowed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
+
+		//Mind's Eye (True)
+		"DOTA_Tooltip_ability_archer_evasion"													"Mind's Eye (True)"
+		"DOTA_Tooltip_ability_archer_evasion_Description"										"Increases attack speed and adds evasion from all physical attacks."
+		"DOTA_Tooltip_ability_archer_evasion_duration"											"DURATION:"
+		"DOTA_Tooltip_ability_archer_evasion_as"												"BONUS ATTACK SPEED:"
+		"DOTA_Tooltip_ability_archer_evasion_evasion"											"%EVASION:"
+
+		"DOTA_Tooltip_modifier_archer_evasion"													"Mind's Eye (True)"
+		"DOTA_Tooltip_modifier_archer_evasion_Description"										"Gaining %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed and %dMODIFIER_PROPERTY_EVASION_CONSTANT%%% evasion."
+
+		//Kanshou and Bakuya
+		"DOTA_Tooltip_ability_archer_kab"														"Kanshou and Bakuya"
+		"DOTA_Tooltip_ability_archer_kab_Description"											"Archer throws his signature weapons with deadly precision, damaging each enemy unit it strikes.<br><br>Kanshou <font color='#FF0000'>RED</font> deals pure damage.<br>Bakuya <font color='#0033FF'>BLUE</font> deals magical damage."
+		"DOTA_Tooltip_ability_archer_kab_scepter_description"									"Grants %scepter_charges% charges to Kanshou and Bakuya."
+		"DOTA_Tooltip_ability_archer_kab_Note0"													"Each blade can hit the same enemy once."
+		"DOTA_Tooltip_ability_archer_kab_Lore"													"The Yin-Yang paired swords which Archer favoured."
+		//"DOTA_Tooltip_ability_archer_kab_hit_radius"											"HIT RADIUS:" //removed
+		//"DOTA_Tooltip_ability_archer_kab_spread"												"SPREAD:" //removed
+		"DOTA_Tooltip_ability_archer_kab_castrange"												"CAST RANGE:"
+		//"DOTA_Tooltip_ability_archer_kab_speed"												"FLY SPEED:" //removed
+		"DOTA_Tooltip_ability_archer_kab_damage"												"DAMAGE PER BLADE:"
+		"DOTA_Tooltip_ability_archer_kab_scepter_charges"										"SCEPTER CHARGES:"
+		//ONE LINE SPACE
+		"DOTA_Tooltip_modifier_archer_kab_ability_charges"										"Mind's Eye (True) CHARGES"
+		"DOTA_Tooltip_modifier_archer_kab_ability_charges_Description"							" "
+		//Clairvoyance
+		"DOTA_Tooltip_ability_archer_vision"													"Clairvoyance"
+		"DOTA_Tooltip_ability_archer_vision_Description"										"Grants unobstructed vision of a targeted area for %duration% seconds."
+		"DOTA_Tooltip_ability_archer_vision_Lore"												"Archer acquires this by applying Reinforcement to his eyes."
+		//"DOTA_Tooltip_ability_archer_vision_duration"											"DURATION:" //removed
+		"DOTA_Tooltip_ability_archer_vision_radius"												"RADIUS:"
+
+		//Weapon Exchange
+		"DOTA_Tooltip_ability_archer_weapons"													"Weapon Exchange"
+		"DOTA_Tooltip_ability_archer_weapons_Description"										"While active, Archer swaps from using ranged to melee attacks. Melee attacks have bonus damage, ranged attacks have bonus attack range."
+		"DOTA_Tooltip_ability_archer_weapons_meele_damage"										"MELEE BONUS DAMAGE:"
+		"DOTA_Tooltip_ability_archer_weapons_range_attack"										"RANGED BONUS RANGE:"
+
+		//Chants
+		"DOTA_Tooltip_ability_archer_ubw_charge"												"Chant"
+		"DOTA_Tooltip_ability_archer_ubw_charge_Description"									"CHANNELED - Archer recites a part of his incantations, gaining one charge for this ability. Replaces with the Unlimited Blade Works ability after the entire chants completed."
+		"DOTA_Tooltip_ability_archer_ubw_charge_charge_count"									"REQUIRED CHARGES:"
+		"DOTA_Tooltip_ability_archer_ubw_charge_charge_time"									"CHANNEL TIME:"
+
+		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling"									"Chant - Channeling"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_channeling_Description"						"Channeling Unlimited Blade Works"
+
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff"											"Chant"
+		"DOTA_Tooltip_modifier_archer_ubw_charge_buff_Description"								"Chanting Unlimited Blade Works."
+
+		//Unlimited Blade Works
+		"DOTA_Tooltip_ability_archer_ubw"														"Unlimited Blade Works"
+		"DOTA_Tooltip_ability_archer_ubw_Description"											"Brings everyone around Archer into a Reality Marble for %duration% seconds with swords raining down in it, dealing magical damage. Mind’s Eye (True) is automatically casted whenever Archer starts the Reality Marble, regardless of its cooldown.<br><br>Everyone in range will become briefly invulnerable and disabled while this ability is activated."
+		"DOTA_Tooltip_ability_archer_ubw_Note0"													"Units inside the Reality Marble cannot deal or receive damage from outside."
+		"DOTA_Tooltip_ability_archer_ubw_Note1"													"Flying units, and units affected by spell immunity can enter and leave the Reality Marble at any time."
+		"DOTA_Tooltip_ability_archer_ubw_radius"												"RADIUS:"
+		"DOTA_Tooltip_ability_archer_ubw_sword_damage"											"DAMAGE PER SECOND:"
+		"DOTA_Tooltip_ability_archer_ubw_scepter_Description"									"Add bonus damage - agility * 10"
 		"npc_dota_hero_brewmaster"		"Jagdpanzer E-100「★★★★★★」"
 		"DOTA_Tooltip_ability_gu_jpz_e100"		"<font color='#fd2727'>「Jagdpanzer E-100」</font>"
 		"DOTA_Tooltip_ability_gu_jpz_e100_Description"		"German anti-tank self-propelled gun. It is a powerful 170 mm gun, housed in a closed, heavily armored wheelhouse mounted on the base of the E 100 heavy tank. High one-time damage and reliable armor are the main advantages of this vehicle. Upgrades the main characteristics of tank destroyers. Adds +%bonus_health%to health, +%bonus_armor%to armor, +%attack_range_bonus%to shot range and +%damage%to damage. Items that reduce the base attack time do not work. Receives 20% less damage from self."
@@ -6262,5 +6479,67 @@
 		"DOTA_Tooltip_modifier_kurumi_countdown_aura_effect_Description"		"Your time is running out. Armor reduced by<font color='#ff4c4c'>%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%</font>, and speed reduced by<font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
 		"DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff"		"White Queen Form"
 		"DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff_Description"		"sssKurumi unleashed the true power of Inversion: Size increased by 100%, Maximum health increased by 20 times, Attack power increased by 10 times"
+	
+				// 1. Темное пламя (dark_fire)
+		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「Темное Пламя」</font>"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"Лина выпускает разрушительную волну темного огня, наносящую чистый урон и оглушающую врагов на линии.\n\nУрон способности увеличивается в зависимости от Интеллекта героя. Пораженные враги дополнительно получают заряды <font color='#FF3333'>「Вечного Пламени」</font>."
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОН ОТ ИНТЕЛЛЕКТА:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"ОГЛУШЕНИЕ:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"ЗАРЯДОВ ПОДЖОГА:"
+
+		// 2. Вспышка Света (light_array)
+		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「Вспышка Света」</font>"
+		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"Призывает столб концентрированного пламени, который оглушает врагов на %stun_duration% сек., наносит урон и оставляет выжженную землю. \n\nВраги, оставшиеся на выжженной земле, получают периодический урон и дополнительные заряды <font color='#FF3333'>「Вечного Пламени」</font>, а после окончания оглушения их скорость передвижения сильно снижается."
+		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН ОТ ИНТЕЛЛЕКТА:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"РАДИУС ВЗРЫВА:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"ВРЕМЯ ГОРЕНИЯ ЗЕМЛИ:"
+		
+		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「Оглушение вспышкой」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"Оглушен столбом пламени."
+		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「Ожоги вспышки」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+		// 3. Пепел (ashes)
+		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「Прах к Праху」</font>"
+		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"Каждое применение заклинаний окружает Лину вихрем пепла, даруя ей стаки усиления."
+		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"ДЛИТЕЛЬНОСТЬ ПЕПЛА:"
+		
+		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「Прах к Праху」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"Пепел от примененных заклинаний обволакивает героя."
+
+		// 4. Вечное пламя (endless_ignite)
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「Вечное Пламя」</font>"
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"Атаки и способности Лины поджигают врагов чистым пламенем. Каждый заряд наносит периодический чистый урон, размер которого напрямую зависит от текущего показателя Интеллекта Лины."
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"ДЛИТЕЛЬНОСТЬ ПОДЖОГА:"
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"БАЗОВЫЙ УРОН (ЗА СТАК):"
+		
+		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「Вечное пламя」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"Этот юнит горит. Он получает огромный периодический чистый урон в зависимости от Интеллекта заклинателя."
+	
+
+		"Talent_Header_Main"        "🌟 ASCENSION TALENTS"
+		"Talent_Status_Active"      "[ACTIVE]"
+		"Talent_Status_Locked"      "[INACTIVE]"
+		"Talent_Lvl_Abbr"           "Lvl."
+		"Talent_Label_BonusSouls"    "Soul Bonus"
+		"Talent_Label_IntDmg"        "Intellect Damage"
+		"Talent_Label_BonusDmg"      "Damage Bonus"
+		"Talent_Label_ExtraDmg"      "Extra Damage"
+		"Talent_Label_FromInt"       "from Int"
+		"Talent_Label_CurrentCharges" "Current Charges"
+		"Talent_Label_GainX2"        "gain: +2"
+		"Talent_Label_Restore"       "Restoration"
+		"Talent_Lina_Laguna_1"      "Increases kill multiplier to x4."
+		"Talent_Lina_Laguna_5"      "Adds damage from Intellect (x1.5)."
+		"Talent_Lina_Laguna_15"     "Health restoration: 10% of damage dealt."
+		"Talent_Lina_Laguna_20"     "Cooldown reduced to 50 seconds."
+		"Talent_Eirin_02_1"         "Adds damage from Intellect (x3.0)."
+		"Talent_Eirin_01_5"         "Adds damage from Intellect (x3.0)."
+		"Talent_Eirin_EX_10"        "Deals additional magical damage based on Intellect."
+		"Talent_Eirin_EX_20"        "<b>Intellect Breakthrough:</b> doubles the number of charges gained when using the ability (gives +2 stacks instead of +1)."
+		"Talent_Eirin_04_15"        "<b>Death Saving:</b> upon receiving lethal damage, removes negative effects and fully restores target's health."
+	
 	}
 }
