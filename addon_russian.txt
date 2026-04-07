@@ -215,14 +215,14 @@
     		"npc_dota_hero_abaddon"											"Ghost Warrior「★★★★」"
 			
 		"DOTA_Tooltip_ability_odin_gods_eye"                                            "<font color='#B56213'>「Chaos Field」</font> "
-		"DOTA_Tooltip_ability_odin_gods_eye_description"									"Замедляет всех противников в выбранной области, а также получает в ней обзор на время действия способности."
+		"DOTA_Tooltip_ability_odin_gods_eye_description"									"Замедляет всех противников и получает обзор в выбранной области на время действия способности."
 		"DOTA_Tooltip_ability_odin_gods_eye_duration"										"Длительность: "
 		"DOTA_Tooltip_ability_odin_gods_eye_radius"											"Радиус: "
 		"DOTA_Tooltip_ability_odin_gods_eye_bonus_movespeed"								"%Замедление скорости передвижения: "
         "DOTA_Tooltip_ability_odin_gods_eye_bonus_movespeed"								"Замедление скорости атаки: "
 
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil"                                      "<font color='#B56213'>「Ghost Form」</font>"
-		"DOTA_Tooltip_ability_odin_sleipnirs_veil_description"								"Переходит в призрачную форму, в которой способен проходить сквозь противников, нанося им урон. Увеличивает скорость передвижения до 1000. Наносит урон за каждое прохождение сквозь противников."
+		"DOTA_Tooltip_ability_odin_sleipnirs_veil_description"								"Переходит в призрачную форму, в которой Воин способен проходить сквозь противников, нанося им урон. Увеличивает скорость передвижения до 1000. Наносит урон за каждое прохождение сквозь противника."
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_duration"									"Длительность: "
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_slow"										"%Замедление: "
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_damage"									"Урон: "
@@ -253,19 +253,19 @@
             "npc_dota_hero_legion_commander"							     "Legate of the Legion「★★★★」"
 		"DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds"                    "<font color='#F86708'>「Auxilia sagittarius」</font>"
         "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_Description"        "Обрушивает на врагов мощь легиона. Наносит базовый урон, а также дополнительный урон за каждого задетого врага. За каждого задетого юнита владелец получает бонус к скорости передвижения на время."
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_radius"             "РАДИУС:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_base_damage"        "БАЗОВЫЙ УРОН:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_creep"   "УРОН ЗА КРИПА:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_hero"    "УРОН ЗА ГЕРОЯ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_creep"  "%СКОРОСТЬ ЗА КРИПА:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_hero"   "%СКОРОСТЬ ЗА ГЕРОЯ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_duration"           "ДЛИТЕЛЬНОСТЬ БОНУСА:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_radius"             "Радиус: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_base_damage"        "Базовый урон:" 
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_creep"   "Урон за крипа: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_hero"    "Урон за героя: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_creep"  "%Скорость за крипа: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_hero"   "%Скорость за героя: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_duration"           "Длительность бонуса: "
 
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack"                     "<font color='#F86708'>「Fortitude」</font> "
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_Description"         "Снимает с выбранной союзной цели все отрицательные эффекты и оглушение (сильное развеивание), а также дарит дополнительную скорость атаки и восстановление здоровья на короткое время."
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "ДЛИТЕЛЬНОСТЬ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_attack_speed"        "ДОП. СКОРОСТЬ АТАКИ:"
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "Длительность: "
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "Восстановление здоровья: "
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_attack_speed"        "Доп. скорость атаки: "
 
 		// Локализация модификатора Overwhelming Odds
         "DOTA_Tooltip_modifier_gu_overwhelming_odds"                "Overwhelming Odds"
@@ -278,7 +278,7 @@
 		"DOTA_Tooltip_ability_axe_counter_helix2"										"<font color='#F86708'>「Legion Strike 」</font>"
         "DOTA_Tooltip_ability_axe_counter_helix2_Description"								"Легион хранит своего Легата, атакуя всех противников, угрожающих ему."
         "DOTA_Tooltip_ability_axe_counter_helix2_radius"									"Радиус: "
-        "DOTA_Tooltip_ability_axe_counter_helix2_trigger_chance"							"%Шанс срабатывания:"
+        "DOTA_Tooltip_ability_axe_counter_helix2_trigger_chance"							"%Шанс срабатывания: "
         "DOTA_Tooltip_ability_axe_counter_helix2_damage"									"Урон: "
         
         
@@ -291,7 +291,7 @@
 
         
 		"DOTA_Tooltip_ability_gu_duel"													"<font color='#F86708'>「Inspiration 」</font> "
-		"DOTA_Tooltip_ability_gu_duel_Description"											"За каждого убитого врага с шансом 17% добавляет %damage% к урону. Эффект не пропадает после смерти."
+		"DOTA_Tooltip_ability_gu_duel_Description"											"За каждого убитого врага на линии с шансом 17% добавляет %damage% к урону. Эффект не пропадает после смерти."
 		"DOTA_Tooltip_ability_gu_duel_cd"													"Перезарядка: "		
         	"DOTA_Tooltip_modifier_gu_duel_buff" 												"<font color='#F86708'>「Inspiration 」</font> "
 			"DOTA_Tooltip_modifier_gu_duel_buff_Description" 									"Получает %dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону."
@@ -313,7 +313,7 @@
 		    "DOTA_Tooltip_modifier_gaias_fury_description"										"Заряжен"
 			
 		"DOTA_Tooltip_ability_reus_magnitude"                                           "<font color='#93735E'>「Dominance of the earth」</font> "
-		"DOTA_Tooltip_ability_reus_magnitude_Description"								    "После задержки в 10 секунд раскалывает почву под собой, замедляя врагов и нанося урон."
+		"DOTA_Tooltip_ability_reus_magnitude_Description"								    "После задержки в 10 секунд раскалывает земную твердь под собой, замедляя врагов и нанося урон."
         "DOTA_Tooltip_ability_reus_magnitude_Note0"                                         "Урон рассчитывается по формуле базовый урон * сила."
         "DOTA_Tooltip_ability_reus_magnitude_damage"										"Базовый урон: "
         "DOTA_Tooltip_ability_reus_magnitude_radius"										"Радиус: "
@@ -323,16 +323,16 @@
 		"DOTA_Tooltip_ability_reus_magnitude_attack_slow"									"Замедление атаки: "
 		"DOTA_Tooltip_ability_reus_magnitude_duration"										"Длительность: "
  		"DOTA_Tooltip_modifier_magnitude_slow_ally"     								    "Замедление"
-		"DOTA_Tooltip_ability_reus_magnitude_shard_Description"								"После активации добавляет неуязвимость к магии на 7 секунд."
+		"DOTA_Tooltip_ability_reus_magnitude_shard_Description"								"После активации добавляет эффект неуязвимости к магии на 7 секунд."
 
 		"DOTA_Tooltip_ability_reus_stoneblast"                                          "<font color='#93735E'>「Power of the stone」</font> "
-		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку камень, оглушающий всех на своём пути"
+		"DOTA_Tooltip_ability_reus_stoneblast_Description"									"Маг Земли бросает в указанную точку камень, оглушающий всех противников на своём пути"
 		"DOTA_Tooltip_ability_reus_stoneblast_stun"											"Оглушение: "
 		"DOTA_Tooltip_ability_reus_stoneblast_damage"										"Урон: "
 		"DOTA_Tooltip_ability_reus_stoneblast_scepter_Description"							"Увеличивает скорость, радиус и дальность в 2 раза."
 
 		"DOTA_Tooltip_ability_earch_mag_ylti"                                          	"<font color='#93735E'>「Stone Will」</font>"
-		"DOTA_Tooltip_ability_earch_mag_ylti_Description"                              	    "Увеличивает базовый (белый) урон в зависимости от вашей силы, также увеличивает сопротивление эффектам до %pidaras%%%."
+		"DOTA_Tooltip_ability_earch_mag_ylti_Description"                              	    "Увеличивает базовый урон в зависимости от вашей силы, также увеличивает сопротивление эффектам до %pidaras%%%."
 		"DOTA_Tooltip_ability_earch_mag_ylti_bonus_str"                              	    "Бонусная сила: "
 		"DOTA_Tooltip_ability_earch_mag_ylti_str_multi"                              	    "Множитель силы: "
             "DOTA_Tooltip_modifier_earch_mag_ylti" 											"<font color='#93735E'>「Stone Will」</font>"
@@ -342,7 +342,7 @@
 		    "npc_dota_hero_windrunner"										"Warrior of the Wind「★★★★★」"
 		
 		"DOTA_Tooltip_ability_gu_chase_moon_and_star"                                        "<font color='#32CA0D'>「Chasing the stars」</font> "
-        "DOTA_Tooltip_ability_gu_chase_moon_and_star_Description"                                "При автоатаке выполняет дополнительную атаку, которая наносит базовый урон и снижает броню цели на %armor%. Дополнительные атаки могут вызвать еще одну дополнительную атаку. Атаки наносят дополнительный урон."
+        "DOTA_Tooltip_ability_gu_chase_moon_and_star_Description"                                "При автоатаке выполняет дополнительную атаку, которая наносит базовый урон и снижает броню цели на %armor%. Дополнительные атаки могут вызвать повторное срабатывание способности. Атаки наносят дополнительный урон."
         "DOTA_Tooltip_ability_gu_chase_moon_and_star_rate"                                        "%Шанс: "
         "DOTA_Tooltip_ability_gu_chase_moon_and_star_damage"                                    "Дополнительный урон: "
 
@@ -362,7 +362,7 @@
 		    "DOTA_Tooltip_modifier_gu_gust_Description"											"Снижает боеспособность врага."
 
 		"DOTA_Tooltip_ability_gu_alacrity"													"<font color='#32CA0D'>「Eagerness」</font> "
-		"DOTA_Tooltip_ability_gu_alacrity_Description"											"Сила ветра будет влиять на направление вражеских атак и поможет вам уклоняться от них. Также пассивно увеличивает скорость передвижения. Когда активна, дарует %evasion%% уклонения и замедляет скорость передвижения врага. Не дает эффектов во время перезарядки."
+		"DOTA_Tooltip_ability_gu_alacrity_Description"											"Сила ветра будет влиять на направление вражеских атак и поможет вам уклоняться от них. Пассивно увеличивает скорость передвижения и дарует %evasion%% уклонения. При активации увчеличивает бонус уклонения до 100%% и замедляет скорость передвижения врага. Не дает эффектов во время перезарядки."
 		"DOTA_Tooltip_ability_gu_alacrity_Note0"                                               "Повышение скорости передвижения: %movespeed%<br></br>Шанс уклонения: 10 + 2 * Уровень способности<br></br>Длительность: 4<br></br>Замедление %reduce_movespeed%%"
         "DOTA_Tooltip_ability_gu_alacrity_duration"											"Длительность:"	
 			"DOTA_Tooltip_modifier_gu_alacrity"												    "<font color='#32CA0D'>「Eagerness」</font> "
@@ -426,41 +426,47 @@
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_per_kill" 					    "Дополнительный урон за заряд: " 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_splash_radius_scepter" 				    "Радиус молнии со скипетром: " 
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_damage_delay" 						    "Задержка каста: " 
-		    "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					        "Увеличивает урон молнии за каждого убитого крипа/героя."
-		    "DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			        "Ваш урон с молнии увеличен"
+		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus" 					        "Увеличивает урон молнии за каждого убитого крипа/героя."
+		"DOTA_Tooltip_modifier_mjz_lina_laguna_blade_bonus_Description" 			        "Ваш урон с молнии увеличен"
 		"DOTA_Tooltip_ability_mjz_lina_laguna_blade_shard_Description" 						"Увеличивает все показатели урона в 2 раза."
 
-		"DOTA_Tooltip_ability_ashes"											        "Сила Огня"
-		"DOTA_Tooltip_ability_ashes_Description"									        "За каждый каст способностей, даёт (2 * интеллект * количество стаков) урона накрытием юнитам."
-		"DOTA_Tooltip_ability_ashes_damage"												    "Урон: "
-		"DOTA_Tooltip_ability_ashes_radius"												    "Радиус: "
-		"DOTA_Tooltip_ability_ashes_duration"											    "Длительность: "
-		    "DOTA_Tooltip_modifier_ashes_buff" 										            "Сила Огня"
-		
-		"DOTA_Tooltip_ability_endless_ignite"									        "Ignite"
-		"DOTA_Tooltip_ability_endless_ignite_Description"							        "Вокруг Лины настолько раскаляется воздух, что враги начинают в буквальном смысле гореть."
-		"DOTA_Tooltip_ability_endless_ignite_damage"								        "Урон:"
-		"DOTA_Tooltip_ability_endless_ignite_duration"									    "Длительность: "
-		"DOTA_Tooltip_ability_endless_ignite_interval"									    "Интервал :"
-		"DOTA_Tooltip_ability_endless_ignite_ignite_count"								    "Кол-во за каст: "
-		
-		"DOTA_Tooltip_ability_light_array"										        "Огненные Бабочки"
-		"DOTA_Tooltip_ability_light_array_Description"								        "Призывает огненных бабочек, которые наносят урон и оглушают врагов."
-		"DOTA_Tooltip_ability_light_array_stun_duration"								    "Оглушение: "
-		"DOTA_Tooltip_ability_light_array_intellect"									    "Интеллект: "
-		"DOTA_Tooltip_ability_light_array_radius"										    "Радиус: "
-		"DOTA_Tooltip_ability_light_array_base_damage"									    "Базовый урон: "
-		"DOTA_Tooltip_ability_light_array_duration"										    "Длительность горения: "
+		// 1. Темное пламя (dark_fire)
+		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「Темное Пламя」</font>"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"Лина выпускает разрушительную волну темного огня, наносящую чистый урон и оглушающую врагов на линии.\n\nУрон способности увеличивается в зависимости от Интеллекта героя. Пораженные враги дополнительно получают заряды <font color='#FF3333'>「Вечного Пламени」</font>."
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОН ОТ ИНТЕЛЛЕКТА:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"ОГЛУШЕНИЕ:"
+		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"ЗАРЯДОВ ПОДЖОГА:"
 
-        "DOTA_Tooltip_ability_dark_fire"										        "Ненаправленная Лагуна"
-		"DOTA_Tooltip_ability_dark_fire_Description"								        "Выпускает заряд молнии, направленный на точку"
-		"DOTA_Tooltip_ability_dark_fire_damage"											    "Урон: "
-		"DOTA_Tooltip_ability_dark_fire_intellect"										    "Интеллект: "
-		"DOTA_Tooltip_ability_dark_fire_distance"										    "Дальность: "
-		"DOTA_Tooltip_ability_dark_fire_stun_duration"									    "Длительность оглушения: "
-		"DOTA_Tooltip_ability_dark_fire_miss"											    "Шанс промаха: "
-		"DOTA_Tooltip_ability_dark_fire_miss_duration"									    "Длительность промаха: "
+		// 2. Вспышка Света (light_array)
+		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「Вспышка Света」</font>"
+		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"Призывает столб концентрированного пламени, который оглушает врагов на %stun_duration% сек., наносит урон и оставляет выжженную землю. \n\nВраги, оставшиеся на выжженной земле, получают периодический урон и дополнительные заряды <font color='#FF3333'>「Вечного Пламени」</font>, а после окончания оглушения их скорость передвижения сильно снижается."
+		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"БАЗОВЫЙ УРОН:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН ОТ ИНТЕЛЛЕКТА:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"РАДИУС ВЗРЫВА:"
+		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"ВРЕМЯ ГОРЕНИЯ ЗЕМЛИ:"
 		
+		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「Оглушение вспышкой」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"Оглушен столбом пламени."
+		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「Ожоги вспышки」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+		// 3. Пепел (ashes)
+		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「Прах к Праху」</font>"
+		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"Каждое применение заклинаний окружает Лину вихрем пепла, даруя ей стаки усиления."
+		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"ДЛИТЕЛЬНОСТЬ ПЕПЛА:"
+		
+		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「Прах к Праху」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"Пепел от примененных заклинаний обволакивает героя."
+
+		// 4. Вечное пламя (endless_ignite)
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「Вечное Пламя」</font>"
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"Атаки и способности Лины поджигают врагов чистым пламенем. Каждый заряд наносит периодический чистый урон, размер которого напрямую зависит от текущего показателя Интеллекта Лины."
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"ДЛИТЕЛЬНОСТЬ ПОДЖОГА:"
+		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"БАЗОВЫЙ УРОН (ЗА СТАК):"
+		
+		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「Вечное пламя」</font>"
+		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"Этот юнит горит. Он получает огромный периодический чистый урон в зависимости от Интеллекта заклинателя."
 
 		    "npc_dota_hero_obsidian_destroyer" 							    "Merlin「★★★」"
 		
@@ -598,7 +604,7 @@
 		    "DOTA_Tooltip_modifier_kotori_rage_aura_debuff_Description"     					"Наносит огненный урон каждую секунду."
 
 		"DOTA_Tooltip_ability_kotori_launcher"                                          "<font color='#FF4900'>「Cannon Mode: Megiddo」</font>"
-		"DOTA_Tooltip_ability_kotori_launcher_Description"                                	"Силы Котори основаны на манипулировании пламенем, исходящим из ее тела. Ее Ангел Камаэль представляет собой красную боевую алебарду, которая может трансформироваться в пушку Мегиддо, получая энергию от пламени Котори. Мегиддо стреляет мощными энергетическими огненными лучами, которые способны пробить даже защиту духов."
+		"DOTA_Tooltip_ability_kotori_launcher_Description"                                	"Силы Котори основаны на манипулировании пламенем, исходящим из ее тела. Ее Ангел Камаэль представляет собой красную боевую алебарду, которая может трансформироваться в пушку Мегиддо, получая энергию от пламени Котори. Мегиддо стреляет мощными энергетическими огненными лучами, которые способны пробить даже защиту духов. <br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_kotori_launcher_launcher_damage"                    			"Урон: "
 		"DOTA_Tooltip_ability_kotori_launcher_launcher_width"                  				"Ширина луча: "
 		"DOTA_Tooltip_ability_kotori_launcher_shard_Description"                             "Добавляет дополнительный урон в зависимости от вашей текущей энергии (тратит всю вашу энергию при использовании!)"
@@ -606,7 +612,7 @@
 		    "npc_dota_hero_winter_wyvern"							        "Kongou「★★★★」" 
 			
 		"DOTA_Tooltip_Ability_kongou_ammo"												"<font color='#F34E4E'>「HE Projectile」</font>"
-		"DOTA_Tooltip_ability_kongou_ammo_Description"										"Следущая атака получит бонусную дальность атаки, а также нанесет урон по области."
+		"DOTA_Tooltip_ability_kongou_ammo_Description"										"Следующие атаки получат бонусную дальность атаки, а также нанесут урон по области."
 		"DOTA_Tooltip_ability_kongou_ammo_scepter_Description"								"Периодически наносит независимые регулярные атаки случайным врагам в радиусе дальности атаки героя. Атаки будут использовать Фугасные снаряды только если способность активирована."
 		"DOTA_Tooltip_ability_kongou_ammo_attacks"         									"Количество атак: "
 		"DOTA_Tooltip_ability_kongou_ammo_duration"        									"Длительность: "
@@ -618,7 +624,7 @@
 		    "DOTA_Tooltip_modifier_kongou_ammo_Description"										"+%dMODIFIER_PROPERTY_ATTACK_RANGE_BONUS% дальность атаки."
 		
 		"DOTA_Tooltip_ability_kongou_bullet"             								"<font color='#F34E4E'>「2А44」</font>"
-		"DOTA_Tooltip_ability_kongou_bullet_Description" 									"Наносит %aoe_damage% урона по области в радиусе %radius%."
+		"DOTA_Tooltip_ability_kongou_bullet_Description" 									"Наносит %aoe_damage% урона по области в радиусе %radius%.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 
 		"DOTA_Tooltip_ability_kongou_reload"              								"<font color='#F34E4E'>「Fast Reload」</font>"
 		"DOTA_Tooltip_ability_kongou_reload_Description"  									"Конго получает пассивную броню и регенерацию здоровья. <br><br> При активации перезаряжает <font color='#F34E4E'>「HE Projectile」</font>, а также <font color='#F34E4E'>「2А44」</font>"
@@ -628,7 +634,7 @@
 		"DOTA_Tooltip_ability_kongou_reload_attack_range" 									"Дальность: "
 
 		"DOTA_Tooltip_ability_kongou_salvo"												"<font color='#F34E4E'>「Bombardment」</font>"
-		"DOTA_Tooltip_ability_kongou_salvo_Description" 									"Обстреливает указанную область из всех орудий."
+		"DOTA_Tooltip_ability_kongou_salvo_Description" 									"Обстреливает указанную область из всех орудий.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_kongou_salvo_radius"      									"Радиус: " 
 		"DOTA_Tooltip_ability_kongou_salvo_fly_time_tip"									"Задержка перед запуском: " 
 		"DOTA_Tooltip_ability_kongou_salvo_launches"    									"Количество выстрелов:" 
@@ -648,7 +654,7 @@
 		    "DOTA_Tooltip_modifier_neptun_cross_Description"									"Вас атакует Нептуния."
 
 		"DOTA_Tooltip_ability_neptun_slash"												"<font color='#F300FF'>「Victory Slash」</font>"
-		"DOTA_Tooltip_ability_neptun_slash_Description"										"Нептуния делает рывок в сторону врага, нанося урон всем на своём пути."
+		"DOTA_Tooltip_ability_neptun_slash_Description"										"Нептуния делает рывок в сторону врага, нанося урон всем на своём пути.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_neptun_slash_slash_speed"										"Скорость рывка: "
 		"DOTA_Tooltip_ability_neptun_slash_slash_radius"									"Радиус: "
 		"DOTA_Tooltip_ability_neptun_slash_slash_damage"									"Урон: "
@@ -704,7 +710,7 @@
 		"DOTA_Tooltip_ability_jumpstrike_shard_Description" 									"Снижает перезарядку до 4 секунд."
 
 		"DOTA_Tooltip_ability_ice_magic"							                    "<font color='#008FFF'>「Al Hume」</font>"
-		"DOTA_Tooltip_ability_ice_magic_Description"				                        "Рем создает острое ледяное копьё и запускает его во врага."
+		"DOTA_Tooltip_ability_ice_magic_Description"				                        "Рем создает острое ледяное копьё и запускает его во врага.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_ice_magic_slow"						                        "Замедление: "
 		"DOTA_Tooltip_ability_ice_magic_intmut"						                        "Множитель силы в урон: "		
 		    "DOTA_Tooltip_modifier_ice_magic_datadriven"				                        "<font color='#008FFF'>「Al Hume」</font>"
@@ -718,7 +724,7 @@
 		    "npc_dota_hero_earth_spirit"								     "Chloe von Einzbern「★★★★★」"
 		
 		"DOTA_Tooltip_ability_reflect_jopi"												"<font color='#A78B4A'>「Reflect Damage」</font>"
-		"DOTA_Tooltip_ability_reflect_jopi_Description"										"Отражает часть любого полученого урона, умножая его по формуле - полученный урон * %uvelechenie% * %недостающего здоровья / 3."
+		"DOTA_Tooltip_ability_reflect_jopi_Description"										"Отражает часть любого полученого урона, умножая его по формуле - полученный урон * %uvelechenie% * %недостающего здоровья / 3.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_reflect_jopi_Note0"	                                        "Урон рассчитывается после снижения его броней."
 
 		"DOTA_Tooltip_ability_war_berserker_aura"                                       "<font color='#A78B4A'>「Aura of Power 」</font>"
@@ -734,7 +740,7 @@
 		"DOTA_Tooltip_ability_xloya_kissing_freak_shard_description"					"После активации способности, будет наложен эффект неуязвимости к магии на 4 секунды."
 
 		"DOTA_Tooltip_ability_war_fight_me"                                             "<font color='#A78B4A'>「Provocation」</font>"
-		"DOTA_Tooltip_ability_war_fight_me_description"										"Хлоя провоцирует противников вокруг. После окончания действия способности вокруг героя будет нанесёно %base_damage% уронв."
+		"DOTA_Tooltip_ability_war_fight_me_description"										"Хлоя провоцирует противников вокруг. После окончания действия способности вокруг героя будет нанесёно %base_damage% урона.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_war_fight_me_Note0"                                           "Полученный урон рассчитывается после снижения его броней."
         "DOTA_Tooltip_ability_war_fight_me_duration"										"Длительность: "
 		"DOTA_Tooltip_ability_war_fight_me_radius"											"Радиус: "
@@ -749,7 +755,7 @@
 		"DOTA_Tooltip_modifier_kurumi_zafkiel_Description" 								    "Остановлено время."
 
 		"DOTA_Tooltip_ability_gu_kurumi_seven_bullets"									    "<font color='#F81717'>「Seventh Bullet: Zayin」</font>"
-		"DOTA_Tooltip_ability_gu_kurumi_seven_bullets_Description"							    "<font color='#F81717'>Если цель противник:</font><br> Локально останавливает время для цели на %duration% секунд и наносит урон в размере %damage%.<br><br><font color='#47FA2E'>Если цель союзник:</font><br> Очищает союзную цель от всех эффектов (не наносит урон и не оглушает)."
+		"DOTA_Tooltip_ability_gu_kurumi_seven_bullets_Description"							    "<font color='#F81717'>Если цель противник:</font><br> Локально останавливает время для цели на %duration% секунд и наносит урон в размере %damage%.<br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!<br><br><font color='#47FA2E'>Если цель союзник:</font><br> Очищает союзную цель от всех эффектов (не наносит урон и не оглушает)."
 		"DOTA_Tooltip_ability_gu_kurumi_seven_bullets_health_cost"								"%Стоимость здоровья: "
 		    "DOTA_Tooltip_modifier_gu_kurumi_seven_bullets"									        "<font color='#F81717'>「Seventh Bullet: Zayin」</font>"
 		    "DOTA_Tooltip_modifier_gu_kurumi_seven_bullets_Description"							    "Время заморожено только для вас"
@@ -767,7 +773,7 @@
 		"DOTA_Tooltip_ability_gu_kurumi_twelfth_bullets_shard_Description"					"Позволяет Куруми при атаках востанавливать 100% здоровья от нанесённого урона во время действия способности."
 
 		"DOTA_Tooltip_ability_gu_kurumi_third_bullets"								    "<font color='#F81717'>「Third Bullet: Gimel」</font>"
-		"DOTA_Tooltip_ability_gu_kurumi_third_bullets_Description"						    "За каждый удар поглощает %health_steal% здоровья у цели и 50% от этого значения маны. Восстанавливает себе 50% здоровья от %health_steal%."
+		"DOTA_Tooltip_ability_gu_kurumi_third_bullets_Description"						    "За каждый удар поглощает %health_steal% здоровья у цели и 50% от этого значения маны. Восстанавливает себе 50% здоровья от %health_steal%.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_gu_kurumi_third_bullets_scepter_Description"				"Увеличивает востановление здоровья до 100% от урона"	
 
 		"DOTA_Tooltip_ability_gu_kurumi_tenth_bullets"									    "<font color='#F81717'>「Tenth Bullet: Yud Yutzudo」</font>"
@@ -776,6 +782,56 @@
 		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets"									    "<font color='#F81717'>「Fourth Bullet: Dalet」</font>"
 		"DOTA_Tooltip_ability_gu_kurumi_fourth_bullets_Description"							    "С шансом в %chance%%%, Куруми может увернуться от любого эффекта(урона, контроля, смерти, и остального). <br><br><font color='#F81717'>Перезарядку данной способности нельзя уменьшить.</font>"
 
+// =========================================
+// 1. ИНВЕРСИЯ (Трансформация)
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_inverse"                       "Инверсия: Белая Королева"
+        "DOTA_Tooltip_ability_kurumi_inverse_Description"           "Куруми принимает свою истинную форму <font color='#ffffff'>Белой Королевы</font>, получая колоссальную прибавку в <font color='#33ff33'>%bonus_agi%</font> к ловкости. Её способности полностью заменяются на разрушительные заклинания контроля пространства и времени.\n\n<font color='#ff4c4c'>Перезарядку этой способности невозможно уменьшить предметами или рунами.</font>"
+        "DOTA_Tooltip_ability_kurumi_inverse_bonus_agi"             "Бонусная ловкость: "
+        "DOTA_Tooltip_ability_kurumi_inverse_duration"              "Длительность формы: "
+
+        // =========================================
+        // 2. ПРОСТРАНСТВЕННЫЙ РАЗЛОМ
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_spatial_rift"                  "Пространственный разлом"
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_Description"      "Куруми совершает выстрел, разрывающий ткань пространства в радиусе <font color='#ffd700'>%radius%</font>. Разлом наносит <font color='#ffaa00'>чистый урон</font> и замедляет врагов на <font color='#00e5ff'>%slow_pct%%%</font>.\n\nУрон состоит из базовых <font color='#ff4c4c'>%damage%</font> единиц и дополнительно <font color='#33ff33'>50%</font> от текущей ловкости Куруми."
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_damage"           "Базовый урон: "
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_duration"         "Длительность замедления: "
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_radius"           "Радиус разлома: "
+        "DOTA_Tooltip_ability_kurumi_spatial_rift_slow_pct"         "%Замедление: "
+
+        // =========================================
+        // 3. ОСТАНОВКА МГНОВЕНИЯ
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_time_stop"                     "Остановка мгновения"
+        "DOTA_Tooltip_ability_kurumi_time_stop_Description"         "Куруми замораживает время в области радиусом <font color='#ffd700'>%radius%</font>. Все враги внутри полностью останавливаются на <font color='#ffd700'>%duration%</font> сек. В замороженном состоянии они не могут двигаться, атаковать или применять способности, но уязвимы для любого урона."
+        "DOTA_Tooltip_ability_kurumi_time_stop_radius"              "Радиус остановки: "
+        "DOTA_Tooltip_ability_kurumi_time_stop_duration"            "Длительность: "
+
+        // =========================================
+        // 4. ОБРАТНЫЙ ОТСЧЕТ (Аура)
+        // =========================================
+        "DOTA_Tooltip_ability_kurumi_countdown_aura"                "Обратный отсчет"
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_Description"    "Пассивно: само присутствие Белой Королевы крадет время врагов в радиусе <font color='#ffd700'>%radius%</font>, разрушая их защиту. Враги теряют <font color='#ff4c4c'>%armor_reduction%</font> брони и <font color='#00e5ff'>%ms_reduction%%%</font> от своей скорости передвижения."
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_radius"         "Радиус ауры: "
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_armor_reduction" "Снижение брони: "
+        "DOTA_Tooltip_ability_kurumi_countdown_aura_ms_reduction"   "%Замедление: "
+
+// Дебафф от первого скилла (Разлом)
+        "DOTA_Tooltip_modifier_kurumi_spatial_rift_slow"                "Пространственная нестабильность"
+        "DOTA_Tooltip_modifier_kurumi_spatial_rift_slow_Description"    "Ткань реальности разорвана. Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+        // Дебафф от второго скилла (Стан)
+        "DOTA_Tooltip_modifier_kurumi_time_stop_freeze"                 "Вне времени"
+        "DOTA_Tooltip_modifier_kurumi_time_stop_freeze_Description"     "Для этого существа время остановилось. Оно не может совершать никаких действий."
+
+        // Эффект ауры
+        "DOTA_Tooltip_modifier_kurumi_countdown_aura_effect"            "Обратный отсчет"
+        "DOTA_Tooltip_modifier_kurumi_countdown_aura_effect_Description" "Ваше время истекает. Броня снижена на <font color='#ff4c4c'>%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%</font>, а скорость — на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
+
+        // Бафф самой трансформации (Босс)
+        "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff"             "Форма Белой Королевы"
+        "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff_Description" " sssКуруми высвободила истинную силу Инверсии: Размер увеличен на 100%, Максимальное здоровье увеличено в 20 раз, Сила атаки увеличена в 10 раз"
 
 		"npc_dota_hero_queenofpain"				 "Mona Megistus「★★★★★」"
 
@@ -809,7 +865,7 @@
 
 
 		"DOTA_Tooltip_ability_gu_kanade_2"						                        "<font color='#B9B9B9'>「Distortion」</font>"
-		"DOTA_Tooltip_ability_gu_kanade_2_Description"				                        "После активации, создаёт силовое поле вокруг Канаде, которое отражает все атаки дальнего боя назад во врага (с талантом возвращает весь получаемый урон). Длительность - %reflect_duration% секунд, возвращает %damage_reflect_pct%%% урона от полученого."
+		"DOTA_Tooltip_ability_gu_kanade_2_Description"				                        "После активации, создаёт силовое поле вокруг Канаде, которое отражает все атаки дальнего боя назад во врага (с талантом возвращает весь получаемый урон). Длительность - %reflect_duration% секунд, возвращает %damage_reflect_pct%%% урона от полученого.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
  		"DOTA_Tooltip_modifier_gu_kanade_2"												"<font color='#B9B9B9'>「Distortion」</font>" 
 
 		"DOTA_Tooltip_ability_gu_kanade_3"						                        "<font color='#B9B9B9'>「Deformation」</font>"
@@ -907,15 +963,7 @@
 		"DOTA_Tooltip_ability_gu_madokami_madokazl"											""
 			"DOTA_Tooltip_modifier_gu_madokami_passive"													"<font color='#F2509F'>「Advent ceremony」</font>"
 			"DOTA_Tooltip_modifier_gu_madokami_passive_Description"									"Твои характеристики повышены"
-		
-		"DOTA_Tooltip_ability_madokaruler"												"<font color='#F2509F'>「A hail of arrows」</font>"
-		"DOTA_Tooltip_ability_madokaruler_Description"										"Имея в снаряжении огромный лук, Мадока может выстрелить градом светящихся стрел"
-		"DOTA_Tooltip_ability_madokaruler_radius"											"Радиус: "
-		"DOTA_Tooltip_ability_madokaruler_duration"											"Длительность: "
-		"DOTA_Tooltip_ability_madokaruler_tick_rate"										"Интервал: "
-		"DOTA_Tooltip_ability_madokaruler_shard_Description"							"Накладывает эффект неуязвимости к магии на всё время действия способности."
-		
-
+	
 			"npc_dota_hero_nyx_assassin" 									"Noire「★★★★」"
 
 		"DOTA_Tooltip_ability_noire_sword"												"<font color='#177AF8'>「Strike」</font>"
@@ -923,13 +971,13 @@
 		"DOTA_Tooltip_ability_noire_sword_radius"											"Радиус: "
 
 		"DOTA_Tooltip_ability_noire_slash"												"<font color='#177AF8'>「Energy Wave」</font>"
-		"DOTA_Tooltip_ability_noire_slash_Description"										"Выпускает 3 волны, которые наносят урон врагам."
+		"DOTA_Tooltip_ability_noire_slash_Description"										"Выпускает 3 волны, которые наносят урон врагам.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_noire_slash_speed"											"Скорость: "
 		"DOTA_Tooltip_ability_noire_slash_width"											"Ширина: "
 		"DOTA_Tooltip_ability_noire_slash_damage"											"Урон: "
 
 		"DOTA_Tooltip_ability_noire_medistation"										"<font color='#177AF8'>「Mediation」</font>"
-		"DOTA_Tooltip_ability_noire_medistation_Description"								"Наносит дополнительный урон с каждой атаки, проходящий сквозь уклонение."
+		"DOTA_Tooltip_ability_noire_medistation_Description"								"Наносит дополнительный урон с каждой атаки, проходящий сквозь уклонение.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_noire_medistation_duration"									"Длительность: "
 		"DOTA_Tooltip_ability_noire_medistation_armor"										"Броня:"
 		"DOTA_Tooltip_ability_noire_medistation_damage"										"Дополнительный урон:"
@@ -951,10 +999,10 @@
  		"npc_dota_hero_crystal_maiden" 										"Aqua「★★★★★★」"
 	
 		"DOTA_Tooltip_ability_puck_shadows_orb"                                         "<font color='#1163E9'>「Useless goddess」</font> "
-		"DOTA_Tooltip_ability_puck_shadows_orb_Description"									"Аква запускает во все стороны сферы, которые при попадании наносят %damage% + (интеллект * 0.5)."
+		"DOTA_Tooltip_ability_puck_shadows_orb_Description"									"Аква запускает во все стороны сферы, которые при попадании наносят %damage% + (интеллект * 0.5) урона."
 		 
 		"DOTA_Tooltip_ability_puck_shadows_orb2"                                        "<font color='#1163E9'>「Useless goddess」</font> "
-		"DOTA_Tooltip_ability_puck_shadows_orb2_Description"								"Аква запускает во все стороны сферы, которые при попадании наносят %damage% + (интеллект * 0.5)."
+		"DOTA_Tooltip_ability_puck_shadows_orb2_Description"								"Аква запускает во все стороны сферы, которые при попадании наносят %damage% + (интеллект * 0.5) урона.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_modifier_aqua_disable_heal"                                        "<font color='#1163E9'>「Useless goddess」</font>" 
 		"DOTA_Tooltip_modifier_aqua_disable_heal_Description"                            "Отключает восстановление здоровья." 
 
@@ -966,7 +1014,7 @@
 		"DOTA_Tooltip_ability_aqua_requiem_requiem_duration"								"Длительность оглушения: "
 		
 		"DOTA_Tooltip_ability_aqua_exorcism"											"<font color='#1163E9'>「Sacred exile」</font>"
-		"DOTA_Tooltip_ability_aqua_exorcism_Description"									"Запускает процесс очищения в выбранной области с радиусом %exorcism_radius%. Противники в области замедляются получая периодический урон а союзники получают лечение. Скорость поворота в области снижается на %exorcism_turn%%%. Наносит урон а так-же лечение по формуле - %exorcism_damage% + интеллект * 0.5."
+		"DOTA_Tooltip_ability_aqua_exorcism_Description"									"Запускает процесс очищения в выбранной области с радиусом %exorcism_radius%. Противники в области замедляются получая периодический урон а союзники получают лечение. Скорость поворота в области снижается на %exorcism_turn%%%. Наносит урон а так-же производит лечение по формуле - %exorcism_damage% + интеллект * 0.5.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_aqua_exorcism_exorcism_radius"								"Радиус:  "
 		"DOTA_Tooltip_ability_aqua_exorcism_exorcism_duration"								"Длительность: "
 		"DOTA_Tooltip_ability_aqua_exorcism_exorcism_interval"								"Интервал урона : "
@@ -977,7 +1025,7 @@
 		"DOTA_Tooltip_ability_aqua_exorcism_shard_Description"								"Накладывает обезмалвливание на врагов, попавших в радиус действия."
 		
         "DOTA_Tooltip_ability_aqua_heal"                                                "<font color='#1163E9'>「Holy healing」</font> "
-        "DOTA_Tooltip_ability_aqua_heal_Description"                                        "Использует исцеление на выбранного союзника или себя. Восстанавливает здоровье, нанося противникам вокруг урон."
+        "DOTA_Tooltip_ability_aqua_heal_Description"                                        "Использует исцеление на выбранного союзника или себя. Восстанавливает здоровье, нанося противникам вокруг урон.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_aqua_heal_heal_radius"                                        "Радиус: "
         "DOTA_Tooltip_ability_aqua_heal_heal_damage"                                        "Урон: "
 		"DOTA_Tooltip_ability_aqua_heal_heal"                                         		"Лечение: "
@@ -1003,7 +1051,7 @@
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa01_Description"							"Запускает звуковую волну в точку, нанося магический урон любому противнику на своем пути и заставляя его замолчать. \n Наносит %base_damage%, накладывает молчание на %silence_duration% секунд."
 
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa02"	 		 						"<font color='#C02EF7'>「Melancholic Strings」</font> "																												
-		"DOTA_Tooltip_ability_ability_thdotsr_lunasa02_Description"							"Добавляет магический урон к атакам Лунасы и заставляет ее цель получать дополнительный урон от магических атак в течение %duration% секунд.\n  Добавляет %base_damage% + %int_scale% * интеллект магического урона."
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa02_Description"							"Добавляет магический урон к атакам Лунасы и заставляет ее цель получать дополнительный урон от магических атак в течение %duration% секунд.\n  Добавляет %base_damage% + %int_scale% * интеллект магического урона.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 
 		"DOTA_Tooltip_modifier_ability_thdotsr_lunasa03_passive_lua"                    "<font color='#C02EF7'>「Sorrowful Phantasmal Music」</font>"	
 		"DOTA_Tooltip_modifier_ability_thdotsr_lunasa03_passive_lua_Description"            "Лунаса имеет (%dMODIFIER_PROPERTY_TOOLTIP%%%) шанса нанести критический урон со своих заклинаний."			
@@ -1017,7 +1065,7 @@
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa04_shard_Description"					"Изменяет тип урона на чистый"
 
 		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05"	 		 						"<font color='#C02EF7'>「Prismriver Concerto - Violin Solo」</font>"																												
-		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05_Description"							"Каждую 10 атаку, Лунаса наносит дополнительный урон по формуле [%base_damage% + %damage_per_level% * уровень] магического урона за каждую атаку. \n Каждый вражеский юнит, который был убит Лунасой, добавляет ей +%amplify_percent%% к усилению способностей."
+		"DOTA_Tooltip_ability_ability_thdotsr_lunasa05_Description"							"Каждую 10 атаку, Лунаса наносит дополнительный урон по формуле [%base_damage% + %damage_per_level% * уровень] магического урона за каждую атаку. \n Каждый вражеский юнит, который был убит Лунасой, добавляет ей +%amplify_percent%% к усилению способностей.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 			"DOTA_Tooltip_modifier_lunasa05_spell_amp"											"「Prismriver Concerto - Violin Solo」"
 			"DOTA_Tooltip_modifier_lunasa05_spell_amp_Description"								"Добавляет +%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%% к усилению заклинаний."
 			"DOTA_Tooltip_modifier_lunasa05_innate_passive" 									"「Prismriver Concerto - Violin Solo」"
@@ -1818,7 +1866,7 @@
 			"DOTA_Tooltip_rule_breaker_Description"												""
 		
 		"DOTA_Tooltip_ability_Zabaniya"													"<font color='#F717F7'>「Zabaniya」</font>"
-		"DOTA_Tooltip_ability_Zabaniya_Description"											"Телепортирует героя в выбранную точку, при этом герой избегает снаряды и атаки, также входит в невидимость после телепортации."
+		"DOTA_Tooltip_ability_Zabaniya_Description"											"Телепортирует героя в выбранную точку, при этом герой избегает снаряды и атаки, а также входит в невидимость после телепортации."
 
 
 			"npc_dota_hero_wisp"											"Mote of Energy「★★★」"	
@@ -1830,7 +1878,7 @@
 		"DOTA_Tooltip_ability_alroth_energy_burst_radius" 									"Радиус: "
 
 		"DOTA_Tooltip_ability_alroth_raze" 												"<font color='#F7DF17'>「Unstable Energy Clump」</font> "
-		"DOTA_Tooltip_ability_alroth_raze_Description" 										"В выбранной точке высвобождает энергетический сгусток, который наносит переодический урон +1.5% от максимального здоровья героя всем врагам, которые попали в радиус действия."
+		"DOTA_Tooltip_ability_alroth_raze_Description" 										"В выбранной точке высвобождает энергетический сгусток, который наносит периодический урон +1.5% от максимального здоровья героя всем врагам, которые попали в радиус действия."
 		"DOTA_Tooltip_ability_alroth_raze_damage_per_second" 								"Урон: "
 		"DOTA_Tooltip_ability_alroth_raze_duration" 										"Длительность: "
 		"DOTA_Tooltip_ability_alroth_raze_radius" 											"Радиус: "
@@ -8084,96 +8132,6 @@
 		"DOTA_Tooltip_ability_item_gu_rune_gold_3_Description"							"Пассивно дает <font color='#FFD700'>%base_gpm%</font> золота в минуту.\n\nЗа каждую поднятую героем <font color='#DA70D6'>руну</font> (с самого начала игры) пассивный приток золота дополнительно увеличивается на <font color='#FFD700'>%gpm_per_rune%</font> в минуту."
 		"DOTA_Tooltip_ability_item_gu_rune_gold_3_base_gpm"								"БАЗОВОЕ ЗОЛОТО/МИН:"
 		"DOTA_Tooltip_ability_item_gu_rune_gold_3_gpm_per_rune"							"ЗОЛОТО/МИН ЗА РУНУ:"
-
-
-// =========================================
-// 1. ИНВЕРСИЯ (Трансформация)
-        // =========================================
-        "DOTA_Tooltip_ability_kurumi_inverse"                       "Инверсия: Белая Королева"
-        "DOTA_Tooltip_ability_kurumi_inverse_Description"           "Куруми принимает свою истинную форму <font color='#ffffff'>Белой Королевы</font>, получая колоссальную прибавку в <font color='#33ff33'>%bonus_agi%</font> к ловкости. Её способности полностью заменяются на разрушительные заклинания контроля пространства и времени.\n\n<font color='#ff4c4c'>Перезарядку этой способности невозможно уменьшить предметами или рунами.</font>"
-        "DOTA_Tooltip_ability_kurumi_inverse_bonus_agi"             "БОНУСНАЯ ЛОВКОСТЬ:"
-        "DOTA_Tooltip_ability_kurumi_inverse_duration"              "ДЛИТЕЛЬНОСТЬ ФОРМЫ:"
-
-        // =========================================
-        // 2. ПРОСТРАНСТВЕННЫЙ РАЗЛОМ
-        // =========================================
-        "DOTA_Tooltip_ability_kurumi_spatial_rift"                  "Пространственный разлом"
-        "DOTA_Tooltip_ability_kurumi_spatial_rift_Description"      "Куруми совершает выстрел, разрывающий ткань пространства в радиусе <font color='#ffd700'>%radius%</font>. Разлом наносит <font color='#ffaa00'>чистый урон</font> и замедляет врагов на <font color='#00e5ff'>%slow_pct%%%</font>.\n\nУрон состоит из базовых <font color='#ff4c4c'>%damage%</font> единиц и дополнительно <font color='#33ff33'>50%</font> от текущей ловкости Куруми."
-        "DOTA_Tooltip_ability_kurumi_spatial_rift_damage"           "БАЗОВЫЙ УРОН:"
-        "DOTA_Tooltip_ability_kurumi_spatial_rift_duration"         "ДЛИТЕЛЬНОСТЬ ЗАМЕДЛЕНИЯ:"
-        "DOTA_Tooltip_ability_kurumi_spatial_rift_radius"           "РАДИУС РАЗЛОМА:"
-        "DOTA_Tooltip_ability_kurumi_spatial_rift_slow_pct"         "%ЗАМЕДЛЕНИЕ:"
-
-        // =========================================
-        // 3. ОСТАНОВКА МГНОВЕНИЯ
-        // =========================================
-        "DOTA_Tooltip_ability_kurumi_time_stop"                     "Остановка мгновения"
-        "DOTA_Tooltip_ability_kurumi_time_stop_Description"         "Куруми замораживает время в области радиусом <font color='#ffd700'>%radius%</font>. Все враги внутри полностью останавливаются на <font color='#ffd700'>%duration%</font> сек. В замороженном состоянии они не могут двигаться, атаковать или применять способности, но уязвимы для любого урона."
-        "DOTA_Tooltip_ability_kurumi_time_stop_radius"              "РАДИУС ОСТАНОВКИ:"
-        "DOTA_Tooltip_ability_kurumi_time_stop_duration"            "ДЛИТЕЛЬНОСТЬ (СЕК):"
-
-        // =========================================
-        // 4. ОБРАТНЫЙ ОТСЧЕТ (Аура)
-        // =========================================
-        "DOTA_Tooltip_ability_kurumi_countdown_aura"                "Обратный отсчет"
-        "DOTA_Tooltip_ability_kurumi_countdown_aura_Description"    "Пассивно: само присутствие Белой Королевы крадет время врагов в радиусе <font color='#ffd700'>%radius%</font>, разрушая их защиту. Враги теряют <font color='#ff4c4c'>%armor_reduction%</font> брони и <font color='#00e5ff'>%ms_reduction%%%</font> от своей скорости передвижения."
-        "DOTA_Tooltip_ability_kurumi_countdown_aura_radius"         "РАДИУС АУРЫ:"
-        "DOTA_Tooltip_ability_kurumi_countdown_aura_armor_reduction" "СНИЖЕНИЕ БРОНИ:"
-        "DOTA_Tooltip_ability_kurumi_countdown_aura_ms_reduction"   "%ЗАМЕДЛЕНИЕ:"
-
-// Дебафф от первого скилла (Разлом)
-        "DOTA_Tooltip_modifier_kurumi_spatial_rift_slow"                "Пространственная нестабильность"
-        "DOTA_Tooltip_modifier_kurumi_spatial_rift_slow_Description"    "Ткань реальности разорвана. Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
-
-        // Дебафф от второго скилла (Стан)
-        "DOTA_Tooltip_modifier_kurumi_time_stop_freeze"                 "Вне времени"
-        "DOTA_Tooltip_modifier_kurumi_time_stop_freeze_Description"     "Для этого существа время остановилось. Оно не может совершать никаких действий."
-
-        // Эффект ауры
-        "DOTA_Tooltip_modifier_kurumi_countdown_aura_effect"            "Обратный отсчет"
-        "DOTA_Tooltip_modifier_kurumi_countdown_aura_effect_Description" "Ваше время истекает. Броня снижена на <font color='#ff4c4c'>%dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%</font>, а скорость — на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
-
-        // Бафф самой трансформации (Босс)
-        "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff"             "Форма Белой Королевы"
-        "DOTA_Tooltip_modifier_gu_boss_kurumi_inverce_buff_Description" " sssКуруми высвободила истинную силу Инверсии: Размер увеличен на 100%, Максимальное здоровье увеличено в 20 раз, Сила атаки увеличена в 10 раз"
-
-		// 1. Темное пламя (dark_fire)
-		"DOTA_Tooltip_ability_gu_lina_dark_fire"							"<font color='#FE5C2C'>「Темное Пламя」</font>"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_Description"				"Лина выпускает разрушительную волну темного огня, наносящую чистый урон и оглушающую врагов на линии.\n\nУрон способности увеличивается в зависимости от Интеллекта героя. Пораженные враги дополнительно получают заряды <font color='#FF3333'>「Вечного Пламени」</font>."
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_damage"						"БАЗОВЫЙ УРОН:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_intellect"					"%УРОН ОТ ИНТЕЛЛЕКТА:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_stun_duration"				"ОГЛУШЕНИЕ:"
-		"DOTA_Tooltip_ability_gu_lina_dark_fire_ignite_count"				"ЗАРЯДОВ ПОДЖОГА:"
-
-		// 2. Вспышка Света (light_array)
-		"DOTA_Tooltip_ability_gu_lina_light_array"							"<font color='#FFD700'>「Вспышка Света」</font>"
-		"DOTA_Tooltip_ability_gu_lina_light_array_Description"				"Призывает столб концентрированного пламени, который оглушает врагов на %stun_duration% сек., наносит урон и оставляет выжженную землю. \n\nВраги, оставшиеся на выжженной земле, получают периодический урон и дополнительные заряды <font color='#FF3333'>「Вечного Пламени」</font>, а после окончания оглушения их скорость передвижения сильно снижается."
-		"DOTA_Tooltip_ability_gu_lina_light_array_base_damage"				"БАЗОВЫЙ УРОН:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_intellect"				"%УРОН ОТ ИНТЕЛЛЕКТА:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_radius"					"РАДИУС ВЗРЫВА:"
-		"DOTA_Tooltip_ability_gu_lina_light_array_duration"					"ВРЕМЯ ГОРЕНИЯ ЗЕМЛИ:"
-		
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun"					"<font color='#FFD700'>「Оглушение вспышкой」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_stun_Description"		"Оглушен столбом пламени."
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff"					"<font color='#FFD700'>「Ожоги вспышки」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_light_array_debuff_Description"		"Скорость передвижения снижена на <font color='#00e5ff'>%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%</font>."
-
-		// 3. Пепел (ashes)
-		"DOTA_Tooltip_ability_gu_lina_ashes"								"<font color='#A8A8A8'>「Прах к Праху」</font>"
-		"DOTA_Tooltip_ability_gu_lina_ashes_Description"					"Каждое применение заклинаний окружает Лину вихрем пепла, даруя ей стаки усиления."
-		"DOTA_Tooltip_ability_gu_lina_ashes_duration"						"ДЛИТЕЛЬНОСТЬ ПЕПЛА:"
-		
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff"							"<font color='#A8A8A8'>「Прах к Праху」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_ashes_buff_Description"				"Пепел от примененных заклинаний обволакивает героя."
-
-		// 4. Вечное пламя (endless_ignite)
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite"						"<font color='#FF3333'>「Вечное Пламя」</font>"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_Description"			"Атаки и способности Лины поджигают врагов чистым пламенем. Каждый заряд наносит периодический чистый урон, размер которого напрямую зависит от текущего показателя Интеллекта Лины."
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_duration"				"ДЛИТЕЛЬНОСТЬ ПОДЖОГА:"
-		"DOTA_Tooltip_ability_gu_lina_endless_ignite_damage"				"БАЗОВЫЙ УРОН (ЗА СТАК):"
-		
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff"				"<font color='#FF3333'>「Вечное пламя」</font>"
-		"DOTA_Tooltip_modifier_gu_lina_endless_ignite_debuff_Description"	"Этот юнит горит. Он получает огромный периодический чистый урон в зависимости от Интеллекта заклинателя."
 	
 		"Talent_Header_Main"    "🌟 ТАЛАНТЫ ВОЗВЫШЕНИЯ"
         "Talent_Status_Active"  "[АКТИВЕН]"
