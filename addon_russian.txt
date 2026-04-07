@@ -226,14 +226,14 @@
     		"npc_dota_hero_abaddon"											"Ghost Warrior「★★★★」"
 			
 		"DOTA_Tooltip_ability_odin_gods_eye"                                            "<font color='#B56213'>「Chaos Field」</font> "
-		"DOTA_Tooltip_ability_odin_gods_eye_description"									"Замедляет всех противников в выбранной области, а также получает в ней обзор на время действия способности."
+		"DOTA_Tooltip_ability_odin_gods_eye_description"									"Замедляет всех противников и получает обзор в выбранной области на время действия способности."
 		"DOTA_Tooltip_ability_odin_gods_eye_duration"										"Длительность: "
 		"DOTA_Tooltip_ability_odin_gods_eye_radius"											"Радиус: "
 		"DOTA_Tooltip_ability_odin_gods_eye_bonus_movespeed"								"%Замедление скорости передвижения: "
         "DOTA_Tooltip_ability_odin_gods_eye_bonus_movespeed"								"Замедление скорости атаки: "
 
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil"                                      "<font color='#B56213'>「Ghost Form」</font>"
-		"DOTA_Tooltip_ability_odin_sleipnirs_veil_description"								"Переходит в призрачную форму, в которой способен проходить сквозь противников, нанося им урон. Увеличивает скорость передвижения до 1000. Наносит урон за каждое прохождение сквозь противников."
+		"DOTA_Tooltip_ability_odin_sleipnirs_veil_description"								"Переходит в призрачную форму, в которой Воин способен проходить сквозь противников, нанося им урон. Увеличивает скорость передвижения до 1000. Наносит урон за каждое прохождение сквозь противника."
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_duration"									"Длительность: "
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_slow"										"%Замедление: "
 		"DOTA_Tooltip_ability_odin_sleipnirs_veil_damage"									"Урон: "
@@ -264,19 +264,19 @@
             "npc_dota_hero_legion_commander"							     "Legate of the Legion「★★★★」"
 		"DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds"                    "<font color='#F86708'>「Auxilia sagittarius」</font>"
         "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_Description"        "Обрушивает на врагов мощь легиона. Наносит базовый урон, а также дополнительный урон за каждого задетого врага. За каждого задетого юнита владелец получает бонус к скорости передвижения на время."
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_radius"             "РАДИУС:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_base_damage"        "БАЗОВЫЙ УРОН:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_creep"   "УРОН ЗА КРИПА:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_hero"    "УРОН ЗА ГЕРОЯ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_creep"  "%СКОРОСТЬ ЗА КРИПА:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_hero"   "%СКОРОСТЬ ЗА ГЕРОЯ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_duration"           "ДЛИТЕЛЬНОСТЬ БОНУСА:"
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_radius"             "Радиус: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_base_damage"        "Базовый урон:" 
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_creep"   "Урон за крипа: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_damage_per_hero"    "Урон за героя: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_creep"  "%Скорость за крипа: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_bonus_speed_hero"   "%Скорость за героя: "
+        "DOTA_Tooltip_ability_gu_legion_commander_overwhelming_odds_duration"           "Длительность бонуса: "
 
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack"                     "<font color='#F86708'>「Fortitude」</font> "
         "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_Description"         "Снимает с выбранной союзной цели все отрицательные эффекты и оглушение (сильное развеивание), а также дарит дополнительную скорость атаки и восстановление здоровья на короткое время."
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "ДЛИТЕЛЬНОСТЬ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "ВОССТАНОВЛЕНИЕ ЗДОРОВЬЯ:"
-        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_attack_speed"        "ДОП. СКОРОСТЬ АТАКИ:"
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_duration"            "Длительность: "
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_hp_regen"            "Восстановление здоровья: "
+        "DOTA_Tooltip_ability_gu_legion_commander_press_the_attack_attack_speed"        "Доп. скорость атаки: "
 
 		// Локализация модификатора Overwhelming Odds
         "DOTA_Tooltip_modifier_gu_overwhelming_odds"                "Overwhelming Odds"
@@ -289,7 +289,7 @@
 		"DOTA_Tooltip_ability_axe_counter_helix2"										"<font color='#F86708'>「Legion Strike 」</font>"
         "DOTA_Tooltip_ability_axe_counter_helix2_Description"								"Легион хранит своего Легата, атакуя всех противников, угрожающих ему."
         "DOTA_Tooltip_ability_axe_counter_helix2_radius"									"Радиус: "
-        "DOTA_Tooltip_ability_axe_counter_helix2_trigger_chance"							"%Шанс срабатывания:"
+        "DOTA_Tooltip_ability_axe_counter_helix2_trigger_chance"							"%Шанс срабатывания: "
         "DOTA_Tooltip_ability_axe_counter_helix2_damage"									"Урон: "
         
         
@@ -1829,7 +1829,7 @@
 			"DOTA_Tooltip_rule_breaker_Description"												""
 		
 		"DOTA_Tooltip_ability_Zabaniya"													"<font color='#F717F7'>「Zabaniya」</font>"
-		"DOTA_Tooltip_ability_Zabaniya_Description"											"Телепортирует героя в выбранную точку, при этом герой избегает снаряды и атаки, также входит в невидимость после телепортации."
+		"DOTA_Tooltip_ability_Zabaniya_Description"											"Телепортирует героя в выбранную точку, при этом герой избегает снаряды и атаки, а также входит в невидимость после телепортации."
 
 
 			"npc_dota_hero_wisp"											"Mote of Energy「★★★」"	
@@ -1841,7 +1841,7 @@
 		"DOTA_Tooltip_ability_alroth_energy_burst_radius" 									"Радиус: "
 
 		"DOTA_Tooltip_ability_alroth_raze" 												"<font color='#F7DF17'>「Unstable Energy Clump」</font> "
-		"DOTA_Tooltip_ability_alroth_raze_Description" 										"В выбранной точке высвобождает энергетический сгусток, который наносит переодический урон +1.5% от максимального здоровья героя всем врагам, которые попали в радиус действия."
+		"DOTA_Tooltip_ability_alroth_raze_Description" 										"В выбранной точке высвобождает энергетический сгусток, который наносит периодический урон +1.5% от максимального здоровья героя всем врагам, которые попали в радиус действия."
 		"DOTA_Tooltip_ability_alroth_raze_damage_per_second" 								"Урон: "
 		"DOTA_Tooltip_ability_alroth_raze_duration" 										"Длительность: "
 		"DOTA_Tooltip_ability_alroth_raze_radius" 											"Радиус: "
