@@ -2650,7 +2650,7 @@
 		"DOTA_Tooltip_ability_item_scythe_of_the_ancients_4_r_Description" 					"Можно получить выполнив квест за Кастера"
  
       "DOTA_Tooltip_ability_item_stellar_base"                                    "Осколок Солнца"
-		"DOTA_Tooltip_ability_item_stellar_base_Description"                        "<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта."
+		"DOTA_Tooltip_ability_item_stellar_base_Description"                        "Древний осколок Солнца"
 
 		"DOTA_Tooltip_ability_item_stellar_flare"                                   "Звёздная вспышка"
 		"DOTA_Tooltip_ability_item_stellar_flare_Description"                       "<h1>Пассивная: Космические колебания</h1> Каждые 2 секунды с шансом 20% обрушивает на врагов в радиусе %range% космическую молнию. Удар наносит магический урон, равный 5% от текущего здоровья цели + ваш текущий показатель интеллекта.\n<h1>Пассивная: Звёздный разум</h1> За каждую единицу интеллекта владелец получает 2 дополнительных единицы маны."
@@ -3715,7 +3715,7 @@
 		"primogem"													"Камень Истока"
 		"DOTA_Tooltip_ability_item_primogem_Description"			"Игровая валюта."
 		"DOTA_Tooltip_ability_item_pray_standart"					"Судьбоносные Встречи"
-		"DOTA_Tooltip_ability_item_stellar"							"Свободный Звёздный Блеск"
+		"DOTA_Tooltip_ability_item_stellar"							"Звёздный Блеск"
 		"DOTA_Tooltip_ability_item_stellar_Description"				"Вы сможете прокачать своего персонажа."
 		"standart_pray_coin"										"Судьбоносные Встречи"
 		"DOTA_Tooltip_ability_item_pray_standart_Description"		"Вы сможете помолиться в стандартном баннере «История Андромеды»."
@@ -8186,5 +8186,8 @@
 		"DOTA_Tooltip_modifier_tree_cutter_tracker_Description"    "Счетчик поваленных деревьев. Местные легенды гласят, что запах свежих щепок приманивает любителей свежего мяса..."
 
 		"ebobo_text"	"???"
+
+		"npc_dota_hero_none" 				"Ничего"
+		"npc_dota_hero_none_Description" 	"Слишком низкая сложность чтобы за это получать персонажа"
 	}	
 }
