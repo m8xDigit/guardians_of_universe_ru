@@ -841,7 +841,7 @@
 		"DOTA_Tooltip_ability_gu_mona_1_shard_Description"								"Уменьшает потребление энергии до 1% за тик"	
 
 		"DOTA_Tooltip_ability_gu_mona_2"									    "<font color='#44C5FC'>「Let fate roll the bones!」</font>"
-		"DOTA_Tooltip_ability_gu_mona_2_Description"							    "Увеличивает бонус Гидро урона Моны на %gydro_dmg%%% от её восстановления энергии. Накладывает на противника статус 「Мокрый」."
+		"DOTA_Tooltip_ability_gu_mona_2_Description"							    "Увеличивает бонус Гидро урона Моны на %gydro_dmg%%% от её восстановления энергии. Накладывает на противника статус 「Мокрый」.<br>Добавляет к атакам Восстановление энергии * %gydro_dmg%% гидро урона, данный урон не может быть увеличен силой заклинаний."
 
 		"DOTA_Tooltip_ability_gu_mona_3"									    "<font color='#44C5FC'>「Reflection of fate 」</font>"
 		"DOTA_Tooltip_ability_gu_mona_3_Description"							    "Создаёт фантома судьбы из водных пузырей.<br><br> Фантом: имеет следующие свойства:<br> Непрерывно привлекает атаки врагов на себя;<br><br> Непрерывно наносит Гидро урон окружающим врагам;<br><br> По истечении времени действия фантом взрывается, нанося Гидро урон по площади.<br><br> Урон - %damage%<br> Радиус - %radius%<br> Длительность - %duration%<br> Интервал - %interval%"
@@ -1075,7 +1075,7 @@
 			"npc_dota_hero_dark_willow"										"Megumin「★★★★」"  
 
 		"DOTA_Tooltip_ability_megumin_explosion"										"<font color='#F72E49'>「Explosion」</font> "
-		"DOTA_Tooltip_ability_megumin_explosion_Description"								"После некоторой задержки Мегумин использует на цель свою взрывную магию." 
+		"DOTA_Tooltip_ability_megumin_explosion_Description"								"После некоторой задержки Мегумин использует на цель свою взрывную магию, нанося урон и оглушая противников. Конечный урон зависит от затраченной маны." 
 		"DOTA_Tooltip_ability_megumin_explosion_radius"										"Радиус:  "
 		"DOTA_Tooltip_ability_megumin_explosion_duration"									"Задержка применения: "
 		"DOTA_Tooltip_ability_megumin_explosion_damage"										"Урон: "
@@ -1124,7 +1124,7 @@
 			"DOTA_Tooltip_modifier_miku_resonance_Description"									"Урон увеличивается за каждый эффект."
 		
 		"DOTA_Tooltip_ability_miku_dissonance"											"<font color='#5FD7EA'>「Inharmoniousness」</font>"
-		"DOTA_Tooltip_ability_miku_dissonance_Description"									"Каждая музыкальная волна Мику резонирует, нанося урон от вашего интеллекта * %damage%."
+		"DOTA_Tooltip_ability_miku_dissonance_Description"									"Каждая музыкальная волна Мику резонирует, нанося урон от вашего интеллекта * %damage%.<br><br><font color='#cf1919'>Внимание! Дополнительный урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_miku_dissonance_radius"										"Радиус: "
 		"DOTA_Tooltip_ability_miku_dissonance_shard_Description"							"Добавляет +0.2 к множителю на всех уровнях."
 					
@@ -1148,7 +1148,7 @@
 		"DOTA_Tooltip_ability_sakuya_knife_damage"											"Урон: "
 
 		"DOTA_Tooltip_ability_sakuya_knives"											"「Killer Doll」"
-		"DOTA_Tooltip_ability_sakuya_knives_Description"									"Сакуя закидывает врага вихрем кинжалов."
+		"DOTA_Tooltip_ability_sakuya_knives_Description"									"Сакуя закидывает врага вихрем кинжалов. Наносит дополнительный урон ловкость*2."
 		"DOTA_Tooltip_ability_sakuya_knives_damage"											"Урон за нож: "
 		"DOTA_Tooltip_ability_sakuya_knives_duration"										"Длительность: "
 		"DOTA_Tooltip_ability_sakuya_knives_knives"											"Всего ножей: "
@@ -1186,7 +1186,7 @@
 		"npc_dota_anime_enterprise_plane"												"「Squadron: Fighter」"
 		
 		"DOTA_Tooltip_ability_enterprise_fighter"                                  		"<font color='#F7A22E'>「Squadron: Fighter」</font>"
-		"DOTA_Tooltip_ability_enterprise_fighter_Description"                            	"Призывает боевой самолёт, который кружит вокруг цели и атакует ближайшего врага в своём радиусе атаки. Применение на себя или союзника, заставляет самолёт следовать за ними. <br><br> Не перезаряжается самостоятельно. Способность может быть перезаряжена только при помощи 「Tactical rearmament」."
+		"DOTA_Tooltip_ability_enterprise_fighter_Description"                            	"Призывает боевой самолёт, который кружит вокруг цели и атакует ближайшего врага в своём радиусе атаки. Применение на себя или союзника, заставляет самолёт следовать за ними. <br><br> Не перезаряжается самостоятельно. Способность может быть перезаряжена только при помощи 「Tactical rearmament」<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!."
 		"DOTA_Tooltip_ability_enterprise_fighter_fighter_damage"                   			"Урон за выстрел :"
 		"DOTA_Tooltip_ability_enterprise_fighter_fighter_interval"                       	"Интервал выстрелов: "
 		"DOTA_Tooltip_ability_enterprise_fighter_fighter_radius"                  			"Область: "
@@ -1264,7 +1264,7 @@
 			"npc_dota_hero_lich"											"Emilia「★★★」"
 
 		"DOTA_Tooltip_ability_emilia_shoots"											"<font color='#39B4EA'>「Ice Arrows」</font>"
-		"DOTA_Tooltip_ability_emilia_shoots_Description"									"Эмилия создает ледяные стрелы, замораживающие противников при попадании. Потребляет энергию каждые %tick% секунды."
+		"DOTA_Tooltip_ability_emilia_shoots_Description"									"Эмилия создает ледяные стрелы, замораживающие противников при попадании. Потребляет энергию каждые %tick% секунды.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_emilia_shoots_speed"											"Скорость стрел: "
 		"DOTA_Tooltip_ability_emilia_shoots_damage"											"Урон стрел: "
 		"DOTA_Tooltip_ability_emilia_shoots_tick"											"Скорость стрельбы: "
@@ -1290,7 +1290,7 @@
 		"DOTA_Tooltip_ability_emilia_shield_scepter_Description"						"Уменьшает перезарядку на 20 секунд."
 
 		"DOTA_Tooltip_ability_emilia_passive"											"<font color='#39B4EA'>「Ice Magic」</font>"
-		"DOTA_Tooltip_ability_emilia_passive_Description"									"Если Эмилия получает от противника\наносит противнику больше, чем %damage_freeze% урона за секунду, то он будет заморожен и получит урон, который нанесла по Эмилии."
+		"DOTA_Tooltip_ability_emilia_passive_Description"									"Если Эмилия получает от противника\наносит противнику больше, чем %damage_freeze% урона за секунду, то он будет заморожен и получит урон, который нанесла по Эмилии.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_emilia_passive_duration_freeze"								"Длительность заморозки: "
 		"DOTA_Tooltip_ability_emilia_passive_interval"										"Интервал получения урона: "
 			"DOTA_Tooltip_modifier_emilia_passive_debuff"										"<font color='#39B4EA'>「Ice Magic」</font>"
