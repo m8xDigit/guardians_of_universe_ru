@@ -858,7 +858,7 @@
 		"npc_dota_hero_spectre" 								            "Kanade Tachibana「★★★★★」"
 
 		"DOTA_Tooltip_ability_gu_kanade_1"						                        "<font color='#B9B9B9'>「Blades on hand」</font>"
-		"DOTA_Tooltip_ability_gu_kanade_1_Description"				                        "После активации, добавляет +%bonus_damage% к урону, +%bonus_ats% к скорости атаки и +%bonus_agility% к ловкости. Пассивно наносит дополнительный урон в зависимости от вашей ловкости и становит - %passive_agility_dmg_persent%%% от текущей ловкости."
+		"DOTA_Tooltip_ability_gu_kanade_1_Description"				                        "После активации, добавляет +%bonus_damage% к урону, +%bonus_ats% к скорости атаки и +%bonus_agility% к ловкости. Пассивно наносит дополнительный урон в зависимости от вашей ловкости и становит - %passive_agility_dmg_persent%%% от текущей ловкости.<br>Длительность - %duration% секунд."
  		"DOTA_Tooltip_modifier_gu_kanade_1"												"<font color='#B9B9B9'>「Blades on hand」</font>"
 		"DOTA_Tooltip_modifier_gu_kanade_1_Description"									"Добавляет +%dMODIFIER_PROPERTY_PREATTACK_BONUS_DAMAGE% к урону, +%dMODIFIER_PROPERTY_STATS_AGILITY_BONUS% к ловкости и +%dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% к скорости атаки"		
 		"DOTA_Tooltip_ability_gu_kanade_1_scepter_Description"							"Увеличивает бонусную ловкость на 50%"
@@ -1337,18 +1337,18 @@
 			"npc_dota_hero_skeleton_king" 									"Lich King「★★★★★」"
 
 		"DOTA_Tooltip_ability_king_lich_frost_nova"										"<font color='#175BF7'>「Primal Cold」</font> "
-		"DOTA_Tooltip_ability_king_lich_frost_nova_Description"								"Король Лич открывает портал в Темный Космоc, призывая первобытный холод. Наносит урон и оглушает врагов в радиусе %radius%."
+		"DOTA_Tooltip_ability_king_lich_frost_nova_Description"								"Король Лич открывает портал в Темный Космоc, призывая первобытный холод. Наносит урон и оглушает врагов в радиусе %radius%.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_king_lich_frost_nova_duration"								"Длительность оглушения: "
 
 		"DOTA_Tooltip_ability_lich_king_winter_curse"                               	"<font color='#175BF7'>「Winter's Curse」</font> "
-		"DOTA_Tooltip_ability_lich_king_winter_curse_Description"                         	"Создает ледяную бурю вокруг Короля Лича, которая замедляет и наносит урон в радиусе %radius%."
+		"DOTA_Tooltip_ability_lich_king_winter_curse_Description"                         	"Создает ледяную бурю вокруг Короля Лича, которая замедляет и наносит урон в радиусе %radius%.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_lich_king_winter_curse_rot_slow"                            	"%Замедление: "
 		"DOTA_Tooltip_ability_lich_king_winter_curse_damage_mult"						  	"Множитель от силы: "
 		"DOTA_Tooltip_ability_lich_king_winter_curse_energy_cost"						  	"Затраты энергии: "
 			"DOTA_Tooltip_modifier_lich_king_winter_curse"										"<font color='#175BF7'>「Winter's Curse」</font> "
 
 		"DOTA_Tooltip_ability_lich_stealer"												"<font color='#175BF7'>「Frostmourne's Drain」</font> "
-		"DOTA_Tooltip_ability_lich_stealer_Description"										"Пассивная: Меч требует крови смертных. С шансом в 17% Король Лич наносит урон в %hp_leech_percent%%% от текущего здоровья врага, если враг Хранитель, то наносит 1% от максимального здоровья цели."
+		"DOTA_Tooltip_ability_lich_stealer_Description"										"Пассивная: Меч требует крови смертных. С шансом в 17% Король Лич наносит урон в %hp_leech_percent%%% от текущего здоровья врага, если враг Хранитель, то наносит 1% от максимального здоровья цели.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 
 		"DOTA_Tooltip_ability_gu_lich_stealer"											"<font color='#175BF7'>「Frostmourne's Drain」</font> "
 		"DOTA_Tooltip_ability_gu_lich_stealer_Description"									"Пассивная: Меч требует крови смертных. С каждым ударом Король Лич наносит урон в %hp_leech_percent%%% от текущего здоровья врага."
@@ -1359,7 +1359,7 @@
 		"DOTA_Tooltip_ability_lich_king_reincarnation_scepter_Description"					"После возрождения Король Лич получит неуязвимость к магии на 3 секунды"
 	
 		"DOTA_Tooltip_ability_lich_king_cold_reaper"                                    "<font color='#175BF7'>「Cold Reaper」</font>"
-		"DOTA_Tooltip_ability_lich_king_cold_reaper_Description"                          	"Король Лич высвобождает всю мощь Фростморна, замораживая ближайших врагов и нанося им урон."
+		"DOTA_Tooltip_ability_lich_king_cold_reaper_Description"                          	"Король Лич высвобождает всю мощь Фростморна, замораживая ближайших врагов и нанося им урон.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_lich_king_cold_reaper_range"                                	"Дальность: "
 		"DOTA_Tooltip_ability_lich_king_cold_reaper_damage"                               	"Урон: "
 		"DOTA_Tooltip_ability_lich_king_cold_reaper_duration"                             	"Длительность заморозки: "
@@ -1561,7 +1561,7 @@
         	"DOTA_Tooltip_modifier_gu_marisa_aura_buff_Description" 							" +%dMODIFIER_PROPERTY_HEALTH_BONUS% к максимальному здоровью,<br> +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% к регенерации здоровья,<br> +%dMODIFIER_PROPERTY_BASEATTACK_BONUSDAMAGE% бонусный базовый урон <br> +%dMODIFIER_PROPERTY_MANA_BONUS% Бонус к мане,<br> +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% к регенераций маны "
 
 		"DOTA_Tooltip_ability_marisa_starfall"            								"<font color='#D4FF00'>「Magic Sign: Milky Way」</font>"
-		"DOTA_Tooltip_ability_marisa_starfall_Description"									"Пока способность активна, с неба падают звёзды, которые наносят урон врагам и лечат союзников. Потребляет ману в процентах от максимальной."
+		"DOTA_Tooltip_ability_marisa_starfall_Description"									"Пока способность активна, с неба падают звёзды, которые наносят урон врагам и лечат союзников. Потребляет ману в процентах от максимальной.<br><br><font color='#cf1919'>Внимание! Урон данной способности возможно увеличить с помощью магического усиления только при наличии последнего возвышения!"
 		"DOTA_Tooltip_ability_marisa_starfall_radius"     									"Радиус: "
 		"DOTA_Tooltip_ability_marisa_starfall_interval"   									"Интервал: "
 		"DOTA_Tooltip_ability_marisa_starfall_damage_heal"									"Урон/Лечение: "
@@ -1601,7 +1601,7 @@
 		"DOTA_Tooltip_ability_ability_thdots_eirin04_health_regen"		   					"Лечение： "
 		
 		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX"                            		"<font color='#649dfa'>Brain of the Moon</font>"
-		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   					"Каждые %think_interval% секунд Эйрин получает +1 к интеллекту. \n С талантом - Эйрин наносит %int_scale%% от интеллекта в виде магического урона при базовой атаке."		
+		"DOTA_Tooltip_ability_ability_thdotsr_eirinEX_Description"		   					"Каждые %think_interval% секунд Эйрин получает +1 к интеллекту. \n С талантом - Эйрин наносит %int_scale%% от интеллекта в виде магического урона при базовой атаке.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"		
  
 		"DOTA_Tooltip_passive_eirinex_int"												"<font color='#649dfa'>Brain of the Moon</font>"
 		"DOTA_Tooltip_passive_eirinex_int_Description"										"Добавляет дополнительный интеллект."
@@ -1615,12 +1615,12 @@
 		"DOTA_Tooltip_modifier_demon_stack_Description"										"Каждый стак даёт +1 к ловкости."
 
 		"DOTA_Tooltip_ability_soulblade"												"<font color='#1EA72B'>「On the other side of the soul」</font> "
-		"DOTA_Tooltip_ability_soulblade_Description"										"Наносит урон по формуле %base_damage% + (%damage% * ловкость) в области перед собой и отталкивает противников."
+		"DOTA_Tooltip_ability_soulblade_Description"										"Наносит урон по формуле %base_damage% + (%damage% * ловкость) в области перед собой и отталкивает противников.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_soulblade_shard_Description"							"Снимает с себя все негативные эффекты при приминении."
 
 
 		"DOTA_Tooltip_ability_soulring"													"<font color='#1EA72B'>「Soul field」</font> "
-		"DOTA_Tooltip_ability_soulring_Description"											"Создает поле, высасывающее жизнь из врагов. Наносит урон в зависимости от ловкости всем врагам в радиусе, а также востанавливает здоровье владельцу способности."
+		"DOTA_Tooltip_ability_soulring_Description"											"Создает поле, высасывающее жизнь из врагов. Наносит урон в зависимости от ловкости всем врагам в радиусе, а также востанавливает здоровье владельцу способности.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_soulring_damage"												"Множитель: "
 		"DOTA_Tooltip_ability_soulring_base_damage"											"Базовый урон: "
 			"DOTA_Tooltip_modifier_soulring"													"<font color='#1EA72B'>「Soul field」</font> "
@@ -1630,10 +1630,10 @@
 		"DOTA_Tooltip_modifier_dh_agh_Description"										"Вы можете уклониться от любого урона с шансом 20%."
 
 		"DOTA_Tooltip_ability_magic_blade"												"<font color='#1EA72B'>「Void Blade」</font> "
-		"DOTA_Tooltip_ability_magic_blade_Description"										"Каждой атакой наносит дополнительный урон по формуле - ловкость * 3"
+		"DOTA_Tooltip_ability_magic_blade_Description"										"Каждой атакой наносит дополнительный урон по формуле - ловкость * 3<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 
 		"DOTA_Tooltip_ability_metamorphosis"											"<font color='#1EA72B'>「Metamorphosis」</font>"
-		"DOTA_Tooltip_ability_metamorphosis_Description"									"Превращает вас в огромного демона и окружает вас духами, добавляет %bonus_range% к дальности атаки, добавляет возможность нанесения урона по области, а также увеличивает ваш урон на %bonus_damage%. Во время действия способности вокруг вас будут летать духи, наносящие урон всем врагам в радиусе, а также востанавливающие вам здоровье."
+		"DOTA_Tooltip_ability_metamorphosis_Description"									"Превращает вас в огромного демона и окружает вас духами, добавляет %bonus_range% к дальности атаки, добавляет возможность нанесения урона по области, а также увеличивает ваш урон на %bonus_damage%. Во время действия способности вокруг вас будут летать духи, наносящие урон всем врагам в радиусе, а также востанавливающие вам здоровье.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_metamorphosis_bonus_damage"									"Дополнительный урон: "
 		"DOTA_Tooltip_ability_metamorphosis_max_damage"										"Урон духа: "
 		"DOTA_Tooltip_ability_metamorphosis_duration"										"Длительность: "
@@ -1646,7 +1646,7 @@
 			"npc_dota_hero_gyrocopter" 										"MI-24V「★★★★★」"
 
 		"DOTA_Tooltip_Ability_mi24_upgrade"												"MI-24V"
-		"DOTA_Tooltip_Ability_mi24_upgrade_Description"										"Улучшает характеристики вертолёта.<br><font color='#fc0303'>Скорость атаки и базовое время атаки нельзя изменить!</font>"
+		"DOTA_Tooltip_Ability_mi24_upgrade_Description"										"Улучшает характеристики вертолёта.<br><font color='#fc0303'>Базовое время атаки нельзя изменить!</font>"
 		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_health"									"Здоровье: "
 		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_armor"										"Броня: "
 		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage"									"Урон: "
@@ -1656,7 +1656,7 @@
 		"DOTA_Tooltip_Ability_mi24_upgrade_bonus_damage_hp_pct"								"%Урон от здоровья: "
 
 		"DOTA_Tooltip_ability_mi24v_attack_c5"											"C-5 HAP"
-		"DOTA_Tooltip_ability_mi24v_attack_c5_Description"									"Если данная способность активирована, то MI-24V начинает кружить над територией и обстреливать всех вражеских юнитов вокруг себя неуправляемыми ракетами С5-НАР, потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды."
+		"DOTA_Tooltip_ability_mi24v_attack_c5_Description"									"Если данная способность активирована, то MI-24V начинает кружить над територией и обстреливать всех вражеских юнитов вокруг себя неуправляемыми ракетами С5-НАР, потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_mi24v_attack_c5_radius"										"Радиус: "
         "DOTA_Tooltip_ability_mi24v_attack_c5_rocket_damage"								"Урон ракеты: "
         "DOTA_Tooltip_ability_mi24v_attack_c5_attack_mult"									"Скорость обстрела: "
@@ -1668,7 +1668,7 @@
         "DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"								"Дополнительная дальность атаки: "
 
 		"DOTA_Tooltip_ability_tek_mosquito_missiles"                                    "Штурм-В"
-		"DOTA_Tooltip_ability_tek_mosquito_missiles_description"							"MI-24V сканирует всех вражеских юнитов в радиусе, захватывая их тепловой след. После прерывания либо окончания действия наводки он начинает обстрел из управляемых ракет типа 9К113 «Штурм-В»"
+		"DOTA_Tooltip_ability_tek_mosquito_missiles_description"							"MI-24V сканирует всех вражеских юнитов в радиусе, захватывая их тепловой след. После прерывания либо окончания действия наводки он начинает обстрел из управляемых ракет типа 9К113 «Штурм-В»<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_tek_mosquito_missiles_interval"								"Интервал: "
 		"DOTA_Tooltip_ability_tek_mosquito_missiles_range"									"Радиус: "
 		"DOTA_Tooltip_ability_tek_mosquito_missiles_damage"									"Урон: "
@@ -1720,7 +1720,7 @@
 			"DOTA_Tooltip_modifier_multishot" 													"3Ш1"
 
 		"DOTA_Tooltip_Ability_tankvistel"												"2А46М-5 Подкалиберный"
-		"DOTA_Tooltip_Ability_tankvistel_Description"										"Производит выстрел по цели подкалиберным снарядом с большой скоростью полёта."
+		"DOTA_Tooltip_Ability_tankvistel_Description"										"Производит выстрел по цели подкалиберным снарядом с большой скоростью полёта.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_Ability_tankvistel_damage"											"Урон: "
 		"DOTA_Tooltip_Ability_tankvistel_stun"												"Оглушение: "
 		"DOTA_Tooltip_Ability_tankvistel_damage_multi"										"Множитель Силы (с талантом): "
@@ -1733,7 +1733,7 @@
 		"DOTA_Tooltip_Ability_tankroket_shard_Description"								"Изменяет тип урона на чистый."
 		
 		"DOTA_Tooltip_Ability_kymylativ"												"2А46М-5 Кумулятивный"
-		"DOTA_Tooltip_Ability_kymylativ_Description"										"При каждом попадании по врагу у него будет уменьшаться броня, эффект складывается."
+		"DOTA_Tooltip_Ability_kymylativ_Description"										"При каждом попадании по врагу у него будет уменьшаться броня, эффект складывается.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_Ability_kymylativ_armor_reduction"									"Повреждение брони цели за выстрел: "
         "DOTA_Tooltip_modifier_sentinel_armor_reduction_show" 							"Броня повреждена"
         "DOTA_Tooltip_modifier_multishot" 													"3Ш1"
@@ -1826,7 +1826,7 @@
 		"DOTA_Tooltip_ability_uninstall_Description"										"Возвращает героя к исходному состоянию для выбора другой формы. <br><br> <font color='#fc0303'>Не работает в прологе, при битве с Хранителем а также в концовке игры!</font> </h1>"
 		
 		"DOTA_Tooltip_ability_Gae_Bolg"													"<font color='#F717F7'>「Gáe Bulg」</font> "
-		"DOTA_Tooltip_ability_Gae_Bolg_Description"											"За каждый удар потребляет %mana%%% маны и наносит дополнительный урон в размере %damage%; данным ударом невозможно промахнуться."
+		"DOTA_Tooltip_ability_Gae_Bolg_Description"											"За каждый удар потребляет %mana%%% маны и наносит дополнительный урон в размере %damage%; данным ударом невозможно промахнуться.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		
 		"DOTA_Tooltip_ability_Rho_Aias"													"<font color='#F717F7'>「Rho Aias」</font> "
 		"DOTA_Tooltip_ability_Rho_Aias_Description"											"Создаёт щит, который блокирует %damage_absorb% урона."
@@ -5439,7 +5439,7 @@
 		"alter_anromeda_12"				"Вы потерпели неудачу... Ну что же, возможно в следующий раз вы будете внимательней."
 
  		"DOTA_Tooltip_modifier_hell_cold_damager"							"Адский Холод"
-		"DOTA_Tooltip_modifier_hell_cold_damager_Description"				"Вы получаете некоторое количество урона каждую секунду и не можете востанавливать здоровье. <br><br><font color='#4b96ad'>Чтобы на время снять этот эффект, найдите Морозные Кристаллы и постойте возле них.</font>"
+		"DOTA_Tooltip_modifier_hell_cold_damager_Description"				"Вы передвигаетесь медленнее, получаете некоторое количество урона каждую секунду и не можете востанавливать здоровье. <br><br><font color='#4b96ad'>Чтобы на время снять этот эффект, найдите Морозные Кристаллы и постойте возле них.</font>"
 		"npc_gu_lich_crystall"												"Ледяной Кристалл"
 		"DOTA_Tooltip_modifier_hell_cold_deactive"							"Сила Ледяного Кристалла"
 		"DOTA_Tooltip_modifier_hell_cold_deactive_Description"				"Вы в безопасности..."
