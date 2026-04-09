@@ -1884,7 +1884,7 @@
 		"DOTA_Tooltip_ability_alroth_raze_radius" 											"Радиус: "
 
 		"DOTA_Tooltip_ability_alroth_shatter" 											"<font color='#F7DF17'>「Subspace Energy」</font> "
-		"DOTA_Tooltip_ability_alroth_shatter_Description" 									"Каждые %cd% секунд, герой нанесёт в %damage_mult% раза больше урона с атаки, также замедлит врага и выжжет некое количество маны, которое зависит от базового урона героя * на %mana_burn%. При попадании по цели уменьшит физическое сопротивление на %mres_reduction% на %duration% секунд"
+		"DOTA_Tooltip_ability_alroth_shatter_Description" 									"Каждые %cd% секунд, герой нанесёт в %damage_mult% раза больше урона с атаки, также замедлит врага и выжжет некое количество маны, которое зависит от базового урона героя * на %mana_burn%. При попадании по цели уменьшит физическое сопротивление на %mres_reduction% на %duration% секунд<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_alroth_shatter_slow" 											"%Замедление: "
 			"DOTA_Tooltip_modifier_shatter"														"<font color='#F7DF17'>「Subspace Energy」</font> "
 			"DOTA_Tooltip_modifier_shatter_slow" 												"Замедлен."
@@ -1909,14 +1909,14 @@
 		"DOTA_Tooltip_Ability_kizaru_mirror_range"											"Дальность телепорта: "
 
 		"DOTA_Tooltip_Ability_kizaru_sword"												"<font color='#E0F817'>「Ama no Murakumo」</font>"	
-        "DOTA_Tooltip_Ability_kizaru_sword_Description"										"Кизару достаёт свой меч и атакует нападающих на него врагов. <br><br><font color='#FF0000'>Урон от данной способности невозможно увеличить с помощью предметов на усиление магии!</font>"	
+        "DOTA_Tooltip_Ability_kizaru_sword_Description"										"Кизару достаёт свой меч и атакует нападающих на него врагов. <br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"	
 		"DOTA_Tooltip_Ability_kizaru_sword_duration"										"Длительность: "
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_damage"									"Дополнительная урон: "
 		"DOTA_Tooltip_Ability_kizaru_sword_bonus_as"										"Дополнительная скорость атаки: "
 		"DOTA_Tooltip_Ability_kizaru_sword_shard_Description"							"При активации наложит эффект неуязвимости к магии на 3 секунды."	
 
 		"DOTA_Tooltip_Ability_kizaru_beams"												"<font color='#E0F817'>「Yasakani no Magatama」</font>"	
-        "DOTA_Tooltip_Ability_kizaru_beams_Description"										"Кизару - истинный творец, который способен разделять материю на составляющие и атаковать ими любых врагов."	
+        "DOTA_Tooltip_Ability_kizaru_beams_Description"										"Кизару - истинный творец, который способен разделять материю на составляющие и атаковать ими любых врагов.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"	
 		"DOTA_Tooltip_Ability_kizaru_beams_radius"					    					"Радиус: "
 		"DOTA_Tooltip_Ability_kizaru_beams_interval_beam"									"Интервал: "
 		"DOTA_Tooltip_Ability_kizaru_beams_hit_radius"										"Радиус удара: "
@@ -1932,7 +1932,7 @@
 			"npc_dota_hero_luna" 											"AH-1Z Super Cobra「★★★★」"
 
 		"DOTA_Tooltip_ability_ah_1_attack"												"Hydra-70"
-		"DOTA_Tooltip_ability_ah_1_attack_Description"										"Если данная способность активирована, то AH-1Z делает круговые виражи, обстреливая всех вражеских юнитов неуправляемыми ракетами, но потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды."
+		"DOTA_Tooltip_ability_ah_1_attack_Description"										"Если данная способность активирована, то AH-1Z делает круговые виражи, обстреливая всех вражеских юнитов неуправляемыми ракетами, но потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_ah_1_attack_radius"											"Радиус: "
         "DOTA_Tooltip_ability_ah_1_attack_rocket_damage"									"Урон ракет: "
         "DOTA_Tooltip_ability_ah_1_attack_attack_mult"										"Скорость обстрела: "
@@ -1956,7 +1956,7 @@
 		"DOTA_Tooltip_Ability_ah1z_upgrade_bonus_damage_hp_pct"								"Урон от % здоровья: "
 
 		"DOTA_Tooltip_Ability_ah1zcobraylt"												"AGM-114 Hellfire"
-		"DOTA_Tooltip_Ability_ah1zcobraylt_Description"										"Вертолет начинает обстрел из блоков управляемых ракет AGM-114 Hellfire."
+		"DOTA_Tooltip_Ability_ah1zcobraylt_Description"										"Вертолет начинает обстрел из блоков управляемых ракет AGM-114 Hellfire.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_Ability_ah1zcobraylt_damage"											"Урон: "
         "DOTA_Tooltip_Ability_ah1zcobraylt_radius"											"Радиус: "
 		"DOTA_Tooltip_Ability_ah1zcobraylt_duration"										"Длительность: "
@@ -2010,7 +2010,7 @@
 		"DOTA_Tooltip_Ability_mq9_9k31_cd"												"Перезарядка: "
 
 		"DOTA_Tooltip_ability_strela_attack"											"9М37 ЗРК «Стрела-10»"
-		"DOTA_Tooltip_ability_strela_attack_Description"									"Зенитная управляемая ракета (ЗУР) 9М37 предназначена для уничтожения самолетов, вертолетов, крылатых ракет и прочих воздушных целей. Данная модификация позволяет атаковать наземные цели.<br>Каждая ракета имеет осколочную боевую часть, которая при попадании разлетается на 30 осколков.<br>Радиус разлёта осколков - от 300 до 1500 единиц. <br><br><font color='#F32929'>На данную способность не работают предметы на уменьшение перезарядки!</font>"
+		"DOTA_Tooltip_ability_strela_attack_Description"									"Зенитная управляемая ракета (ЗУР) 9М37 предназначена для уничтожения самолетов, вертолетов, крылатых ракет и прочих воздушных целей. Данная модификация позволяет атаковать наземные цели.<br>Каждая ракета имеет осколочную боевую часть, которая при попадании разлетается на 30 осколков.<br>Радиус разлёта осколков - от 300 до 1500 единиц. <br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!<br><br><font color='#F32929'>На данную способность не работают предметы на уменьшение перезарядки!</font>"
         "DOTA_Tooltip_ability_strela_attack_projectile_count"								"Всего ракет: "
         "DOTA_Tooltip_ability_strela_attack_projectile_speed"								"Скорость ракеты: "
         "DOTA_Tooltip_ability_strela_attack_impact_radius"									"Радиус поражения: "
@@ -2043,7 +2043,7 @@
 			"npc_dota_hero_bristleback" 									"AH-64D «Apache»「★★★★」"
 			        
         "DOTA_Tooltip_ability_ah64_rocket"												"Hydra 70"
-		"DOTA_Tooltip_ability_ah64_rocket_Description"										"Hydra 70 — американская 70-мм неуправляемая авиационная ракета. Производится компанией General Dynamics. НАР «Hydra-70» предназначена для уничтожения техники и живой силы противника."
+		"DOTA_Tooltip_ability_ah64_rocket_Description"										"Hydra 70 — американская 70-мм неуправляемая авиационная ракета. Производится компанией General Dynamics. НАР «Hydra-70» предназначена для уничтожения техники и живой силы противника.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_ah64_rocket_damage"											"Урон: "
 		"DOTA_Tooltip_ability_ah64_rocket_damage_multi"										"Множитель урона(с талантом): "
 
@@ -2056,7 +2056,7 @@
         "DOTA_Tooltip_ability_ah64_upgrade_passive_speed"									"Скорость передвижения: "
 
         "DOTA_Tooltip_ability_ah64_agm_114"												"AGM-114 Hellfire"
-		"DOTA_Tooltip_ability_ah64_agm_114_Description"										"Если данная способность активирована, то AH-64D начинает кружить над областью, обстреливая всех вражеских юнитов вокруг себя из управляемых ракет AGM-114 Hellfire потребляя ману каждую секунду.<br>Потреляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды."
+		"DOTA_Tooltip_ability_ah64_agm_114_Description"										"Если данная способность активирована, то AH-64D начинает кружить над областью, обстреливая всех вражеских юнитов вокруг себя из управляемых ракет AGM-114 Hellfire потребляя ману каждую секунду.<br>Потреляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_ah64_agm_114_radius"									    	"Радиус: "
         "DOTA_Tooltip_ability_ah64_agm_114_rocket_damage"									"Урон ракеты: "
         "DOTA_Tooltip_ability_ah64_agm_114_attack_mult"										"Скорость обстрела: "
@@ -2134,7 +2134,7 @@
 			"DOTA_Tooltip_aura_thdots_ran02_debuff"											"<font color='#e8e52c'>Shikigami's Shot 「Ultimate Buddhist」</font>"
 		
 		"DOTA_Tooltip_ability_ability_thdots_Ran03"									"<font color='#fffb00'>Shikigami's Radiance 「Fox-Tanuki Youkai Laser」</font>"
-		"DOTA_Tooltip_ability_ability_thdots_ran03_Description"							"Выстреливает в цель лазером Fox-Tanuki Youkai. Лазер будет прыгать между ближайшими врагами и наносить урон с каждым отскоком. Он может отскочить несколько раз между теми же юнитами. При применении на союзников восстанавливает им здоровье."
+		"DOTA_Tooltip_ability_ability_thdots_ran03_Description"							"Выстреливает в цель лазером Fox-Tanuki Youkai. Лазер будет прыгать между ближайшими врагами и наносить урон с каждым отскоком. Он может отскочить несколько раз между теми же юнитами. При применении на союзников восстанавливает им здоровье.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_radius"							"Радиус прыжка: "
 		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_count"							"Максимум прыжков: "
 		"DOTA_Tooltip_ability_ability_thdots_ran03_jump_interval"						"Интервал: "
@@ -2243,7 +2243,7 @@
 
 
 		"DOTA_Tooltip_ability_mifune_raigeki"                                           "<font color='#EA8139'>「Chaos Blade」</font>"
-		"DOTA_Tooltip_ability_mifune_raigeki_description"									"Удар клинком по земле, вызывающий её раскол."
+		"DOTA_Tooltip_ability_mifune_raigeki_description"									"Удар клинком по земле, вызывающий её раскол.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
 		"DOTA_Tooltip_ability_mifune_raigeki_initial_damage"								"Урон: "
 		"DOTA_Tooltip_ability_mifune_raigeki_slow"											"Замедление: "
 		"DOTA_Tooltip_ability_mifune_raigeki_delay"											"Задержка: "
