@@ -740,7 +740,7 @@
 		"DOTA_Tooltip_ability_xloya_kissing_freak_shard_description"					"После активации способности, будет наложен эффект неуязвимости к магии на 4 секунды."
 
 		"DOTA_Tooltip_ability_war_fight_me"                                             "<font color='#A78B4A'>「Provocation」</font>"
-		"DOTA_Tooltip_ability_war_fight_me_description"										"Хлоя провоцирует противников вокруг. После окончания действия способности вокруг героя будет нанесёно %base_damage% урона.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
+		"DOTA_Tooltip_ability_war_fight_me_description"										"Хлоя провоцирует противников вокруг. "
         "DOTA_Tooltip_ability_war_fight_me_Note0"                                           "Полученный урон рассчитывается после снижения его броней."
         "DOTA_Tooltip_ability_war_fight_me_duration"										"Длительность: "
 		"DOTA_Tooltip_ability_war_fight_me_radius"											"Радиус: "
@@ -1123,10 +1123,10 @@
 			"DOTA_Tooltip_modifier_miku_resonance"												"<font color='#5FD7EA'>「Resonance」</font>"
 			"DOTA_Tooltip_modifier_miku_resonance_Description"									"Урон увеличивается за каждый эффект."
 		
-		"DOTA_Tooltip_ability_miku_dissonance"											"<font color='#5FD7EA'>「Inharmoniousness」</font>"
-		"DOTA_Tooltip_ability_miku_dissonance_Description"									"Каждая музыкальная волна Мику резонирует, нанося урон от вашего интеллекта * %damage%."
-		"DOTA_Tooltip_ability_miku_dissonance_radius"										"Радиус: "
-		"DOTA_Tooltip_ability_miku_dissonance_shard_Description"							"Добавляет +0.2 к множителю на всех уровнях."
+		"DOTA_Tooltip_ability_miku_dissonance"                      "<font color='#5FD7EA'>「Inharmoniousness」</font>"
+		"DOTA_Tooltip_ability_miku_dissonance_Description"           "<h1>Пассивное:</h1>Использование способностей Мику вызывает магический диссонанс, поражающий врагов в радиусе %radius%. Пораженные цели получают дебафф на 5 сек., который каждую секунду наносит магический урон.\n\nУрон в секунду равен вашему интеллекту, помноженному на %damage%."
+		"DOTA_Tooltip_ability_miku_dissonance_radius"               "РАДИУС ПОРАЖЕНИЯ:"
+		"DOTA_Tooltip_ability_miku_dissonance_shard_Description"     "Увеличивает периодический урон, добавляя +0.2 к множителю интеллекта."
 					
 		"DOTA_Tooltip_ability_miku_song"												"<font color='#5FD7EA'>「Breaking down the fourth wall」</font>"
 		"DOTA_Tooltip_ability_miku_song_Description"										"Способность наносит периодический урон. На время действия способности музыкальные волны будут отскакивать от всех врагов под её воздействием."
@@ -6860,15 +6860,15 @@
 		"DOTA_Tooltip_ability_tohka_ability_7_shard_description"		"Увеличивает дополнительный урон по формуле базовый урон + сила * 10"
 
 		"DOTA_Tooltip_ability_item_subconscious_core"					"Subconscious Core"
-		"DOTA_Tooltip_ability_item_subconscious_core_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакуемой цели, наносит урон в размере 100% от базовой атаки и накладывает все модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_Description" 		"<h1>Пассивное: Subconscious Core</h1> Ваши успешные атаки наносят физический урон по площади всем врагам в радиусе %radius% вокруг основной цели. Второстепенные цели получают %split_shot_damage%%% от изначального урона вашей атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_bonus_damage" 		"Урон: "
 
 		"DOTA_Tooltip_ability_item_subconscious_core_2"					"Subconscious Core 2"
-		"DOTA_Tooltip_ability_item_subconscious_core_2_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакуемой цели, наносит урон в размере 100% от базовой атаки и накладывает все модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_2_Description" 		"<h1>Пассивное: Subconscious Core</h1> Ваши успешные атаки наносят физический урон по площади всем врагам в радиусе %radius% вокруг основной цели. Второстепенные цели получают %split_shot_damage%%% от изначального урона вашей атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_2_bonus_damage" 		"Урон: "
 
 		"DOTA_Tooltip_ability_item_subconscious_core_3"					"Subconscious Core 3"
-		"DOTA_Tooltip_ability_item_subconscious_core_3_Description" 		"<h1>Пассивное: Subconscious Core</h1> Разделяет вашу атаку на %max_target% в радиусе %radius% вокруг атакуемой цели, наносит урон в размере 100% от базовой атаки и накладывает все модификаторы атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
+		"DOTA_Tooltip_ability_item_subconscious_core_3_Description" 		"<h1>Пассивное: Subconscious Core</h1> Ваши успешные атаки наносят физический урон по площади всем врагам в радиусе %radius% вокруг основной цели. Второстепенные цели получают %split_shot_damage%%% от изначального урона вашей атаки. <br><br><font color='#ff0000'>Работает только на героях с дальним типом атаки!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_3_bonus_damage" 		"Урон: "
  
 		"DOTA_Tooltip_ability_item_gu_cleave"							"Rift Fury"
@@ -6942,7 +6942,7 @@
 		"DOTA_Tooltip_modifier_jibril_kurianse_thinker_Description"     "Создаёт энергетический барьер в указанной области, защищающий всех союзников,увеличивая их сопротивление любому урону на 25%. Каждую секунду, при наличии противника в защищенной области, выбрасывает его из неё."
 
 		"DOTA_Tooltip_modifier_wave_abuse"								"Wave Killer"
-		"DOTA_Tooltip_modifier_wave_abuse_Description"						"Вы не смогли уничтожить волну за 2 минут (ну или не захотели), теперь каждую секунду все оставшиеся враги будут получать по 0.05% дополнительного чистого урона от максимального здоровья атакуемой цели раз в 1 секунду."
+		"DOTA_Tooltip_modifier_wave_abuse_Description"						"Вы не смогли уничтожить волну за 5 минут (ну или не захотели), теперь каждую секунду все оставшиеся враги будут получать по 0.1% дополнительного чистого урона от максимального здоровья атакуемой цели раз в 1 секунду. Если по истичению 2 минут вы не убьёте всех противников вы будете уничтожены и игра для вас закончится."
 		
 		"DOTA_Tooltip_modifier_generic_lua_stun"						"Оглушён"
 
@@ -7222,7 +7222,8 @@
 		"DOTA_Tooltip_modifier_gu_t90_ammo_bb_Description" 				"Стандартный снаряд, не имеет никаких уникальных эффектов"
 
 		"DOTA_Tooltip_ability_gu_t90_ammo_kym" 							"<font color='#f9fd27'>「3БК29(М)」</font>"
-		"DOTA_Tooltip_ability_gu_t90_ammo_kym_Description" 				"Кумулятивный снаряд <font color='#f9fd27'>「3БК29(М)」</font> предназначен для пробития толстой брони, пробитие данным снарядом составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительный Чистый урон в размере 5% от максимального здоровья цели. С шансом в 20% снаряд может нанести дополнительно 10% урона от здоровья цели ЧИСТЫМ, стоимость выстрела составляет 5% от вашей энергии. <br><br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_kym_Description" 				"Кумулятивный снаряд <font color='#f9fd27'>「3БК29(М)」</font> предназначен для пробития толстой брони, пробитие данным снарядом составляет %penetration% мм (понижает броню врага на данное значение), наносит дополнительный Чистый урон в размере 5% от максимального здоровья цели. С шансом в 20% снаряд может нанести дополнительно 10% урона от здоровья цели ЧИСТЫМ, стоимость выстрела составляет 5% от вашей энергии.<font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
+		"DOTA_Tooltip_ability_gu_t90_ammo_kym_penetration" 				"Уменьшение брони: "
 		"DOTA_Tooltip_modifier_gu_t90_ammo_kym" 							"<font color='#f9fd27'>「3БК29(М)」</font>"
 		"DOTA_Tooltip_modifier_gu_t90_ammo_kym_Description" 				"Имеет некоторый шанс оглушить противника, значительно снижает броню врага, стоимость выстрела - 5% от вашей энергии. <br><font color='#fd2727'>При нехватке энергии для выстрела вы будете автоматически переключены на снаряд 「3БМ46/3БМ48」</font>"
 		
@@ -7241,7 +7242,7 @@
 		"DOTA_Tooltip_ability_gu_t90_ammo_rocket_shard_Description" 			"Добавляет бонусный урон - сила * 3"
 
 		"DOTA_Tooltip_ability_gu_t90_arenam1" 							"<font color='#5dff00'>「«Штора-1»」</font>"
-		"DOTA_Tooltip_ability_gu_t90_arenam1_Description" 					"Помимо традиционного бронирования и динамической защиты, Т-90 оборудован активной защитой, состоящей из комплекса оптико-электронного подавления «Штора-1». Комплекс предназначен для защиты от поражения танка противотанковыми управляемыми ракетами и состоит из станции оптико-электронного подавления и системы постановки завес. Станция оптико-электронного подавления предназначается для защиты от ракет с полуавтоматической системой наведения и состоит из двух инфракрасных прожекторов ОТШУ-1-7, двух модуляторов и пульта управления. <br><br> Позволяет избежать любого урона каждые %cd% секунд"
+		"DOTA_Tooltip_ability_gu_t90_arenam1_Description" 					"Помимо традиционного бронирования и динамической защиты, Т-90 оборудован активной защитой, состоящей из комплекса оптико-электронного подавления «Штора-1». Комплекс предназначен для защиты от поражения танка противотанковыми управляемыми ракетами и состоит из станции оптико-электронного подавления и системы постановки завес. Станция оптико-электронного подавления предназначается для защиты от ракет с полуавтоматической системой наведения и состоит из двух инфракрасных прожекторов ОТШУ-1-7, двух модуляторов и пульта управления. <br><br> При получении урона с шансом 20%% полностью блокирует его и применяет на себя развеивание. <br><br> Эффект срабатывает только если способность готова. <br> ПЕРЕЗАРЯДКА: %cd% сек."
 		
 		"npc_gu_btr82_base"													"BTR-82A Base"
 		"npc_dota_hero_venomancer"											"BTR-82А「★★★」"
@@ -8103,9 +8104,12 @@
 		"isotope_hud_error"																		"Данный предмет вам не пренадлежит!"
 
 		"gu_defuser_hud_error"																	"Вы не можете разминировать это!"
+		"DOTA_Tooltip_ability_item_gu_defuser"                      "Инженерный комплекс «Дефузер»"
+		"DOTA_Tooltip_ability_item_gu_defuser_Description"          "Специализированный инструмент для полевых операций. Применяется для глубокого сканирования и деконструкции объектов.\n\n<font color='#ffffff'><b>ПРЕРЫВАЕМАЯ:</b></font> Требует поддержания стабильного канала связи с целью.\n\n<b>На метеоритах:</b> Позволяет извлекать ценные кристаллические осколки и изотопы Иридия-191.\n<b>На генераторах:</b> Осуществляет контролируемый взлом щитов для получения протонов и нейтронов."
+		"DOTA_Tooltip_ability_item_gu_defuser_Lore"                 "Стабильный дешифратор — единственное, что отделяет инженера от детонации нестабильного внеземного ядра."
+		"DOTA_Tooltip_ability_item_gu_defuser_Note0"                "Процесс разминирования крайне опасен: устройство перенаправляет часть энергии объекта на носителя, нанося чистый урон."
 
-		"DOTA_Tooltip_ability_item_gu_defuser"                                                    "Высокотехнологичное устройство для разминирования"
-        "DOTA_Tooltip_ability_item_gu_defuser_Description"                                            "Используется для получения осколков из метеоритов.<br>"
+		"DOTA_Tooltip_ability_item_gu_defuser_Usage_Error"          "Объект не опознан. Требуется метеорит или генератор."
 
 
 		"DOTA_Tooltip_modifier_BOT_bonus_6"                                    				"GOU BOT ANDROMEDA BONUS"
@@ -8214,5 +8218,43 @@
 
 		"Talent_Mosquito_01_15"                 "Уменьшает интервал между выпусками ракет с 0.5 до 0.1 сек."
     	"Talent_Mosquito_Label_Interval"        "Интервал выпуска"
+
+
+		"andromeda_repli_failed"	"Вы не смогли оправдать моё доверие!!! Вы заодно с Орай!!!! Вы будете уничтожены!!!! Ваша игра окончена."
+
+		"Talent_Miku_01_1"                  "Добавляет к периодическому урону бонус от интеллекта героя (x1.5)."
+		"Talent_Miku_01_5"                  "Каждую секунду песня оглушает противника на 0.3 сек."
+		"Talent_Miku_01_20"                 "Тип урона способности становится Чистым."
+		
+		"Talent_Miku_Label_IntDamage"       "Урон от интеллекта"
+		"Talent_Miku_Label_StunDuration"    "Длительность оглушения"
+		"Talent_Miku_Label_DamageType"      "Тип урона"
+		"Talent_Miku_Resonance_10"              "Добавляет к эффекту способности бонус от интеллекта героя (x1.5)."
+    	"Talent_Miku_Label_ResonanceBonus"      "Бонус резонанса"
+		"Talent_Miku_01_15"                 "Снижает перезарядку способности со 180 до 120 сек."
+    	"Talent_Miku_Label_Cooldown"        "Перезарядка"
+
+		"Talent_T90_01_20"              "Увеличивает шанс срабатывания активной защиты с 20% до 50%."
+    	"Talent_T90_Label_ArenaChance"  "Шанс срабатывания КАЗ"
+
+		"Talent_T90_Ammo_15"                "Сбрасывает перезарядку при смене типа снаряда, позволяя переключаться между ними мгновенно."
+    	"Talent_T90_Label_CooldownReset"    "Перезарядка"
+
+		"Talent_T90_Ammo_5"                 "При попадании снаряда КУМ появляется 20% шанс нанести дополнительный чистый урон в размере 10% от макс. здоровья цели."
+		"Talent_T90_Label_ProcChance"       "Шанс срабатывания"
+		"Talent_T90_Label_TargetHPDmg"      "Урон от здоровья цели"
+
+		"Talent_T90_Ammo_1"                 "Добавляет к базовому урону снаряда бонус, равный 20% от максимального запаса здоровья."
+    	"Talent_T90_Label_HPDamage"         "Урон от здоровья"
+
+		"Talent_T90_Ammo_HEAT_10"           "Тип урона снаряда HEAT становится Чистым."
+    	"Talent_T90_Label_DamageType"       "Тип урона"
+
+		"T90_Shard_Rocket_Desc"         "Модернизация СУО: добавляет бонусный урон от Силы (x3). Этот бонус также усиливается талантом 20-го уровня."
+		"Talent_T90_Rocket_20"          "Критический калибр: увеличивает итоговый урон ракеты (базу, бонусы от брони и силы) в 15 раз."
+		"T90_Label_TotalDmg"            "Итоговый урон"
+
+"DOTA_Tooltip_modifier_custom_attributes"                       "Переработка Атрибутов"
+"DOTA_Tooltip_modifier_custom_attributes_Description"           "Ваши характеристики изменены согласно роли героя:\n\n<font color='#ff4d4d'>СИЛА:</font> %{s:GetCustomHealth} здоровья, +%{s:GetCustomDamage} урона.\n<font color='#55ff55'>ЛОВКОСТЬ:</font> +%{s:GetCustomArmor} брони, +%{s:GetCustomDamage} урона.\n<font color='#55aaff'>ИНТЕЛЛЕКТ:</font> %{s:GetCustomMana} маны.\n\n<font color='#999999' size='14'>Значения показывают разницу между стандартными статами Dota 2 и вашими текущими бонусами.</font>"
 	}	
 }
