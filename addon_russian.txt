@@ -1659,13 +1659,19 @@
 		"DOTA_Tooltip_ability_mi24v_attack_c5_Description"									"Если данная способность активирована, то MI-24V начинает кружить над територией и обстреливать всех вражеских юнитов вокруг себя неуправляемыми ракетами С5-НАР, потребляя энергию каждую секунду.<br>Потребляет 2 <font color='#f7a62d'>Энергии</font> раз в 0.3 секунды.<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
         "DOTA_Tooltip_ability_mi24v_attack_c5_radius"										"Радиус: "
         "DOTA_Tooltip_ability_mi24v_attack_c5_rocket_damage"								"Урон ракеты: "
-        "DOTA_Tooltip_ability_mi24v_attack_c5_attack_mult"									"Скорость обстрела: "
 		"DOTA_Tooltip_ability_mi24v_attack_c5_damage_multi"									"Множитель урона(с талантом): "
 		"DOTA_Tooltip_ability_mi24v_attack_c5_scepter_Description"						"Изменяет тип урона на чистый."
 
-        "DOTA_Tooltip_ability_mi24_ykb_12_7"											"ЯКБ 12.7 ММ"
-		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"									"MI-24V обладает четырёхствольным авиационным пулемётом с вращающимся блоком стволов, что даёт ему возможность атаковать с максимальной скоростью."
-        "DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"								"Дополнительная дальность атаки: "
+		"DOTA_Tooltip_ability_mi24_ykb_12_7"                      "Четырехствольный пулемет Як-Б"
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Description"          "Модификация системы вооружения. Оснащает вертолет высокотемповым пулеметом калибра 12,7 мм. Пассивно улучшает баллистические характеристики машины: повышает базовый урон, дальность эффективного огня и скорострельность."
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_Lore"                 "Плотность огня Як-Б достигает 4500 выстрелов в минуту — цель буквально распиливает на куски."
+
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_bonus_damage"         "ДОПОЛНИТЕЛЬНЫЙ УРОН:"
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_reload_time"          "БАЗОВОЕ ВРЕМЯ АТАКИ:"
+		"DOTA_Tooltip_ability_mi24_ykb_12_7_attack_range_bonus"   "БОНУС К ДАЛЬНОСТИ ОГНЯ:"
+
+		"DOTA_Tooltip_modifier_mi24_ykb_12_7_armor_shred"                "Пробитая броня"
+		"DOTA_Tooltip_modifier_mi24_ykb_12_7_armor_shred_Description"    "Защита повреждена бронебойными пулями 12,7 мм. Показатель брони снижен на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%."
 
 		"DOTA_Tooltip_ability_tek_mosquito_missiles"                                    "Штурм-В"
 		"DOTA_Tooltip_ability_tek_mosquito_missiles_description"							"MI-24V сканирует всех вражеских юнитов в радиусе, захватывая их тепловой след. После прерывания либо окончания действия наводки он начинает обстрел из управляемых ракет типа 9К113 «Штурм-В»<br><br><font color='#cf1919'>Внимание! Урон данной способности невозможно увеличить с помощью магического усиления!"
@@ -8190,5 +8196,24 @@
 
 		"npc_dota_hero_none" 				"Ничего"
 		"npc_dota_hero_none_Description" 	"Слишком низкая сложность чтобы за это получать персонажа"
+
+		"Talent_MI24V_C5_5"                 "Добавляет к базовому урону ракет дополнительный урон, зависящий от ловкости героя."
+		"Talent_MI24V_Label_BonusAgiDamage" "Доп. урон от ловкости"
+		"Talent_MI24V_Label_AgiScale"       "Скейл от ловкости"
+
+		"Talent_MI24V_02_10"                "Уменьшает интервал между залпами ракет с 1.0 до 0.4 сек., повышая скорострельность."
+    	"Talent_MI24V_Label_AttackInterval" "Интервал атаки"
+
+		"Talent_MI24V_02_20"                "Убирает затраты энергии при использовании способности."
+		"Talent_MI24V_Label_EnergyCost"     "Расход энергии"
+
+		"Talent_MI24_03_20"                 "Атаки по цели накладывают эффект разрушения брони."
+    	"Talent_MI24_Label_ShredDuration"   "Длительность снижения брони"
+
+		"Talent_Mosquito_01_5"                  "Добавляет к урону ракет дополнительный урон, зависящий от ловкости героя."
+    	"Talent_Mosquito_Label_BonusAgiDamage"  "Доп. урон от ловкости"
+
+		"Talent_Mosquito_01_15"                 "Уменьшает интервал между выпусками ракет с 0.5 до 0.1 сек."
+    	"Talent_Mosquito_Label_Interval"        "Интервал выпуска"
 	}	
 }
