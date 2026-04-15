@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-"Language"	"English"
+"Language"	"Russian"
 "Tokens"
 {
 "addon_game_name"							"Guardians of Universe"
@@ -641,33 +641,30 @@
 
 		    "npc_dota_hero_oracle"								             "Interdimensional Parrot「★★★★」"	
 	
-		"DOTA_Tooltip_ability_space_rift"					                            "<font color='#9A75FE'>「Cosmic Rift」</font> "
-		"DOTA_Tooltip_ability_space_rift_Description"			                            "Each spell causes vibrations and ruptures in the surrounding space. Depending on the spell, the intensity of the bursts changes. Deals damage within a radius of 200 units. If the target is in the center of a rift, they will deal additional damage equal to 5%%of their maximum health"
-		"DOTA_Tooltip_ability_space_rift_damage"					                        "Factor:"
-		    "DOTA_Tooltip_modifier_space_rift_buff"						                        "<font color='#9A75FE'>「Cosmic Rift」</font>"
+		"DOTA_Tooltip_ability_space_rift"								"<font color='#9A75FE'>「Cosmic Rift」</font>"
+		"DOTA_Tooltip_ability_space_rift_Description"					"Passive ability.\nEach of your spells breaks the fabric of space around you. Rifts deal base damage to all nearby enemies. Enemies caught in the middle of the rift take additional pure damage equal to 5%%of their maximum health."
+		"DOTA_Tooltip_ability_space_rift_damage"						"Base Damage:"
+		"DOTA_Tooltip_modifier_space_rift_passive"						"Cosmic Rift"
 		
-		"DOTA_Tooltip_ability_chronos_magic"				                            "<font color='#9A75FE'>「Space Magic」</font> "
-		"DOTA_Tooltip_ability_chronos_magic_Description"		                            "This ability attracts nearby units and sends them to the specified point.<br><br><font color='#F81717'>The cooldown of this ability cannot be reduced.</font> "
-        "DOTA_Tooltip_ability_chronos_magic_pull_damage"			                        "Initial Damage:"
-		"DOTA_Tooltip_ability_chronos_magic_open_damage"			                        "Damage:"
-		"DOTA_Tooltip_ability_chronos_magic_shard_Description"		                        "Reduces cooldown to 10 seconds"
+		"DOTA_Tooltip_ability_chronos_magic"							"<font color='#9A75FE'>「Space Magic」</font>"
+		"DOTA_Tooltip_ability_chronos_magic_Description"				"The mage bends the space around him, pulling in all surrounding enemies and dealing increasing damage to them during the pull. At the end of the action, the hero and all attracted enemies are teleported to the specified point, where a powerful explosion occurs.\n\n<font color='#F81717'>Limitation:</font>The base cooldown of the ability cannot be reduced by cooldown reduction items."
+		"DOTA_Tooltip_ability_chronos_magic_pull_damage"				"Pull Damage:"
+		"DOTA_Tooltip_ability_chronos_magic_open_damage"				"End Explosion Damage:"
+		"DOTA_Tooltip_ability_chronos_magic_shard_Description"			"Reduces the cooldown of the ability to 10 seconds."
 
-		"DOTA_Tooltip_ability_teleport_phase"				                            "<font color='#9A75FE'>「Displacement Matrix」</font>"
-		"DOTA_Tooltip_ability_teleport_phase_Description"		                            "Distorts the distance between teleportation points, enemies near the distortion will take damage."
-        "DOTA_Tooltip_ability_teleport_phase_damage"				                        "Factor: "
-		"DOTA_Tooltip_ability_teleport_phase_base_damage"			                        "Base Damage: "
+		"DOTA_Tooltip_ability_teleport_phase"							"<font color='#9A75FE'>「Displacement Matrix」</font>"
+		"DOTA_Tooltip_ability_teleport_phase_Description"				"The hero prepares to move and, after a short delay, teleports to the specified point. At the moment of the jump, space collapses, causing magical damage to enemies both at the point of departure and at the point of arrival."
+		"DOTA_Tooltip_ability_teleport_phase_damage"					"Leap Damage:"
 
-		"DOTA_Tooltip_ability_space_barrier"				                            "<font color='#9A75FE'>「Space Barrier」</font> "
-		"DOTA_Tooltip_ability_space_barrier_Description"		                            "Distorts space, pulling enemies into the center. Deals periodic damage."
-        "DOTA_Tooltip_ability_space_barrier_damage"					                        "Factor: "
-		"DOTA_Tooltip_ability_space_barrier_base_damage"			                        "Base Damage: "
+		"DOTA_Tooltip_ability_space_barrier"							"<font color='#9A75FE'>「Space Barrier」</font>"
+		"DOTA_Tooltip_ability_space_barrier_Description"				"Creates an unstable gravitational barrier in the selected area. The barrier first pulls all enemies into the center, and then unleashes a series of devastating spatial ruptures on them, dealing damage over time."
+		"DOTA_Tooltip_ability_space_barrier_damage"						"Burst Damage:"
 
-		"DOTA_Tooltip_ability_fluctuation"					                            "<font color='#9A75FE'>「World Projection」</font>"
-		"DOTA_Tooltip_ability_fluctuation_Description"			                            "Creates a projection at the specified point, creating more and more faults over time. Reduces movement and attack speed by 400%% "
-        "DOTA_Tooltip_ability_fluctuation_damage"					                        "Factor: "
-		"DOTA_Tooltip_ability_fluctuation_base_damage"				                        "Base Damage: "
-		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			                    "Increases the radius to 750.<br><br><font color='#F81717'>Will deal damage in a 150 radius around the sphere.</font> "
-
+		"DOTA_Tooltip_ability_fluctuation"								"<font color='#9A75FE'>「World Projection」</font>"
+		"DOTA_Tooltip_ability_fluctuation_Description"					"Creates a colossal, unstable projection of the world. Enemies caught in the area take massive damage over time and are slowed by 400%%. With each passing second, the interval between projection hits shortens, and the damage dealt gradually increases."
+		"DOTA_Tooltip_ability_fluctuation_damage"						"Initial base damage:"
+		"DOTA_Tooltip_ability_fluctuation_scepter_Description"			"Increases the range of the ability to 750."
+		"DOTA_Tooltip_modifier_fluctuation_slow"						"World Projection: Slowdown"
 
 		    "npc_dota_hero_axe"											    "Lalatina Dustiness Ford「★★★★」"
 
@@ -2267,7 +2264,7 @@
 		"DOTA_Tooltip_Ability_9k31_upgrade_passive_speed"									"Speed: "
 
 		"DOTA_Tooltip_Ability_mq9_9k31"													"MQ-9 Reaper" 
-		"DOTA_Tooltip_Ability_mq9_9k31_Description"											"The MQ-9 Reaper (from English - “reaper, harvest”; an allusion to the expression Grim Reaper - “grim reaper”, that is, death) is a reconnaissance and strike UAV developed by General Atomics Aeronautical Systems (a division of General Dynamics Corporation) for use in the US Air Force, US Navy and British Air Force. The first flight took place on February 2, 2001."
+		"DOTA_Tooltip_Ability_mq9_9k31_Description"											"The MQ-9 Reaper (from English - “reaper, harvest”; an allusion to the expression Grim Reaper - “grim reaper”, that is, death) is a reconnaissance and strike UAV developed by General Atomics Aeronautical Systems (a division of General Dynamics Corporation) for use in the US Air Force, US Navy and British Air Force. Первый полёт состоялся 2 февраля 2001 года."
 		"DOTA_Tooltip_Ability_mq9_9k31_cd"												"Recharge: "
 
 		"DOTA_Tooltip_ability_strela_attack"											"9M37 SAM «Strela-10»"
@@ -3545,74 +3542,93 @@
 		"DOTA_Tooltip_ability_flash_bomb_bot"                                        	"Blindness"
 		"DOTA_Tooltip_ability_flash_bomb_bot_Description"                            		"Blinds the enemy."
 
-		"dota_tooltip_ability_item_custom_universe_rune_lvlup" 							"Universal Rune: Epiphany"
-		"dota_tooltip_ability_item_custom_universe_rune_lvlup_description" 					"Gives you experience depending on the current minute."
+		"dota_tooltip_ability_item_custom_universe_rune_lvlup" 								"Universal Rune: Epiphany"
+		"dota_tooltip_ability_item_custom_universe_rune_lvlup_description" 					"Gives you experience depending on the current wave.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases experience gained by 1%%."
 
-        "dota_tooltip_ability_item_custom_universe_rune_arcane" 						"Universal Rune: Archmage Piece"
-		"dota_tooltip_ability_item_custom_universe_rune_arcane_description" 				"Reduces ability cooldowns by 50%, mana costs by 80%, and increases spell damage by 300%"
-			"dota_tooltip_modifier_custom_universe_arcane_rune" 								"Universal Rune: Archmage Piece"
-			"dota_tooltip_modifier_custom_universe_arcane_rune_aura" 							"Universal Rune: Archmage Piece"
-			"dota_tooltip_modifier_custom_universe_arcane_rune_aura_description" 				"Reduces ability cooldown by%dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%and mana consumption by%dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%.<br>Increases spell damage by%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%and spell casting speed by%dMODIFIER_PROPERTY_CASTTIME_PERCENTAGE%%%. The effect in the aura is twice as weak."
-			"dota_tooltip_modifier_custom_universe_arcane_rune_description" 					"Reduces ability cooldown by%dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%and mana consumption by%dMODIFIER_PROPERTY_COOLDOWN_PERCENTAGE%%%.<br>Increases spell damage by%dMODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE%%%and spell casting speed by%dMODIFIER_PROPERTY_CASTTIME_PERCENTAGE%%%."
+		"dota_tooltip_ability_item_custom_universe_rune_arcane" 							"Universal Rune: Archmage Piece"
+		"dota_tooltip_ability_item_custom_universe_rune_arcane_description" 				"Reduces ability cooldowns by 50%%, mana costs by 80%%, and increases spell damage by 300%%."
+			"dota_tooltip_modifier_custom_universe_arcane_rune" 							"Universal Rune: Archmage Piece"
+			"dota_tooltip_modifier_custom_universe_arcane_rune_aura" 						"Universal Rune: Archmage Piece (Aura)"
+			"dota_tooltip_modifier_custom_universe_arcane_rune_aura_description" 			"Grants half the effects of the Archmage Particle."
+			"dota_tooltip_modifier_custom_universe_arcane_rune_description" 				"Reduces ability cooldown and mana consumption. Significantly increases spell damage."
 
-		"dota_tooltip_ability_item_custom_universe_rune_bounty" 						"Universal Rune: Wealth"
-		"dota_tooltip_ability_item_custom_universe_rune_bounty_description" 				"Gives you gold depending on the current minute."
+		"dota_tooltip_ability_item_custom_universe_rune_bounty" 							"Universal Rune: Wealth"
+		"dota_tooltip_ability_item_custom_universe_rune_bounty_description" 				"Instantly gives you gold depending on the current wave."
 		
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage" 					"Universal Rune: Double Damage"
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" 			"Base damage increased by 200.\nPrimary attribute increased by 200."
-			"dota_tooltip_modifier_custom_universe_double_damage_rune" 							"Universal Rune: Double Damage"
-			"dota_tooltip_modifier_custom_universe_double_damage_rune_description" 				"Base damage increased by 200, main attribute increased by 200."
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" 						"Universal Rune: Double Damage"
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" 			"Base damage increased by 100, main attribute increased by 100."
+		"dota_tooltip_ability_item_custom_universe_rune_doubledamage" 						"Universal Rune: Double Damage"
+		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" 			"Increases your damage by 25 + 25 for each wave passed. Allies around you receive half of this bonus.<br><br><font color='#55ff55'>Permanent Bonus (when picked up):</font>Permanently increases your primary attribute by 1 (and an additional +1 every 2 waves)."
+			"dota_tooltip_modifier_custom_universe_double_damage_rune" 						"Universal Rune: Double Damage"
+			"dota_tooltip_modifier_custom_universe_double_damage_rune_description" 			"Base damage has been significantly increased."
+			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" 					"Universal Rune: Double Damage (Aura)"
+			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" 		"Base damage from allied rune increased."
 
-		"dota_tooltip_ability_item_custom_universe_rune_ember" 							"Universal Rune: Fire Soul"
+		"dota_tooltip_ability_item_custom_universe_rune_ember" 								"Universal Rune: Fire Soul"
 		"dota_tooltip_ability_item_custom_universe_rune_ember_description" 					"Applies a burning effect that damages enemies around you. Your attacks set the target on fire."
-		"dota_tooltip_modifier_custom_universe_ember_rune"										"Universal Rune: Fire Soul"
-		"dota_tooltip_modifier_custom_universe_ember_rune_burn"									"Universal Rune: Fire Soul"
-		"dota_tooltip_modifier_custom_universe_ember_rune_burn_description"						"you're burning"
-		"dota_tooltip_modifier_custom_universe_ember_rune_description"							"An enemy attacking you will take fire damage and will also miss."
+			"dota_tooltip_modifier_custom_universe_ember_rune"								"Universal Rune: Fire Soul"
+			"dota_tooltip_modifier_custom_universe_ember_rune_burn"							"Universal Rune: Fire Soul"
+			"dota_tooltip_modifier_custom_universe_ember_rune_burn_description"				"You're burning."
+			"dota_tooltip_modifier_custom_universe_ember_rune_description"					"Nearby enemies take fire damage and a miss chance."
 
-		"dota_tooltip_ability_item_custom_universe_rune_frost" 							"Universal Rune: Punishing Gaze"
-		"dota_tooltip_ability_item_custom_universe_rune_frost_description" 					"Your attacks slow down enemies.\nAlso slows down enemies attacking you; With a 30% chance, the attacking unit will be immobilized for 3 seconds, receiving 100% more physical damage during this time."
-			"dota_tooltip_modifier_custom_universe_frost_rune" 									"Universal Rune: Ice Particle"
-			"dota_tooltip_modifier_custom_universe_frost_rune_aura" 							"Universal Rune: Ice Particle"
-			"dota_tooltip_modifier_custom_universe_frost_rune_aura_description" 				"When receiving damage/attack, the enemy's attack and movement speed decreases."
-			"dota_tooltip_modifier_custom_universe_frost_rune_description" 						"When receiving damage/attack, the enemy's attack and movement speed decreases."
-			"dota_tooltip_modifier_custom_universe_frost_rune_slow" 							"Universal Rune: Ice Particle"
-			"dota_tooltip_modifier_custom_universe_frost_rune_slow_description" 				"Attack and movement speed reduced by 100/20%%."
+		"dota_tooltip_ability_item_custom_universe_rune_frost" 								"Universal Rune: Punishing Gaze"
+		"dota_tooltip_ability_item_custom_universe_rune_frost_description" 					"When attacking or receiving damage, slows down the offender. With a 17%%chance, the attacked or attacking unit will be stunned for 3 seconds."
+			"dota_tooltip_modifier_custom_universe_frost_rune" 								"Universal Rune: Ice Particle"
+			"dota_tooltip_modifier_custom_universe_frost_rune_aura" 						"Universal Rune: Ice Particle (Aura)"
+			"dota_tooltip_modifier_custom_universe_frost_rune_aura_description" 			"When attacking or receiving damage, slows down the enemy."
+			"dota_tooltip_modifier_custom_universe_frost_rune_description" 					"When attacking or receiving damage, slows down the enemy."
+			"dota_tooltip_modifier_custom_universe_frost_rune_slow" 						"Universal Rune: Freeze"
+			"dota_tooltip_modifier_custom_universe_frost_rune_slow_description" 			"Attack and movement speed reduced."
 
-		"dota_tooltip_ability_item_custom_universe_rune_haste" 							"Universal Rune: Nightmare Shadow"
-		"dota_tooltip_ability_item_custom_universe_rune_haste_description" 					"Attack speed increased by 500.\nMovement speed increased by 250%."
-			"dota_tooltip_modifier_custom_universe_haste_rune" 									"Universal Rune: Nightmare Shadow"
-			"dota_tooltip_modifier_custom_universe_haste_rune_aura" 							"Universal Rune: Nightmare Shadow"
-			"dota_tooltip_modifier_custom_universe_haste_rune_aura_description" 				"Increases your speed by%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. And attack speed on%dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%. The effect in the aura is twice as weak."
-			"dota_tooltip_modifier_custom_universe_haste_rune_description" 						"Increases your speed by%dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%. And attack speed on%dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%."
+		"dota_tooltip_ability_item_custom_universe_rune_haste" 								"Universal Rune: Nightmare Shadow"
+		"dota_tooltip_ability_item_custom_universe_rune_haste_description" 					"Gives 100 movement speed + 10 for each wave. Allows you to pass through creatures unhindered, increases turn speed by 100%%and attack speed by 35.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your movement speed by 5."
+			"dota_tooltip_modifier_custom_universe_haste_rune" 								"Universal Rune: Nightmare Shadow"
+			"dota_tooltip_modifier_custom_universe_haste_rune_aura" 						"Universal Rune: Nightmare Shadow (Aura)"
+			"dota_tooltip_modifier_custom_universe_haste_rune_aura_description" 			"Movement and attack speed are increased by the allied rune."
+			"dota_tooltip_modifier_custom_universe_haste_rune_description" 					"Movement and attack speed are significantly increased, and unhindered movement is granted."
 
-		"dota_tooltip_ability_item_custom_universe_rune_illusion" 						"Universal Rune: Force Field"
-		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" 				"With a 90% chance you can avoid any damage."
-			"dota_tooltip_modifier_custom_universe_illusion_rune"							 	"Universal Rune: Force Field"
-			"dota_tooltip_modifier_custom_universe_illusion_rune_description" 					"Increases dodge chance by 90%."
+		"dota_tooltip_ability_item_custom_universe_rune_illusion" 							"Universal Rune: Force Field"
+		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" 				"Reduces any damage taken by 15%%+ 0.5%%per wave (to a maximum of 100%%).<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases resistance to effects by 0.25%%."
+			"dota_tooltip_modifier_custom_universe_illusion_rune"							"Universal Rune: Force Field"
+			"dota_tooltip_modifier_custom_universe_illusion_rune_description" 				"Damage taken is significantly reduced."
 
-		"dota_tooltip_ability_item_custom_universe_rune_invis" 							"Universal Rune: Dark Harvest"
-		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"Adds 500% critical damage and 10% critical chance. hits."
-			"dota_tooltip_modifier_custom_universe_invisibility_rune" 							"Universal Rune: Dark Harvest" 
-			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 				"Adds 500%%critical damage and 10%%critical chance. hits."
+		"dota_tooltip_ability_item_custom_universe_rune_invis" 								"Universal Rune: Dark Harvest"
+		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"While active, increases critical damage by 10%%+ 2%%per wave.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your critical damage by 3%%."
+			"dota_tooltip_modifier_custom_universe_invisibility_rune" 						"Universal Rune: Dark Harvest" 
+			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 			"Critical hit power increased."
+
 		
-		"dota_tooltip_ability_item_custom_universe_rune_regen" 							"Universal Rune: Regeneration"
-		"dota_tooltip_ability_item_custom_universe_rune_regen_description" 					"Constantly restores health and mana by 50 + 10%/20 + 20% respectively.\nThe effect will disappear if you lose all charges."
-			"dota_tooltip_modifier_custom_universe_regen_rune" 									"Universal Rune: Regeneration"
-			"dota_tooltip_modifier_custom_universe_regen_rune_aura" 							"Universal Rune: Regeneration"
-			"dota_tooltip_modifier_custom_universe_regen_rune_aura_description" 				"Regenerates%dMODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE%%%maximum health +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%health and%dMODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE%%%maximum mana +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%mana per second. The effect in the aura is twice as weak."
-			"dota_tooltip_modifier_custom_universe_regen_rune_description" 						"Regenerates%dMODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE%%%maximum health +%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%health and%dMODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE%%%maximum mana +%dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT%mana per second."
+		"dota_tooltip_ability_item_custom_universe_rune_regen" 								"Universal Rune: Regeneration"
+		"dota_tooltip_ability_item_custom_universe_rune_regen_description" 					"Restores 2.5%%from maximum health and mana per second (nearby allies receive 1.25%%).<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases health regeneration by 3 + 0.6 per wave and increases received/outgoing healing by 0.4%%."
+			"dota_tooltip_modifier_custom_universe_regen_rune" 								"Universal Rune: Regeneration"
+			"dota_tooltip_modifier_custom_universe_regen_rune_aura" 						"Universal Rune: Regeneration (Aura)"
+			"dota_tooltip_modifier_custom_universe_regen_rune_aura_description" 			"Increased health and mana regeneration from allied runes."
+			"dota_tooltip_modifier_custom_universe_regen_rune_description" 					"Quickly restores health and mana as a percentage of your maximum reserve."
 
-		"dota_tooltip_ability_item_custom_universe_rune_stone"							"Universal Rune: Fossil"
-		"dota_tooltip_ability_item_custom_universe_rune_stone_description"					"After 7 hits, turns the target to stone, making them invulnerable to magic and stunning them for 1 second."
+		"dota_tooltip_ability_item_custom_universe_rune_stone"								"Universal Rune: Fossil"
+		"dota_tooltip_ability_item_custom_universe_rune_stone_description"					"Your attacks apply stacks. After 5 hits, turns the target to stone, making it invulnerable to magic and stunning it."
 		            
-		"dota_tooltip_ability_item_custom_universe_rune_energy"							"Universal Rune: Energy"
-        "dota_tooltip_ability_item_custom_universe_rune_energy_description"					"Gives you additional energy, as well as its regeneration."
+		"dota_tooltip_ability_item_custom_universe_rune_energy"								"Universal Rune: Energy"
+        "dota_tooltip_ability_item_custom_universe_rune_energy_description"					"Gives you a huge supply of additional energy, and also significantly accelerates its regeneration (scales from the current wave)."
 
 		"dota_tooltip_ability_item_custom_universe_rune_weather" 							"Universal Rune: Weather Instability"
-		"dota_tooltip_ability_item_custom_universe_rune_weather_description" 					"Changes the weather to random."
+		"dota_tooltip_ability_item_custom_universe_rune_weather_description" 				"Changes the weather to random."
+
+		"dota_tooltip_modifier_cu_rune_lvlup_permanent" 							"Insight: Accumulated Wisdom"
+		"dota_tooltip_modifier_cu_rune_lvlup_permanent_description" 				"Permanently increases experience gained by%dMODIFIER_PROPERTY_EXP_RATE_BOOST%%%."
+
+		"dota_tooltip_modifier_cu_rune_dd_permanent" 								"Double Damage: Accumulated Strength"
+		"dota_tooltip_modifier_cu_rune_dd_permanent_description" 					"Permanently increases your primary attribute by%dMODIFIER_PROPERTY_STATS_PRIMARY_BONUS%."
+
+		"dota_tooltip_modifier_cu_rune_haste_permanent" 							"Nightmare Shadow: Accumulated Speed"
+		"dota_tooltip_modifier_cu_rune_haste_permanent_description" 				"Permanently increases your movement speed by%dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%."
+
+		"dota_tooltip_modifier_cu_rune_regen_permanent" 							"Regeneration: Accumulated Life"
+		"dota_tooltip_modifier_cu_rune_regen_permanent_description" 				"Permanently increases health regeneration by%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%and the effectiveness of any treatment by%dMODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE%%%."
+
+		"dota_tooltip_modifier_cu_rune_invis_permanent" 							"Dark Harvest: Accumulated Cruelty"
+		"dota_tooltip_modifier_cu_rune_invis_permanent_description" 				"Permanently increases your critical damage. The number of stacks is equal to the bonus damage as a percentage."
+
+		"dota_tooltip_modifier_cu_rune_illusion_permanent" 							"Force Field: Accumulated Fortitude"
+		"dota_tooltip_modifier_cu_rune_illusion_permanent_description" 				"Permanently increases resistance to effects by%dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%."
 
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff"										"Storm" 
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff_Description"							"Cannot move for%fMODIFIER_PROPERTY_TOOLTIP%seconds." 
@@ -6444,45 +6460,65 @@
 			"rune_air"							"Path: Air"
 			"rune_power"						"Path: Wealth"
  
-			"rune_magic_des"						"This path is intended for those who are truly ready to devote themselves to the knowledge of the Magic of this world.<br>When you first level up, you endow your character with the knowledge of the Asuran race, you learn from the ancient Archmages and learn a lot of new things.<br><br>Bonus for the first upgrade:<br>Gives the character a passive ability - the ability to instantly recharge any ability with a certain chance.<br>Adds the ability to restore part of the mana depending on the damage done."
-			"rune_vampire_des"						"An ancient curse that you will learn to control.<br>When leveling up for the first time, gives the character the forbidden knowledge of the Tok'ra.<br>Gives the character a passive ability - the lower the character’s health, the higher his damage and attack speed.<br>Gives the character a passive ability - when he reaches less than 10% health, he can become enraged and become invulnerable to magic for a while."
-			"rune_earch_des"						"You study in depth the natural properties of your body and learn to control them.<br>When leveling up for the first time, gives the character knowledge of the Nox race in the field of healing.<br>Gives the character a passive ability - he can resurrect with some chance.<br>Gives the character a passive ability - when receiving damage, he can go back in time and dodge any attack or ability."
-			"rune_fire_des"							"You study the weapons you find and learn to use them.<br>When leveling up for the first time, gives the character knowledge of the Ursini race in the field of weapons.<br>Gives the character a passive ability - with a 10% chance of setting fire to any target with auto attacks, burning will deal damage as a percentage of your attack."
-			"rune_mystic_des"						"Long-forgotten secret knowledge of various races, who knows what they hide?<br>When leveling up for the first time, gives the character the knowledge of various races in the field of finding weak points.<br>Adds a large amount of Critical Damage to the artifact system.<br>Strengthens your character - adds%бонусаphysical damage."
-			"rune_air_des"							"Once upon a time, air magicians lived in a world...<br>When leveling up for the first time, gives the character air magic.<br>Increases the character's movement speed.<br>Adds character attack speed."
-			"rune_power_des"						"You delve into the ancient field of natural philosophy - Alchemy.<br>Your knowledge allows you to get more gold from some sources, as well as convert part of the experience you gain into gold.<br>Increases the gold received for killing enemies on the wave.<br>Converts some of the experience gained into gold using Foresight Stone and Artifact of Wisdom items"
-
-
-
-
+		"rune_magic_des"						"Knowledge of ancient magical arts.<br><br><b>Bonuses:</b><br>• Increases mana reserve and regeneration.<br>• Increases damage from spells and reduces their cost."
+		"rune_vampire_des"						"Controlling an ancient curse.<br><br><b>Bonuses:</b><br>• 25% chance to release a “Wave of Wrath” when receiving damage.<br>• Wave damage depends on your main attribute and armor."
+		"rune_earch_des"						"Unity with the forces of nature and survival.<br><br><b>Bonuses:</b><br>• Increases maximum health.<br>• Strengthens any treatment and blocks physical damage. damage (depending on HP and armor)."
+		"rune_fire_des"							"The art of destroying any defense.<br><br><b>Bonuses:</b><br>• Increases base white attack damage.<br>• 17% chance of breaking enemy armor when attacking (the effect stacks)."
+		"rune_mystic_des"						"Secret knowledge about finding weak points.<br><br><b>Bonuses:</b><br>• Increases the chance of a critical hit and physical. damage.<br>• Each of your critical attacks heals the hero."
+		"rune_air_des"							"Wind magic that gives incredible lightness.<br><br><b>Bonuses:</b><br>• Increases movement and attack speed.<br>• Significantly speeds up the hero's turn."
+		"rune_power_des"						"Secrets of alchemy and untold wealth.<br><br><b>Bonuses:</b><br>• Gives you a chance to double any gold you receive.<br>• Reduces the cooldown of creation artifacts and experience stones."
 			"pick_ascension_button"					"Pump up!"
 			"pick_ascension_button_back"			"< Back"
 
-			"rune_magic_bonus_1"					"Chance of instant recharge: "
-			"rune_magic_bonus_2"					"Mana recovery from damage: "
+			"rune_magic_b1"					"Max. mana: +{s:mana}% |  Mana regeneration: +{s:regen}%"
+			"rune_magic_b2"					"Spell Damage: +{s:dmg}% |  Mana cost: -{s:cost}%"
 
-			"rune_vampire_bonus_1"					"Damage from missing health: "
-			"rune_vampire_bonus_2"					"Fury Duration: "
+			"rune_vampire_b1"				"Wave damage:{s:attr}% of Basic. Attribute +{s:armor}units. for 1 unit armor"
+			"rune_vampire_b2"				"Chance of Wave of Wrath when taking damage: 25%"
 
-			"rune_earch_bonus_1"					"Chance of resurrection: "
-			"rune_earch_bonus_2"					"Evasion chance: "
+			"rune_earch_b1"					"Health: +{s:hp}% |  Healing Boost: +{s:heal}%"
+			"rune_earch_b2"					"Damage Block: 2.5% of Max. HP +{s:armor}units. (from reservation)"
 
-			"rune_fire_bonus_1"						"Damage amount: "
-			"rune_fire_bonus_2"						"Chance of Ignition: "
+			"rune_fire_b1"					"White damage: +{s:flat}units. +{s:pct}% of base"
+			"rune_fire_b2"					"Enemy Armor Reduction: -{s:armor}(Shatter Chance: 17%)"
 
-			"rune_mystic_bonus_1"					"Critical Damage: "
-			"rune_mystic_bonus_2"					"Bonus Physical Damage: "
+			"rune_mystic_b1"				"Crit chance:{s:crit}% |  Bonus physical damage: +{s:dmg}%"
+			"rune_mystic_b2"				"Critical Healing impact: +{s:heal}units. health"
 
-			"rune_air_bonus_1"						"Movement speed: "
-			"rune_air_bonus_2"						"Attack speed: "
+			"rune_air_b1"					"Running speed: +{s:ms}% |  Turn rate: +{s:turn}%"
+			"rune_air_b2"					"Attack speed: +{s:as}units."
 
-			"rune_power_bonus_1"					"Bonus gold from the wave: "
-			"rune_power_bonus_2"					"Part of the experience converted into gold: "
+			"rune_power_b1"					"Chance to double gold received:{s:gold}%"
+			"rune_power_b2"					"Artifact cooldown reduction: -{s:cdr}%"
 
 			"DOTA_Tooltip_ability_gu_ascension_ability"					"Ascension"
 			"DOTA_Tooltip_ability_gu_ascension_ability_description"		"Opens the character ascension menu."
 			"DOTA_Tooltip_rune_fire_on_hit"								"You're on fire!"
 
+		"DOTA_Tooltip_modifier_gu_rune_magic"							"Path of Magic"
+		"DOTA_Tooltip_modifier_gu_rune_magic_Description"				"Increases mana, mana regeneration, spell damage and reduces their cost."
+
+		"DOTA_Tooltip_modifier_rune_vampire"							"Path of Rabies"
+		"DOTA_Tooltip_modifier_rune_vampire_Description"				"Grants a chance to release a Wave of Wrath when receiving damage."
+
+		"DOTA_Tooltip_modifier_rune_earch"								"Nature's Way"
+		"DOTA_Tooltip_modifier_rune_earch_Description"					"Increases health, enhances healing and blocks physical damage."
+
+		"DOTA_Tooltip_modifier_rune_fire"								"Path of Fire"
+		"DOTA_Tooltip_modifier_rune_fire_Description"					"Gives bonus damage and a chance to shatter enemy armor when attacking."
+
+		"DOTA_Tooltip_modifier_rune_fire_armor_shatter"					"Shattered Armor"
+		"DOTA_Tooltip_modifier_rune_fire_armor_shatter_Description"		"Armor reduced from Path of Fire effects."
+
+		"DOTA_Tooltip_modifier_rune_mystic"								"Path of Mysticism"
+		"DOTA_Tooltip_modifier_rune_mystic_Description"					"Increases critical strike chance and base damage. Critical attacks heal."
+
+		"DOTA_Tooltip_modifier_rune_air"								"Air Path"
+		"DOTA_Tooltip_modifier_rune_air_Description"					"Increases movement speed, attack speed, and turn speed."
+
+		"DOTA_Tooltip_modifier_rune_power"								"Path of Alchemy"
+		"DOTA_Tooltip_modifier_rune_power_Description"					"Gives a chance to double the gold received and reduces the cooldown of artifacts."
+ 
 			"DOTA_Tooltip_modifier_manolator" 				"Magic Scythe"
 
 			"DOTA_Tooltip_modifier_t72_machine_gun_attack"  "12.7 MM NSVT"
