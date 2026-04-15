@@ -59,4 +59,4 @@ def check_file(filename):
         print("✅ Ошибок не найдено! Структура кавычек в файле идеальна.")
 
 if __name__ == '__main__':
-    check_file('addon_english.txt')
+    check_file('addon_russian.txt')
