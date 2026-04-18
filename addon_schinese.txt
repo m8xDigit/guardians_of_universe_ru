@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-"Language"	"俄语"
+"Language"	"schinese"
 "Tokens"
 {
 "addon_game_name"							"宇宙守护者"
