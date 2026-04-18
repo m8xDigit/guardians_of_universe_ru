@@ -22,10 +22,9 @@
 	"Tempered"				"Сложно"
 	"Veteran"				"Абсурдно"
 	"Result"				"Результат"
+	
 
-	"#DOTA_GoodGuys"					"Стражи Вселенной"
-	"DOTA_GoodGuys"						"Стражи Вселенной"
-	"#DOTA_BadGuys"						"Воины Орай"
+	"DOTA_GoodGuys"					"Стражи Вселенной"
 	"DOTA_BadGuys"						"Воины Орай"
 
 	"boss_dif_1"			"Сложность: <font color='#89eb49'>«Лёгкая»</font>"
@@ -3542,94 +3541,93 @@
 		"DOTA_Tooltip_ability_flash_bomb_bot"                                        	"Ослепление"
 		"DOTA_Tooltip_ability_flash_bomb_bot_Description"                            		"Ослепляет врага."
 
-		"dota_tooltip_ability_item_custom_universe_rune_lvlup" 								"Вселенская Руна: Прозрение"
-		"dota_tooltip_ability_item_custom_universe_rune_lvlup_description" 					"Даёт вам опыт в зависимости от текущей волны.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает получаемый опыт на 1%%."
+		// =========================================================================
+        // ОБЩИЙ ПЕРМАНЕНТНЫЙ БАФФ (НАКОПИТЕЛЬНЫЙ ДЛЯ ВСЕХ РУН)
+        // =========================================================================
+        "dota_tooltip_modifier_kurumi_gu_runes_modifier"                            "Сила Вселенной"
+        "dota_tooltip_modifier_kurumi_gu_runes_modifier_description"                "Вы впитали энергию Вселенских Рун. Ваши характеристики навсегда увеличены."
 
-		"dota_tooltip_ability_item_custom_universe_rune_arcane" 							"Вселенская Руна: Частица Архимага"
-		"dota_tooltip_ability_item_custom_universe_rune_arcane_description" 				"Снижает время перезарядки способностей на 50%%, затраты маны на 80%% и увеличивает урон от заклинаний на 300%%."
-			"dota_tooltip_modifier_custom_universe_arcane_rune" 							"Вселенская Руна: Частица Архимага"
-			"dota_tooltip_modifier_custom_universe_arcane_rune_aura" 						"Вселенская Руна: Частица Архимага (Аура)"
-			"dota_tooltip_modifier_custom_universe_arcane_rune_aura_description" 			"Дарует половину эффектов Частицы Архимага."
-			"dota_tooltip_modifier_custom_universe_arcane_rune_description" 				"Уменьшает перезарядку способностей и потребление маны. Значительно увеличивает урон от заклинаний."
+        // =========================================================================
+        // ОПИСАНИЯ РУН И ИХ ВРЕМЕННЫХ БАФФОВ
+        // =========================================================================
+        "dota_tooltip_ability_item_custom_universe_rune_lvlup"                      "Вселенская Руна: Прозрение"
+        "dota_tooltip_ability_item_custom_universe_rune_lvlup_description"          "Даёт вам опыт в зависимости от текущей волны.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает получаемый опыт на 1%%."
 
-		"dota_tooltip_ability_item_custom_universe_rune_bounty" 							"Вселенская Руна: Богатство"
-		"dota_tooltip_ability_item_custom_universe_rune_bounty_description" 				"Мгновенно дает вам золото в зависимости от текущей волны."
-		
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage" 						"Вселенская Руна: Двойной Урон"
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" 			"Увеличивает ваш урон на 25 + 25 за каждую прошедшую волну. Союзники вокруг получают половину этого бонуса.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает ваш основной атрибут на 1 (и дополнительно +1 за каждые 2 волны)."
-			"dota_tooltip_modifier_custom_universe_double_damage_rune" 						"Вселенская Руна: Двойной Урон"
-			"dota_tooltip_modifier_custom_universe_double_damage_rune_description" 			"Базовый урон значительно увеличен."
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" 					"Вселенская Руна: Двойной Урон (Аура)"
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" 		"Базовый урон увеличен от союзной руны."
+        "dota_tooltip_ability_item_custom_universe_rune_arcane"                     "Вселенская Руна: Частица Архимага"
+        "dota_tooltip_ability_item_custom_universe_rune_arcane_description"         "Снижает время перезарядки способностей на 50%%, затраты маны на 80%% и увеличивает урон от заклинаний на 300%%."
+            "dota_tooltip_modifier_custom_universe_arcane_rune"                     "Вселенская Руна: Частица Архимага"
+            "dota_tooltip_modifier_custom_universe_arcane_rune_description"         "Уменьшает перезарядку способностей и потребление маны. Значительно увеличивает урон от заклинаний."
+            "dota_tooltip_modifier_custom_universe_arcane_rune_aura"                "Вселенская Руна: Частица Архимага (Аура)"
+            "dota_tooltip_modifier_custom_universe_arcane_rune_aura_description"    "Дарует половину эффектов Частицы Архимага от союзной руны."
 
-		"dota_tooltip_ability_item_custom_universe_rune_ember" 								"Вселенская Руна: Огненная Душа"
-		"dota_tooltip_ability_item_custom_universe_rune_ember_description" 					"Накладывает эффект горения, наносящий урон противникам вокруг вас. Ваши атаки поджигают цель."
-			"dota_tooltip_modifier_custom_universe_ember_rune"								"Вселенская Руна: Огненная Душа"
-			"dota_tooltip_modifier_custom_universe_ember_rune_burn"							"Вселенская Руна: Огненная Душа"
-			"dota_tooltip_modifier_custom_universe_ember_rune_burn_description"				"Вы горите."
-			"dota_tooltip_modifier_custom_universe_ember_rune_description"					"Враги рядом получают урон огнём и шанс промаха."
+        "dota_tooltip_ability_item_custom_universe_rune_bounty"                     "Вселенская Руна: Богатство"
+        "dota_tooltip_ability_item_custom_universe_rune_bounty_description"         "Мгновенно дает вам золото в зависимости от текущей волны."
+        
+        "dota_tooltip_ability_item_custom_universe_rune_doubledamage"               "Вселенская Руна: Двойной Урон"
+        "dota_tooltip_ability_item_custom_universe_rune_doubledamage_description"   "Увеличивает ваш урон на 25 + 25 за каждую прошедшую волну. Союзники вокруг получают половину этого бонуса.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает ваш основной атрибут на 1 (и дополнительно +1 за каждые 2 волны)."
+            "dota_tooltip_modifier_custom_universe_double_damage_rune"              "Вселенская Руна: Двойной Урон"
+            "dota_tooltip_modifier_custom_universe_double_damage_rune_description"  "Базовый урон значительно увеличен."
+            "dota_tooltip_modifier_custom_universe_rune_doubledamage_aura"          "Вселенская Руна: Двойной Урон (Аура)"
+            "dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" "Базовый урон увеличен от союзной руны."
 
-		"dota_tooltip_ability_item_custom_universe_rune_frost" 								"Вселенская Руна: Карающий Взор"
-		"dota_tooltip_ability_item_custom_universe_rune_frost_description" 					"При атаке или получении урона замедляет обидчика. С шансом в 17%% атакованный или атакующий юнит будет оглушен на 3 секунды."
-			"dota_tooltip_modifier_custom_universe_frost_rune" 								"Вселенская Руна: Ледяная Частица"
-			"dota_tooltip_modifier_custom_universe_frost_rune_aura" 						"Вселенская Руна: Ледяная Частица (Аура)"
-			"dota_tooltip_modifier_custom_universe_frost_rune_aura_description" 			"При атаке или получении урона замедляет противника."
-			"dota_tooltip_modifier_custom_universe_frost_rune_description" 					"При атаке или получении урона замедляет противника."
-			"dota_tooltip_modifier_custom_universe_frost_rune_slow" 						"Вселенская Руна: Заморозка"
-			"dota_tooltip_modifier_custom_universe_frost_rune_slow_description" 			"Скорость атаки и передвижения снижены."
+        "dota_tooltip_ability_item_custom_universe_rune_ember"                      "Вселенская Руна: Огненная Душа"
+        "dota_tooltip_ability_item_custom_universe_rune_ember_description"          "Создает вокруг вас смертоносную обжигающую ауру (радиус 600). Враги внутри ауры каждую секунду получают физический урон в размере 1%% от их максимального запаса здоровья."
+            "dota_tooltip_modifier_custom_universe_ember_rune"                      "Вселенская Руна: Огненная Душа"
+            "dota_tooltip_modifier_custom_universe_ember_rune_description"          "Вы сжигаете противников вокруг."
+            "dota_tooltip_modifier_custom_universe_ember_rune_burn"                 "Ожог Вселенской Руны"
+            "dota_tooltip_modifier_custom_universe_ember_rune_burn_description"     "Получает физический урон в размере 0.1%% от максимального здоровья."
 
-		"dota_tooltip_ability_item_custom_universe_rune_haste" 								"Вселенская Руна: Кошмарная тень"
-		"dota_tooltip_ability_item_custom_universe_rune_haste_description" 					"Даёт 100 скорости передвижения + 10 за каждую волну. Позволяет беспрепятственно проходить сквозь существ, увеличивает скорость разворота на 100%% и скорость атаки на 35.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает вашу скорость передвижения на 5."
-			"dota_tooltip_modifier_custom_universe_haste_rune" 								"Вселенская Руна: Кошмарная тень"
-			"dota_tooltip_modifier_custom_universe_haste_rune_aura" 						"Вселенская Руна: Кошмарная тень (Аура)"
-			"dota_tooltip_modifier_custom_universe_haste_rune_aura_description" 			"Скорость передвижения и атаки увеличены от союзной руны."
-			"dota_tooltip_modifier_custom_universe_haste_rune_description" 					"Скорость передвижения и атаки значительно увеличены, даровано беспрепятственное передвижение."
+        "dota_tooltip_ability_item_custom_universe_rune_frost"                      "Вселенская Руна: Карающий Взор"
+        "dota_tooltip_ability_item_custom_universe_rune_frost_description"          "При атаке или получении урона замедляет обидчика. С шансом в 17%% атакованный или атакующий юнит будет оглушен на 3 секунды."
+            "dota_tooltip_modifier_custom_universe_frost_rune"                      "Вселенская Руна: Ледяная Частица"
+            "dota_tooltip_modifier_custom_universe_frost_rune_description"          "При атаке или получении урона замедляет противника."
+            "dota_tooltip_modifier_custom_universe_frost_rune_aura"                 "Вселенская Руна: Ледяная Частица (Аура)"
+            "dota_tooltip_modifier_custom_universe_frost_rune_aura_description"     "При атаке или получении урона замедляет противника."
+            "dota_tooltip_modifier_custom_universe_frost_rune_slow"                 "Вселенская Руна: Заморозка"
+            "dota_tooltip_modifier_custom_universe_frost_rune_slow_description"     "Скорость атаки и передвижения снижены."
+            "dota_tooltip_modifier_custom_universe_frost_rune_stun"                 "Заледенение"
+            "dota_tooltip_modifier_custom_universe_frost_rune_stun_description"     "Оглушен ледяной магией."
 
-		"dota_tooltip_ability_item_custom_universe_rune_illusion" 							"Вселенская Руна: Силовое Поле"
-		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" 				"Снижает любой получаемый урон на 15%% + 0.5%% за каждую волну (максимум до 100%%).<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает сопротивление эффектам на 0.25%%."
-			"dota_tooltip_modifier_custom_universe_illusion_rune"							"Вселенская Руна: Силовое Поле"
-			"dota_tooltip_modifier_custom_universe_illusion_rune_description" 				"Получаемый урон значительно снижен."
+        "dota_tooltip_ability_item_custom_universe_rune_haste"                      "Вселенская Руна: Кошмарная тень"
+        "dota_tooltip_ability_item_custom_universe_rune_haste_description"          "Даёт 100 скорости передвижения + 10 за каждую волну. Позволяет беспрепятственно проходить сквозь существ, увеличивает скорость разворота на 100%% и скорость атаки на 35.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает вашу скорость передвижения на 5."
+            "dota_tooltip_modifier_custom_universe_haste_rune"                      "Вселенская Руна: Кошмарная тень"
+            "dota_tooltip_modifier_custom_universe_haste_rune_description"          "Скорость передвижения и атаки значительно увеличены, даровано беспрепятственное передвижение."
+            "dota_tooltip_modifier_custom_universe_haste_rune_aura"                 "Вселенская Руна: Кошмарная тень (Аура)"
+            "dota_tooltip_modifier_custom_universe_haste_rune_aura_description"     "Скорость передвижения и атаки увеличены от союзной руны."
 
-		"dota_tooltip_ability_item_custom_universe_rune_invis" 								"Вселенская Руна: Темная жатва"
-		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"Пока активна, увеличивает критический урон на 10%% + 2%% за каждую волну.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает ваш критический урон на 3%%."
-			"dota_tooltip_modifier_custom_universe_invisibility_rune" 						"Вселенская Руна: Темная жатва" 
-			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 			"Сила критического удара увеличен."
+        "dota_tooltip_ability_item_custom_universe_rune_illusion"                   "Вселенская Руна: Силовое Поле"
+        "dota_tooltip_ability_item_custom_universe_rune_illusion_description"       "Снижает любой получаемый урон на 15%% + 0.5%% за каждую волну (максимум до 100%%).<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает сопротивление эффектам на 0.25%%."
+            "dota_tooltip_modifier_custom_universe_illusion_rune"                   "Вселенская Руна: Силовое Поле"
+            "dota_tooltip_modifier_custom_universe_illusion_rune_description"       "Получаемый урон значительно снижен."
 
-		
-		"dota_tooltip_ability_item_custom_universe_rune_regen" 								"Вселенская Руна: Регенерация"
-		"dota_tooltip_ability_item_custom_universe_rune_regen_description" 					"Восстанавливает 2.5%% от максимального здоровья и маны в секунду (союзники рядом получают 1.25%%).<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает регенерацию здоровья на 3 + 0.6 за волну и усиливает получаемое/исходящее лечение на 0.4%%."
-			"dota_tooltip_modifier_custom_universe_regen_rune" 								"Вселенская Руна: Регенерация"
-			"dota_tooltip_modifier_custom_universe_regen_rune_aura" 						"Вселенская Руна: Регенерация (Аура)"
-			"dota_tooltip_modifier_custom_universe_regen_rune_aura_description" 			"Повышенная регенерация здоровья и маны от союзной руны."
-			"dota_tooltip_modifier_custom_universe_regen_rune_description" 					"Быстро восстанавливает здоровье и ману в процентах от максимального запаса."
+        "dota_tooltip_ability_item_custom_universe_rune_invis"                      "Вселенская Руна: Темная жатва"
+        "dota_tooltip_ability_item_custom_universe_rune_invis_description"          "Пока активна, увеличивает критический урон на 10%% + 2%% за каждую волну.<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает ваш критический урон на 3%%."
+            "dota_tooltip_modifier_custom_universe_invisibility_rune"               "Вселенская Руна: Темная жатва" 
+            "dota_tooltip_modifier_custom_universe_invisibility_rune_description"   "Сила критического удара увеличена."
+        
+        "dota_tooltip_ability_item_custom_universe_rune_regen"                      "Вселенская Руна: Регенерация"
+        "dota_tooltip_ability_item_custom_universe_rune_regen_description"          "Восстанавливает 2.5%% от максимального здоровья и маны в секунду (союзники рядом получают 1.25%%).<br><br><font color='#55ff55'>Перманентный бонус (при поднятии):</font> Навсегда увеличивает регенерацию здоровья на 3 + 0.6 за волну и усиливает получаемое/исходящее лечение на 0.4%%."
+            "dota_tooltip_modifier_custom_universe_regen_rune"                      "Вселенская Руна: Регенерация"
+            "dota_tooltip_modifier_custom_universe_regen_rune_description"          "Быстро восстанавливает здоровье и ману в процентах от максимального запаса."
+            "dota_tooltip_modifier_custom_universe_regen_rune_aura"                 "Вселенская Руна: Регенерация (Аура)"
+            "dota_tooltip_modifier_custom_universe_regen_rune_aura_description"     "Повышенная регенерация здоровья и маны от союзной руны."
 
-		"dota_tooltip_ability_item_custom_universe_rune_stone"								"Вселенская Руна: Окаменелость"
-		"dota_tooltip_ability_item_custom_universe_rune_stone_description"					"Ваши атаки накладывают стаки. После 5 попаданий превращает цель в камень, делая ее неуязвимой к магии и оглушая."
-		            
-		"dota_tooltip_ability_item_custom_universe_rune_energy"								"Вселенская Руна: Энергия"
-        "dota_tooltip_ability_item_custom_universe_rune_energy_description"					"Даёт вам огромный запас дополнительной энергии, а также значительно ускоряет её регенерацию (скалируется от текущей волны)."
+        "dota_tooltip_ability_item_custom_universe_rune_stone"                      "Вселенская Руна: Окаменелость"
+        "dota_tooltip_ability_item_custom_universe_rune_stone_description"          "Любой противник, посмевший атаковать вас с дистанции 1000 или меньше, мгновенно обращается в камень (оглушается) на 2 секунды. Эффект срабатывает на каждую отдельную цель не чаще, чем раз в 5 секунд."
+            "dota_tooltip_modifier_custom_universe_stone_rune"                      "Вселенская Руна: Окаменелость"
+            "dota_tooltip_modifier_custom_universe_stone_rune_description"          "Атакующие вас враги мгновенно превращаются в камень."
+            "dota_tooltip_modifier_custom_universe_stone_rune_stun"                 "Окаменение"
+            "dota_tooltip_modifier_custom_universe_stone_rune_stun_description"     "Превращен в камень и оглушен."
+                    
+        "dota_tooltip_ability_item_custom_universe_rune_energy"                     "Вселенская Руна: Энергия"
+        "dota_tooltip_ability_item_custom_universe_rune_energy_description"         "Даёт вам огромный запас дополнительной энергии, а также значительно ускоряет её регенерацию (скалируется от текущей волны)."
 
-		"dota_tooltip_ability_item_custom_universe_rune_weather" 							"Вселенская Руна: Погодная Нестабильность"
-		"dota_tooltip_ability_item_custom_universe_rune_weather_description" 				"Изменяет погоду на случайную."
+        "dota_tooltip_ability_item_custom_universe_rune_weather"                    "Вселенская Руна: Погодная Нестабильность"
+        "dota_tooltip_ability_item_custom_universe_rune_weather_description"        "Изменяет погоду на случайную."
 
-		"dota_tooltip_modifier_cu_rune_lvlup_permanent" 							"Прозрение: Накопленная Мудрость"
-		"dota_tooltip_modifier_cu_rune_lvlup_permanent_description" 				"Перманентно увеличивает получаемый опыт на %dMODIFIER_PROPERTY_EXP_RATE_BOOST%%%."
-
-		"dota_tooltip_modifier_cu_rune_dd_permanent" 								"Двойной Урон: Накопленная Сила"
-		"dota_tooltip_modifier_cu_rune_dd_permanent_description" 					"Перманентно увеличивает ваш основной атрибут на %dMODIFIER_PROPERTY_STATS_PRIMARY_BONUS%."
-
-		"dota_tooltip_modifier_cu_rune_haste_permanent" 							"Кошмарная тень: Накопленная Скорость"
-		"dota_tooltip_modifier_cu_rune_haste_permanent_description" 				"Перманентно увеличивает вашу скорость передвижения на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%."
-
-		"dota_tooltip_modifier_cu_rune_regen_permanent" 							"Регенерация: Накопленная Жизнь"
-		"dota_tooltip_modifier_cu_rune_regen_permanent_description" 				"Перманентно увеличивает регенерацию здоровья на %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% и эффективность любого лечения на %dMODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE%%%."
-
-		"dota_tooltip_modifier_cu_rune_invis_permanent" 							"Темная жатва: Накопленная Жестокость"
-		"dota_tooltip_modifier_cu_rune_invis_permanent_description" 				"Перманентно увеличивает ваш критический урон. Количество стаков равно бонусному урону в процентах."
-
-		"dota_tooltip_modifier_cu_rune_illusion_permanent" 							"Силовое Поле: Накопленная Стойкость"
-		"dota_tooltip_modifier_cu_rune_illusion_permanent_description" 				"Перманентно увеличивает сопротивление эффектам на %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%."
-
+        "DOTA_Tooltip_kurumi_gu_runes_modifier"                             "Сила Вселенной"
+        "DOTA_Tooltip_kurumi_gu_runes_modifier_description"                 "Вы навсегда впитали мощь Вселенских Рун. Ваши характеристики увеличены:\n\n<font color='#ff4c4c'>+ %dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS%</font> к Силе\n<font color='#55ff55'>+ %dMODIFIER_PROPERTY_STATS_AGILITY_BONUS%</font> к Ловкости\n<font color='#00e5ff'>+ %dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS%</font> к Интеллекту\n<font color='#ffff55'>+ %dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%</font> к скорости передвижения\n<font color='#ff55ff'>+ %dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%</font> к сопротивлению эффектам\n<font color='#ffaa00'>+ %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%</font> к регенерации здоровья\n<font color='#ffffff'>+ %dMODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE%%%</font> к эффективности исцеления\n\n<i>(Также содержит внутренние накопительные бонусы к получаемому опыту и силе критического урона).</i>"
+			
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff"										"Буря" 
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff_Description"							"Не может передвигаться %fMODIFIER_PROPERTY_TOOLTIP% секунд." 
 			"DOTA_Tooltip_modifier_weather_storm_debuff"										"Молния" 
@@ -5400,6 +5398,7 @@
 		"item_custom_universe_rune_invis" "Темная жатва"
 		"item_custom_universe_rune_regen" "Регенерация"
 		"item_custom_universe_rune_energy" "Энергия"
+		"item_custom_universe_rune_stone" "Каменная Сила"
 
 		"gu_BossKill"	"{player_name} убил Хранителя {boss_name}"
 
@@ -6477,9 +6476,9 @@
 			"rune_power"						"Путь: Богатство"
  
 		"rune_magic_des"						"Познание древних магических искусств.<br><br><b>Бонусы:</b><br>• Увеличивает запас и регенерацию маны.<br>• Повышает урон от заклинаний и снижает их стоимость."
-		"rune_vampire_des"						"Контроль над древним проклятием.<br><br><b>Бонусы:</b><br>• 25% шанс при получении урона выпустить «Волну Гнева».<br>• Урон волны зависит от вашего основного атрибута и брони."
+		"rune_vampire_des"						"Контроль над древним проклятием.<br><br><b>Бонусы:</b><br>• 5% шанс при получении урона выпустить «Волну Гнева».<br>• Урон волны зависит от вашего основного атрибута и брони."
 		"rune_earch_des"						"Единение с силами природы и выживание.<br><br><b>Бонусы:</b><br>• Увеличивает максимальный запас здоровья.<br>• Усиливает любое лечение и дает блок физ. урона (зависит от ХП и брони)."
-		"rune_fire_des"							"Искусство разрушения любой защиты.<br><br><b>Бонусы:</b><br>• Увеличивает базовый белый урон атак.<br>• 17% шанс при атаке расколоть броню врага (эффект складывается)."
+		"rune_fire_des"							"Искусство разрушения любой защиты.<br><br><b>Бонусы:</b><br>• Увеличивает базовый белый урон атак.<br>• При атаке уменьшает броню врага."
 		"rune_mystic_des"						"Тайные знания о поиске слабых мест.<br><br><b>Бонусы:</b><br>• Повышает шанс критического удара и физ. урон.<br>• Каждая ваша критическая атака исцеляет героя."
 		"rune_air_des"							"Магия ветра, дарующая невероятную легкость.<br><br><b>Бонусы:</b><br>• Повышает скорость передвижения и атаки.<br>• Значительно ускоряет разворот героя."
 		"rune_power_des"						"Секреты алхимии и несметного богатства.<br><br><b>Бонусы:</b><br>• Дает шанс удвоить любое получаемое золото.<br>• Снижает перезарядку артефактов создания и камней опыта."
@@ -6490,13 +6489,13 @@
 			"rune_magic_b2"					"Урон заклинаний: +{s:dmg}%  |  Расход маны: -{s:cost}%"
 
 			"rune_vampire_b1"				"Урон волны: {s:attr}% от Осн. Атрибута + {s:armor} ед. за 1 ед. брони"
-			"rune_vampire_b2"				"Шанс Волны Гнева при получении урона: 25%"
+			"rune_vampire_b2"				"Шанс Волны Гнева при получении урона: 5%"
 
 			"rune_earch_b1"					"Здоровье: +{s:hp}%  |  Усиление лечения: +{s:heal}%"
 			"rune_earch_b2"					"Блок урона: 2.5% от Макс. ХП + {s:armor} ед. (от брони)"
 
 			"rune_fire_b1"					"Белый урон: +{s:flat} ед. + {s:pct}% от базы"
-			"rune_fire_b2"					"Снижение брони врага: -{s:armor} (Шанс раскола: 17%)"
+			"rune_fire_b2"					"Снижение брони врага: -{s:armor}"
 
 			"rune_mystic_b1"				"Шанс крита: {s:crit}%  |  Бонусный физ. урон: +{s:dmg}%"
 			"rune_mystic_b2"				"Исцеление при крит. ударе: +{s:heal} ед. здоровья"
@@ -6918,7 +6917,7 @@
 		
 		"chill_tiara"						"Шаман льда"
 		"chill_tiara_5"						"Тиара холода"
-		"chill_tiara_effect_des" 			"Можно достать только убив Хранителя - Миреска Ветренная <br>"
+		"chill_tiara_effect_des" 			"Можно достать только убив Хранителя - Сангономия <br>"
 		
 
 		"lucky"								"Везунчик"
@@ -7075,6 +7074,10 @@
         "pray_button_text"                  "Открывает меню Молитв для получения новых персонажей."
         "pray_button_help"                  "Молитва — это основной способ получения новых героев и талантов для них. Подробную информацию о вероятностях и правилах системы можно узнать, нажав кнопку «Детали» в самом окне Молитв."
         
+		"quest_button_main"                  "Терминал Задач"
+        "quest_button_text"                  "Открывает панель управления миссиями, Звёздными Вратами и сканированием секторов."
+        "quest_button_help"                  "Терминал Задач — это ваш главный командный интерфейс. Здесь вы можете отслеживать прогресс глобальных поручений, управлять набором адресов Врат для путешествий и использовать радар для поиска редких артефактов и генераторов. Завершайте циклы задач, чтобы извлекать ресурсы, опыт и уникальные компоненты."
+
         "talents_button_main"               "Металлургическая Фабрика"
         "talents_button_text"               "Открывает интерфейс Металлургической Фабрики для плавки ресурсов и создания предметов."
         "talents_button_help"               "Фабрика — это глобальная производственная система, общая для всей команды. Здесь добытая в шахтах руда переплавляется в сложные сплавы и высокотехнологичные детали. Склад ресурсов является общим для всех, однако помните: пока один игрок запустил процесс плавки, фабрика будет занята, и другие не смогут начать новый крафт до его завершения."
@@ -7459,21 +7462,20 @@
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_mana_regen"			"Восстановление Маны: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_int"					"Интеллект: "
 
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange"					"Equivalent Exchange"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья при условии что у вас достаточно энергии, потребляет 5% от вашей максимальной энергии за удар. Перезарядка составляет %cd% секунды \n  <br><br><font color='#ff0000'>「Внимание! Пока предмет перезаряжается, его пассивная способность не работает!」</font>"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_miss"					"Уклонение: "
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_armor"				"Броня: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange"                   "Equivalent Exchange"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"       "<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального и не позволяет превысить данный лимит. Если входящий урон за один удар превышает %dmg_per_hit%%% от вашего макс. здоровья, он полностью блокируется и заменяется фиксированным чистым уроном. Поглощение каждого такого удара потребляет 3% от вашей максимальной энергии. Фиксированный урон не может стать фатальным, а способность не имеет перезарядки.<br><br><font color='#ff0000'>「Внимание! Способность не работает против выстрелов вражеской артиллерии!」</font>"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_miss"              "Уклонение: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_armor"             "Броня: "
 
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2"					"Equivalent Exchange 2"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья при условии что у вас достаточно энергии, потребляет 5% от вашей максимальной энергии за удар. Перезарядка составляет %cd% секунды \n <br><br><font color='#ff0000'>「Внимание! Пока предмет перезаряжается, его пассивная способность не работает!」</font>"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_miss"					"Уклонение: "
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_armor"					"Броня: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2"                 "Equivalent Exchange 2"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"     "<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального и не позволяет превысить данный лимит. Если входящий урон за один удар превышает %dmg_per_hit%%% от вашего макс. здоровья, он полностью блокируется и заменяется фиксированным чистым уроном. Поглощение каждого такого удара потребляет 3% от вашей максимальной энергии. Фиксированный урон не может стать фатальным, а способность не имеет перезарядки.<br><br><font color='#ff0000'>「Внимание! Способность не работает против выстрелов вражеской артиллерии!」</font>"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_miss"            "Уклонение: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_armor"           "Броня: "
 
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3"					"Equivalent Exchange 3"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"			"<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального а так-же не позволяет привысить данный лимит, вы не можете получить более %dmg_per_hit%%% урона за удар от вашего максимального здоровья при условии что у вас достаточно энергии, потребляет 5% от вашей максимальной энергии за удар. Перезарядка составляет %cd% секунды \n <br><br><font color='#ff0000'>「Внимание! Пока предмет перезаряжается, его пассивная способность не работает!」</font>"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_miss"					"Уклонение: "
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_armor"					"Броня: "
-
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3"                 "Equivalent Exchange 3"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"     "<h1>Пассивная: Equivalent Exchange</h1>Уменьшает ваше текущее здоровье до 25% от максимального и не позволяет превысить данный лимит. Если входящий урон за один удар превышает %dmg_per_hit%%% от вашего макс. здоровья, он полностью блокируется и заменяется фиксированным чистым уроном. Поглощение каждого такого удара потребляет 3% от вашей максимальной энергии. Фиксированный урон не может стать фатальным, а способность не имеет перезарядки.<br><br><font color='#ff0000'>「Внимание! Способность не работает против выстрелов вражеской артиллерии!」</font>"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_miss"            "Уклонение: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_armor"           "Броня: "
 		"ori_commander"							"Adria"
 		"ori_commander_text_1"					"Внимание! Разворачиваем артиллерию для атаки по вражеским целям!"
 		"ori_commander_text_1_2"				"Андромеда, тебе ничего уже не поможет.АРТБАТАРЕЯ - ОГОНЬ!"
@@ -8787,6 +8789,20 @@
 	
 		"DOTA_Tooltip_ability_item_nickel60"             "Никель-60"
         "DOTA_Tooltip_ability_item_nickel60_Description" "Стабильный изотоп никеля, образующийся в результате бета-распада радиоактивного Кобальта-60.\n\nОбладает экстремальной жаропрочностью и структурной плотностью. Благодаря устойчивости к коррозии и радиационному охрупчиванию, этот металл является важнейшим сырьем для создания теплоносящих контуров и защитных корпусов Ядерного Реактора.\n\n<i>«Смертоносное излучение угасает, оставляя после себя металл, способный выдержать температуру звезды».</i>"
+
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1"                "Мурамаса (Ур. 1)"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_Description"    "<h1>Пассивная: Энергетический надрез</h1>Каждая ваша атака наносит дополнительный магический урон, равный 5% от текущего запаса энергии.<br><h1>Активная: Резонанс</h1>Потребляет 20% от вашего текущего запаса энергии. Ваш следующий удар в течение 5 секунд станет критическим. Множитель критического урона зависит от количества поглощенной энергии."
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_damage"   "+ Урон:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_agility"  "+ Ловкость:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy"   "+ Макс. Энергия:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy_regen" "+ Регенерация энергии:"
+
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2"                "Мурамаса (Ур. 2)"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_Description"    "<h1>Пассивная: Энергетический надрез</h1>Каждая ваша атака наносит дополнительный магический урон, равный 5% от текущего запаса энергии.<br><h1>Активная: Резонанс</h1>Потребляет 20% от вашего текущего запаса энергии. Ваш следующий удар в течение 5 секунд станет критическим. Множитель критического урона зависит от количества поглощенной энергии."
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_damage"   "+ Урон:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_agility"  "+ Ловкость:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy"   "+ Макс. Энергия:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy_regen" "+ Регенерация энергии:"
 
 	}	
 }

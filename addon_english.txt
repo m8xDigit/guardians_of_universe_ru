@@ -22,10 +22,9 @@
 	"Tempered"				"Difficult"
 	"Veteran"				"Absurd"
 	"Result"				"Result"
+	
 
-	"#DOTA_GoodGuys"					"Guardians of the Universe"
-	"DOTA_GoodGuys"						"Guardians of the Universe"
-	"#DOTA_BadGuys"						"Ori Warriors"
+	"DOTA_GoodGuys"					"Guardians of the Universe"
 	"DOTA_BadGuys"						"Ori Warriors"
 
 	"boss_dif_1"			"Difficulty:<font color='#89eb49'>“Easy”</font>"
@@ -3542,94 +3541,93 @@
 		"DOTA_Tooltip_ability_flash_bomb_bot"                                        	"Blindness"
 		"DOTA_Tooltip_ability_flash_bomb_bot_Description"                            		"Blinds the enemy."
 
-		"dota_tooltip_ability_item_custom_universe_rune_lvlup" 								"Universal Rune: Epiphany"
-		"dota_tooltip_ability_item_custom_universe_rune_lvlup_description" 					"Gives you experience depending on the current wave.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases experience gained by 1%%."
+		// =========================================================================
+        // ОБЩИЙ ПЕРМАНЕНТНЫЙ БАФФ (НАКОПИТЕЛЬНЫЙ ДЛЯ ВСЕХ РУН)
+        // =========================================================================
+        "dota_tooltip_modifier_kurumi_gu_runes_modifier"                            "The Power of the Universe"
+        "dota_tooltip_modifier_kurumi_gu_runes_modifier_description"                "You have absorbed the energy of the Universal Runes. Your stats are permanently increased."
 
-		"dota_tooltip_ability_item_custom_universe_rune_arcane" 							"Universal Rune: Archmage Piece"
-		"dota_tooltip_ability_item_custom_universe_rune_arcane_description" 				"Reduces ability cooldowns by 50%%, mana costs by 80%%, and increases spell damage by 300%%."
-			"dota_tooltip_modifier_custom_universe_arcane_rune" 							"Universal Rune: Archmage Piece"
-			"dota_tooltip_modifier_custom_universe_arcane_rune_aura" 						"Universal Rune: Archmage Piece (Aura)"
-			"dota_tooltip_modifier_custom_universe_arcane_rune_aura_description" 			"Grants half the effects of the Archmage Particle."
-			"dota_tooltip_modifier_custom_universe_arcane_rune_description" 				"Reduces ability cooldown and mana consumption. Significantly increases spell damage."
+        // =========================================================================
+        // ОПИСАНИЯ РУН И ИХ ВРЕМЕННЫХ БАФФОВ
+        // =========================================================================
+        "dota_tooltip_ability_item_custom_universe_rune_lvlup"                      "Universal Rune: Epiphany"
+        "dota_tooltip_ability_item_custom_universe_rune_lvlup_description"          "Gives you experience depending on the current wave.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases experience gained by 1%%."
 
-		"dota_tooltip_ability_item_custom_universe_rune_bounty" 							"Universal Rune: Wealth"
-		"dota_tooltip_ability_item_custom_universe_rune_bounty_description" 				"Instantly gives you gold depending on the current wave."
-		
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage" 						"Universal Rune: Double Damage"
-		"dota_tooltip_ability_item_custom_universe_rune_doubledamage_description" 			"Increases your damage by 25 + 25 for each wave passed. Allies around you receive half of this bonus.<br><br><font color='#55ff55'>Permanent Bonus (when picked up):</font>Permanently increases your primary attribute by 1 (and an additional +1 every 2 waves)."
-			"dota_tooltip_modifier_custom_universe_double_damage_rune" 						"Universal Rune: Double Damage"
-			"dota_tooltip_modifier_custom_universe_double_damage_rune_description" 			"Base damage has been significantly increased."
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura" 					"Universal Rune: Double Damage (Aura)"
-			"dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" 		"Base damage from allied rune increased."
+        "dota_tooltip_ability_item_custom_universe_rune_arcane"                     "Universal Rune: Archmage Piece"
+        "dota_tooltip_ability_item_custom_universe_rune_arcane_description"         "Reduces ability cooldowns by 50%%, mana costs by 80%%, and increases spell damage by 300%%."
+            "dota_tooltip_modifier_custom_universe_arcane_rune"                     "Universal Rune: Archmage Piece"
+            "dota_tooltip_modifier_custom_universe_arcane_rune_description"         "Reduces ability cooldown and mana consumption. Significantly increases spell damage."
+            "dota_tooltip_modifier_custom_universe_arcane_rune_aura"                "Universal Rune: Archmage Piece (Aura)"
+            "dota_tooltip_modifier_custom_universe_arcane_rune_aura_description"    "Grants half the effects of an Archmage Mote from an allied Rune."
 
-		"dota_tooltip_ability_item_custom_universe_rune_ember" 								"Universal Rune: Fire Soul"
-		"dota_tooltip_ability_item_custom_universe_rune_ember_description" 					"Applies a burning effect that damages enemies around you. Your attacks set the target on fire."
-			"dota_tooltip_modifier_custom_universe_ember_rune"								"Universal Rune: Fire Soul"
-			"dota_tooltip_modifier_custom_universe_ember_rune_burn"							"Universal Rune: Fire Soul"
-			"dota_tooltip_modifier_custom_universe_ember_rune_burn_description"				"You're burning."
-			"dota_tooltip_modifier_custom_universe_ember_rune_description"					"Nearby enemies take fire damage and a miss chance."
+        "dota_tooltip_ability_item_custom_universe_rune_bounty"                     "Universal Rune: Wealth"
+        "dota_tooltip_ability_item_custom_universe_rune_bounty_description"         "Instantly gives you gold depending on the current wave."
+        
+        "dota_tooltip_ability_item_custom_universe_rune_doubledamage"               "Universal Rune: Double Damage"
+        "dota_tooltip_ability_item_custom_universe_rune_doubledamage_description"   "Increases your damage by 25 + 25 for each wave passed. Allies around you receive half of this bonus.<br><br><font color='#55ff55'>Permanent Bonus (when picked up):</font>Permanently increases your primary attribute by 1 (and an additional +1 every 2 waves)."
+            "dota_tooltip_modifier_custom_universe_double_damage_rune"              "Universal Rune: Double Damage"
+            "dota_tooltip_modifier_custom_universe_double_damage_rune_description"  "Base damage has been significantly increased."
+            "dota_tooltip_modifier_custom_universe_rune_doubledamage_aura"          "Universal Rune: Double Damage (Aura)"
+            "dota_tooltip_modifier_custom_universe_rune_doubledamage_aura_description" "Base damage from allied rune increased."
 
-		"dota_tooltip_ability_item_custom_universe_rune_frost" 								"Universal Rune: Punishing Gaze"
-		"dota_tooltip_ability_item_custom_universe_rune_frost_description" 					"When attacking or receiving damage, slows down the offender. With a 17%%chance, the attacked or attacking unit will be stunned for 3 seconds."
-			"dota_tooltip_modifier_custom_universe_frost_rune" 								"Universal Rune: Ice Particle"
-			"dota_tooltip_modifier_custom_universe_frost_rune_aura" 						"Universal Rune: Ice Particle (Aura)"
-			"dota_tooltip_modifier_custom_universe_frost_rune_aura_description" 			"When attacking or receiving damage, slows down the enemy."
-			"dota_tooltip_modifier_custom_universe_frost_rune_description" 					"When attacking or receiving damage, slows down the enemy."
-			"dota_tooltip_modifier_custom_universe_frost_rune_slow" 						"Universal Rune: Freeze"
-			"dota_tooltip_modifier_custom_universe_frost_rune_slow_description" 			"Attack and movement speed reduced."
+        "dota_tooltip_ability_item_custom_universe_rune_ember"                      "Universal Rune: Fire Soul"
+        "dota_tooltip_ability_item_custom_universe_rune_ember_description"          "Creates a deadly burning aura around you (600 radius). Enemies within the aura take physical damage equal to 1%%of their maximum health every second."
+            "dota_tooltip_modifier_custom_universe_ember_rune"                      "Universal Rune: Fire Soul"
+            "dota_tooltip_modifier_custom_universe_ember_rune_description"          "You burn enemies around you."
+            "dota_tooltip_modifier_custom_universe_ember_rune_burn"                 "Burn of the Universal Rune"
+            "dota_tooltip_modifier_custom_universe_ember_rune_burn_description"     "Takes physical damage equal to 0.1%%of maximum health."
 
-		"dota_tooltip_ability_item_custom_universe_rune_haste" 								"Universal Rune: Nightmare Shadow"
-		"dota_tooltip_ability_item_custom_universe_rune_haste_description" 					"Gives 100 movement speed + 10 for each wave. Allows you to pass through creatures unhindered, increases turn speed by 100%%and attack speed by 35.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your movement speed by 5."
-			"dota_tooltip_modifier_custom_universe_haste_rune" 								"Universal Rune: Nightmare Shadow"
-			"dota_tooltip_modifier_custom_universe_haste_rune_aura" 						"Universal Rune: Nightmare Shadow (Aura)"
-			"dota_tooltip_modifier_custom_universe_haste_rune_aura_description" 			"Movement and attack speed are increased by the allied rune."
-			"dota_tooltip_modifier_custom_universe_haste_rune_description" 					"Movement and attack speed are significantly increased, and unhindered movement is granted."
+        "dota_tooltip_ability_item_custom_universe_rune_frost"                      "Universal Rune: Punishing Gaze"
+        "dota_tooltip_ability_item_custom_universe_rune_frost_description"          "When attacking or receiving damage, slows down the offender. With a 17%%chance, the attacked or attacking unit will be stunned for 3 seconds."
+            "dota_tooltip_modifier_custom_universe_frost_rune"                      "Universal Rune: Ice Particle"
+            "dota_tooltip_modifier_custom_universe_frost_rune_description"          "When attacking or receiving damage, slows down the enemy."
+            "dota_tooltip_modifier_custom_universe_frost_rune_aura"                 "Universal Rune: Ice Particle (Aura)"
+            "dota_tooltip_modifier_custom_universe_frost_rune_aura_description"     "When attacking or receiving damage, slows down the enemy."
+            "dota_tooltip_modifier_custom_universe_frost_rune_slow"                 "Universal Rune: Freeze"
+            "dota_tooltip_modifier_custom_universe_frost_rune_slow_description"     "Attack and movement speed reduced."
+            "dota_tooltip_modifier_custom_universe_frost_rune_stun"                 "Icing"
+            "dota_tooltip_modifier_custom_universe_frost_rune_stun_description"     "Stunned by ice magic."
 
-		"dota_tooltip_ability_item_custom_universe_rune_illusion" 							"Universal Rune: Force Field"
-		"dota_tooltip_ability_item_custom_universe_rune_illusion_description" 				"Reduces any damage taken by 15%%+ 0.5%%per wave (to a maximum of 100%%).<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases resistance to effects by 0.25%%."
-			"dota_tooltip_modifier_custom_universe_illusion_rune"							"Universal Rune: Force Field"
-			"dota_tooltip_modifier_custom_universe_illusion_rune_description" 				"Damage taken is significantly reduced."
+        "dota_tooltip_ability_item_custom_universe_rune_haste"                      "Universal Rune: Nightmare Shadow"
+        "dota_tooltip_ability_item_custom_universe_rune_haste_description"          "Gives 100 movement speed + 10 for each wave. Allows you to pass through creatures unhindered, increases turn speed by 100%%and attack speed by 35.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your movement speed by 5."
+            "dota_tooltip_modifier_custom_universe_haste_rune"                      "Universal Rune: Nightmare Shadow"
+            "dota_tooltip_modifier_custom_universe_haste_rune_description"          "Movement and attack speed are significantly increased, and unhindered movement is granted."
+            "dota_tooltip_modifier_custom_universe_haste_rune_aura"                 "Universal Rune: Nightmare Shadow (Aura)"
+            "dota_tooltip_modifier_custom_universe_haste_rune_aura_description"     "Movement and attack speed are increased by the allied rune."
 
-		"dota_tooltip_ability_item_custom_universe_rune_invis" 								"Universal Rune: Dark Harvest"
-		"dota_tooltip_ability_item_custom_universe_rune_invis_description" 					"While active, increases critical damage by 10%%+ 2%%per wave.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your critical damage by 3%%."
-			"dota_tooltip_modifier_custom_universe_invisibility_rune" 						"Universal Rune: Dark Harvest" 
-			"dota_tooltip_modifier_custom_universe_invisibility_rune_description" 			"Critical hit power increased."
+        "dota_tooltip_ability_item_custom_universe_rune_illusion"                   "Universal Rune: Force Field"
+        "dota_tooltip_ability_item_custom_universe_rune_illusion_description"       "Reduces any damage taken by 15%%+ 0.5%%per wave (to a maximum of 100%%).<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases resistance to effects by 0.25%%."
+            "dota_tooltip_modifier_custom_universe_illusion_rune"                   "Universal Rune: Force Field"
+            "dota_tooltip_modifier_custom_universe_illusion_rune_description"       "Damage taken is significantly reduced."
 
-		
-		"dota_tooltip_ability_item_custom_universe_rune_regen" 								"Universal Rune: Regeneration"
-		"dota_tooltip_ability_item_custom_universe_rune_regen_description" 					"Restores 2.5%%from maximum health and mana per second (nearby allies receive 1.25%%).<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases health regeneration by 3 + 0.6 per wave and increases received/outgoing healing by 0.4%%."
-			"dota_tooltip_modifier_custom_universe_regen_rune" 								"Universal Rune: Regeneration"
-			"dota_tooltip_modifier_custom_universe_regen_rune_aura" 						"Universal Rune: Regeneration (Aura)"
-			"dota_tooltip_modifier_custom_universe_regen_rune_aura_description" 			"Increased health and mana regeneration from allied runes."
-			"dota_tooltip_modifier_custom_universe_regen_rune_description" 					"Quickly restores health and mana as a percentage of your maximum reserve."
+        "dota_tooltip_ability_item_custom_universe_rune_invis"                      "Universal Rune: Dark Harvest"
+        "dota_tooltip_ability_item_custom_universe_rune_invis_description"          "While active, increases critical damage by 10%%+ 2%%per wave.<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases your critical damage by 3%%."
+            "dota_tooltip_modifier_custom_universe_invisibility_rune"               "Universal Rune: Dark Harvest" 
+            "dota_tooltip_modifier_custom_universe_invisibility_rune_description"   "Critical hit power increased."
+        
+        "dota_tooltip_ability_item_custom_universe_rune_regen"                      "Universal Rune: Regeneration"
+        "dota_tooltip_ability_item_custom_universe_rune_regen_description"          "Restores 2.5%%from maximum health and mana per second (nearby allies receive 1.25%%).<br><br><font color='#55ff55'>Permanent bonus (when picked up):</font>Permanently increases health regeneration by 3 + 0.6 per wave and increases received/outgoing healing by 0.4%%."
+            "dota_tooltip_modifier_custom_universe_regen_rune"                      "Universal Rune: Regeneration"
+            "dota_tooltip_modifier_custom_universe_regen_rune_description"          "Quickly restores health and mana as a percentage of your maximum reserve."
+            "dota_tooltip_modifier_custom_universe_regen_rune_aura"                 "Universal Rune: Regeneration (Aura)"
+            "dota_tooltip_modifier_custom_universe_regen_rune_aura_description"     "Increased health and mana regeneration from allied runes."
 
-		"dota_tooltip_ability_item_custom_universe_rune_stone"								"Universal Rune: Fossil"
-		"dota_tooltip_ability_item_custom_universe_rune_stone_description"					"Your attacks apply stacks. After 5 hits, turns the target to stone, making it invulnerable to magic and stunning it."
-		            
-		"dota_tooltip_ability_item_custom_universe_rune_energy"								"Universal Rune: Energy"
-        "dota_tooltip_ability_item_custom_universe_rune_energy_description"					"Gives you a huge supply of additional energy, and also significantly accelerates its regeneration (scales from the current wave)."
+        "dota_tooltip_ability_item_custom_universe_rune_stone"                      "Universal Rune: Fossil"
+        "dota_tooltip_ability_item_custom_universe_rune_stone_description"          "Any enemy who dares to attack you from a distance of 1000 or less is instantly turned to stone (stunned) for 2 seconds. The effect works on each individual target no more than once every 5 seconds."
+            "dota_tooltip_modifier_custom_universe_stone_rune"                      "Universal Rune: Fossil"
+            "dota_tooltip_modifier_custom_universe_stone_rune_description"          "Enemies that attack you instantly turn to stone."
+            "dota_tooltip_modifier_custom_universe_stone_rune_stun"                 "Petrification"
+            "dota_tooltip_modifier_custom_universe_stone_rune_stun_description"     "Turned to stone and stunned."
+                    
+        "dota_tooltip_ability_item_custom_universe_rune_energy"                     "Universal Rune: Energy"
+        "dota_tooltip_ability_item_custom_universe_rune_energy_description"         "Gives you a huge supply of additional energy, and also significantly accelerates its regeneration (scales from the current wave)."
 
-		"dota_tooltip_ability_item_custom_universe_rune_weather" 							"Universal Rune: Weather Instability"
-		"dota_tooltip_ability_item_custom_universe_rune_weather_description" 				"Changes the weather to random."
+        "dota_tooltip_ability_item_custom_universe_rune_weather"                    "Universal Rune: Weather Instability"
+        "dota_tooltip_ability_item_custom_universe_rune_weather_description"        "Changes the weather to random."
 
-		"dota_tooltip_modifier_cu_rune_lvlup_permanent" 							"Insight: Accumulated Wisdom"
-		"dota_tooltip_modifier_cu_rune_lvlup_permanent_description" 				"Permanently increases experience gained by%dMODIFIER_PROPERTY_EXP_RATE_BOOST%%%."
-
-		"dota_tooltip_modifier_cu_rune_dd_permanent" 								"Double Damage: Accumulated Strength"
-		"dota_tooltip_modifier_cu_rune_dd_permanent_description" 					"Permanently increases your primary attribute by%dMODIFIER_PROPERTY_STATS_PRIMARY_BONUS%."
-
-		"dota_tooltip_modifier_cu_rune_haste_permanent" 							"Nightmare Shadow: Accumulated Speed"
-		"dota_tooltip_modifier_cu_rune_haste_permanent_description" 				"Permanently increases your movement speed by%dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%."
-
-		"dota_tooltip_modifier_cu_rune_regen_permanent" 							"Regeneration: Accumulated Life"
-		"dota_tooltip_modifier_cu_rune_regen_permanent_description" 				"Permanently increases health regeneration by%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%and the effectiveness of any treatment by%dMODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE%%%."
-
-		"dota_tooltip_modifier_cu_rune_invis_permanent" 							"Dark Harvest: Accumulated Cruelty"
-		"dota_tooltip_modifier_cu_rune_invis_permanent_description" 				"Permanently increases your critical damage. The number of stacks is equal to the bonus damage as a percentage."
-
-		"dota_tooltip_modifier_cu_rune_illusion_permanent" 							"Force Field: Accumulated Fortitude"
-		"dota_tooltip_modifier_cu_rune_illusion_permanent_description" 				"Permanently increases resistance to effects by%dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%."
-
+        "DOTA_Tooltip_kurumi_gu_runes_modifier"                             "The Power of the Universe"
+        "DOTA_Tooltip_kurumi_gu_runes_modifier_description"                 "You have forever absorbed the power of the Universal Runes. Your stats have been increased:\n\n<font color='#ff4c4c'>+%dMODIFIER_PROPERTY_STATS_STRENGTH_BONUS%</font>to Strength\n<font color='#55ff55'>+%dMODIFIER_PROPERTY_STATS_AGILITY_BONUS%</font>to Dexterity\n<font color='#00e5ff'>+%dMODIFIER_PROPERTY_STATS_INTELLECT_BONUS%</font>to Intelligence\n<font color='#ffff55'>+%dMODIFIER_PROPERTY_MOVESPEED_BONUS_CONSTANT%</font>to movement speed\n<font color='#ff55ff'>+%dMODIFIER_PROPERTY_STATUS_RESISTANCE_STACKING%%%</font>to resistance to effects\n<font color='#ffaa00'>+%dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT%</font>to health regeneration\n<font color='#ffffff'>+%dMODIFIER_PROPERTY_HEAL_AMPLIFY_PERCENTAGE_SOURCE%%%</font>to healing efficiency\n\n<i>(Also contains internal cumulative bonuses to experience gained and critical damage power).</i>"
+			
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff"										"Storm" 
 			"DOTA_Tooltip_modifier_weather_blizzard_debuff_Description"							"Cannot move for%fMODIFIER_PROPERTY_TOOLTIP%seconds." 
 			"DOTA_Tooltip_modifier_weather_storm_debuff"										"Lightning" 
@@ -3951,7 +3949,7 @@
 			"boss_5" "All paths will one day come to an end. There's no need to rush. The past is a ghost, the future is a dream, and all we have is the present."
 			"boss_6" "Do you know that in this very moment you are surrounded by eternity? And do you know that you can take advantage of this eternity if you wish?"
 			"boss_7" "Time has neither beginning nor end. Time is like the serpent Ouroboros, grasping its own tail with its teeth. Eternity is hidden in every moment. And eternity is made up of the moments that create it."
-			"boss_8" "Thirty years ago, the First Spirit appeared on Earth and became the generation of other spirits. My goal is to kill him. I want to see how God will accept a stupid, reckless attempt to change the world."
+			"boss_8" "Thirty years ago, the First Spirit appeared on Earth and became the offspring of other spirits. My goal is to kill him. I want to see how God will accept a stupid, reckless attempt to change the world."
 
 			"boss_name_1" "Sangonomiya"
 			"boss_name_2" "Goddess Aqua"
@@ -4247,10 +4245,23 @@
 		"andromeda_repli_38" "You couldn't protect me from the Invaders! But I have resurrection technology, in order to improve it, use the “Galactic Shatter” artifact."
 		"andromeda_repli_39" "But still, I REALLY ask you, do not allow my death! My life force is not limitless!"
 
+
+		"andromeda_repli_40" "My sensors have detected a destroyed Nuclear Reactor at the base. Judging by the architecture, this is the technology of the Ancients."
+        "andromeda_repli_41" "Unfortunately, the confinement and control systems were critically damaged during the first orbital bombardment of Ori."
+        "andromeda_repli_42" "It is vital for us to restore it! Without the reactor's energy, we will not be able to prepare for the Final Mission."
+        "andromeda_repli_43" "You will have to use the Metallurgical Factory. Collect ores, craft multi-level alloys, and assemble a complete Reactor Repair Kit."
+        "andromeda_repli_44" "The work ahead is massive. Distribute responsibilities within the team: someone extracts resources, and someone monitors the smelting process."
+
+		"andromeda_repli_45" "Amazing job! I detect a stable chain reaction starting. The Nuclear Reactor is back in action!"
+        "andromeda_repli_46" "Energy began flowing into the base's main distribution center. Our MNT is charging."
+        "andromeda_repli_47" "The factory can now operate at full capacity. We have access to the creation of the most complex protective systems and weapons."
+        "andromeda_repli_48" "Use this energy wisely, commanders. Now we have a real chance to fight back against the Ori!"
+
 		"lore_qvest_main"	"New task received!<br>«Defense of Andromeda»"
 		"lore_qvest_boss"	"New task received!<br>«Killing the Guardian»"
 		"lore_qvest_upgrade_tron"	"New task received!<br>“Upgrading Andromeda”"
 		"lore_qvest_all_boss_kill"	"New task received!<br>«Killing the Guardians»"
+		"lore_qvest_upgrade_nuclear"	"New task received!<br>«Nuclear Reactor Repair»"
 		"lore_qvest_prolog_a"	"New task received!<br>“Find the Exit!”"
 		"lore_qvest_forest_e"	"New task received!<br>«Sweeping P3X-797»"
 		"lore_qvest_forest_h"	"New task received!<br>«Sweeping P3X-888»"
@@ -4262,6 +4273,7 @@
 		"lore_qvest_main_text"	"Mission: “Defend Andromeda”"
 		"lore_qvest_boss_text"	"Task: “Kill any Guardian!”"
 		"lore_qvest_upgrade_tron_text"	"Task: “Pumping up Andromeda!”"
+		"lore_qvest_upgrade_nuclear_text"	"Assignment: “Repair the Nuclear Reactor!”"
 		"lore_qvest_all_boss_kill_text_easy"	"Quest: “Keep killing the Guardians!”"
 		"lore_qvest_all_boss_kill_text_standart"	"Quest: “Keep killing the Guardians!”"
 		"lore_qvest_all_boss_kill_text_hard"	"Quest: “Keep killing the Guardians!”"
@@ -4284,6 +4296,7 @@
 		"lore_qvest_main_text_des"	"Defend Andromeda from all threats until she is ready to end the war!"
 		"lore_qvest_boss_text_des"	"Kill any of the Guardians.<br><br>Reward: 200 Gu-Coins"
 		"lore_qvest_upgrade_tron_text_des"	"Upgrade any of Andromeda's parameters by 10 levels.<br><br>Reward: 500 Gu-Coins"
+		"lore_qvest_upgrade_nuclear_text_des"	"Repair the Nuclear Reactor. Using the Metallurgical Factory, assemble a complete Reactor Repair Kit and start it up!"
 		"lore_qvest_all_boss_kill_text_easy_des"	"Kill any of the Guardians 1 time."
 		"lore_qvest_all_boss_kill_text_standart_des"	"Kill any 4 Guardians once each."
 		"lore_qvest_all_boss_kill_text_hard_des"	"Kill any 5 Guardians once each."
@@ -5385,6 +5398,7 @@
 		"item_custom_universe_rune_invis" "Dark Harvest"
 		"item_custom_universe_rune_regen" "Regeneration"
 		"item_custom_universe_rune_energy" "Energy"
+		"item_custom_universe_rune_stone" "Stone Power"
 
 		"gu_BossKill"	"{player_name}killed Guardian{boss_name}"
 
@@ -5468,7 +5482,7 @@
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_r_Description"						"<font color='#7ee340'>Can be given to an ally!"
 
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe"								"Cuirasse of Universe"
-		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, each time%static_proc_count%hits the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec.\n<h1>Passive:<font color='#0384fc'>Weather God</font></h1>Grants immunity to all negative weather effects (you can't be hit by lightning, etc.).\n<h1>Passive:<font color='#0384fc'>Energy Immune</font></h1>Completely protects the player from any effects of electricity.\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance to create a chain lightning that will jump to all enemy units within a%bounce_radius%radius and deal%bounce_damage%% attack damage to the owner of the item.\n<h1>Passive:<font color='#ff8400'>Universe Set</font></h1>「With a full set of Universe items, it will add a new ability - Destroyer of the world 」"
+		"DOTA_Tooltip_ability_item_gu_armor_of_universe_Description"						"<h1>Active: Weather Shield</h1>Applies a lightning shield effect to the target. When attacking a unit that is protected by a shield, each time%static_proc_count%hits the owner, lightning will be released at the enemy, which will deal%static_damage%% damage to the attacker, and also slow him down by%static_slow%for%static_slow_duration%sec.\n<h1>Passive:<font color='#0384fc'>Weather God</font></h1>Grants immunity to all negative weather effects (you can't be hit by lightning, etc.).\n<h1>Passive:<font color='#0384fc'>Energy Immune</font></h1>Completely protects the player from any exposure to electricity.\n<h1>Passive: Energy burst</h1>With a%proc_chance%% chance to create a chain lightning that will jump to all enemy units within a%bounce_radius%radius and deal%bounce_damage%% attack damage to the owner of the item.\n<h1>Passive:<font color='#ff8400'>Universe Set</font></h1>「With a full set of Universe items, it will add a new ability - Destroyer of the world 」"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_damage"						"+to damage:"
 		"DOTA_Tooltip_ability_item_gu_armor_of_universe_bonus_as"							"+to attack speed:"
 
@@ -6450,7 +6464,7 @@
 
  
 			"ascension_text"					"Ascension"
-			"ascension_text_des"				"Choose your path! For completing the game you have a chance to receive a Free Star Glitter! Having it, you can upgrade various character parameters; The progress of this upgrade is saved between games, and the progress is unique for each character! When you reach the maximum level of pumping, with a certain chance you can get a duplicate character. You can get a maximum of 5 duplicates per character. For a 4★ character, level 50 of any type of Ascension is required, for a 5★ character, level 80 of any type of Ascension is available, for a 6★ character - level 130, and for a 2-3★ character - level 30."
+			"ascension_text_des"				"Choose your path! For completing the game you will receive a Free Star Glitter! Having it, you can upgrade various character parameters; The progress of this upgrade is saved between games, and the progress is unique for each character! For all characters, the maximum level for each path is 80"
  
 			"ascension_coin"					"Free Star Shine"
 			"rune_magic"						"Path: Magic"
@@ -6462,9 +6476,9 @@
 			"rune_power"						"Path: Wealth"
  
 		"rune_magic_des"						"Knowledge of ancient magical arts.<br><br><b>Bonuses:</b><br>• Increases mana reserve and regeneration.<br>• Increases damage from spells and reduces their cost."
-		"rune_vampire_des"						"Controlling an ancient curse.<br><br><b>Bonuses:</b><br>• 25% chance to release a “Wave of Wrath” when receiving damage.<br>• Wave damage depends on your main attribute and armor."
+		"rune_vampire_des"						"Controlling an ancient curse.<br><br><b>Bonuses:</b><br>• 5% chance to release a “Wave of Wrath” when receiving damage.<br>• Wave damage depends on your main attribute and armor."
 		"rune_earch_des"						"Unity with the forces of nature and survival.<br><br><b>Bonuses:</b><br>• Increases maximum health.<br>• Strengthens any treatment and blocks physical damage. damage (depending on HP and armor)."
-		"rune_fire_des"							"The art of destroying any defense.<br><br><b>Bonuses:</b><br>• Increases base white attack damage.<br>• 17% chance of breaking enemy armor when attacking (the effect stacks)."
+		"rune_fire_des"							"The art of destroying any defense.<br><br><b>Bonuses:</b><br>• Increases base white attack damage.<br>• When attacking, reduces the enemy's armor."
 		"rune_mystic_des"						"Secret knowledge about finding weak points.<br><br><b>Bonuses:</b><br>• Increases the chance of a critical hit and physical. damage.<br>• Each of your critical attacks heals the hero."
 		"rune_air_des"							"Wind magic that gives incredible lightness.<br><br><b>Bonuses:</b><br>• Increases movement and attack speed.<br>• Significantly speeds up the hero's turn."
 		"rune_power_des"						"Secrets of alchemy and untold wealth.<br><br><b>Bonuses:</b><br>• Gives you a chance to double any gold you receive.<br>• Reduces the cooldown of creation artifacts and experience stones."
@@ -6475,13 +6489,13 @@
 			"rune_magic_b2"					"Spell Damage: +{s:dmg}% |  Mana cost: -{s:cost}%"
 
 			"rune_vampire_b1"				"Wave damage:{s:attr}% of Basic. Attribute +{s:armor}units. for 1 unit armor"
-			"rune_vampire_b2"				"Chance of Wave of Wrath when taking damage: 25%"
+			"rune_vampire_b2"				"Chance of Wave of Wrath when taking damage: 5%"
 
 			"rune_earch_b1"					"Health: +{s:hp}% |  Healing Boost: +{s:heal}%"
 			"rune_earch_b2"					"Damage Block: 2.5% of Max. HP +{s:armor}units. (from reservation)"
 
 			"rune_fire_b1"					"White damage: +{s:flat}units. +{s:pct}% of base"
-			"rune_fire_b2"					"Enemy Armor Reduction: -{s:armor}(Shatter Chance: 17%)"
+			"rune_fire_b2"					"Enemy Armor Reduction: -{s:armor}"
 
 			"rune_mystic_b1"				"Crit chance:{s:crit}% |  Bonus physical damage: +{s:dmg}%"
 			"rune_mystic_b2"				"Critical Healing impact: +{s:heal}units. health"
@@ -6903,7 +6917,7 @@
 		
 		"chill_tiara"						"Ice Shaman"
 		"chill_tiara_5"						"Tiara of Cold"
-		"chill_tiara_effect_des" 			"Can only be obtained by killing the Guardian - Mireska Vetrennaya<br>"
+		"chill_tiara_effect_des" 			"Can only be obtained by killing the Guardian - Sangonomy<br>"
 		
 
 		"lucky"								"Lucky"
@@ -7056,34 +7070,37 @@
 		"gu_button_tooltip_active"  		"Status:<font color='#00FF0C'>「Active」</font>"
 		"gu_button_tooltip_deactive"  		"Status:<font color='#FF0000'>「Inactive」</font>"
  
-		"pray_button_main"					"Prayer"
-		"pray_button_text"					"Opens the prayer menu where you can get new characters."
-		"pray_button_help"					"Prayer is the main method of obtaining characters and talents for them; you can find out in more detail how this system works by clicking on the “Details” button in the Prayers window."
-		
- 		"talents_button_main"				"Elevation"
-		"talents_button_text"				"Opens the Character Ascension menu (talents)."
-		"talents_button_help"				"To unlock talents you need to knock out copies for your characters, every 2, 5, 10, 15, 20 copies, a unique talent for each character will be unlocked."
-		
-		"ascension_button_main"				"Ascension"
-		"ascension_button_text"				"Opens the Character Ascension (upgrade) menu."
-		"ascension_button_help"				"Choose your path! For completing the game you will receive a Free Star Glitter! Using it you can upgrade various character parameters; The progress of this upgrade is saved between games, and the progress is unique for each character! When you reach the maximum level of pumping, you receive a duplicate character. You can get a maximum of 5 duplicates per character. For a 4★ character you need 50 Ascension level of any type, for a 5★ character you need 80 Ascension level of any type, for a 6★ character you need 130 Ascension level of any type, for characters 1-3★ this mechanic is not available for obvious reasons."
-		
-		"boss_button_main"					"Battle with the Guardian"
-		"boss_button_text"					"Quick access to the Guardian selection menu for battle. Energy needed: "
-		"boss_button_help"					"The battle with the Guardian is available after collecting the required amount of energy in your MNT, you will be able to select the Guardian you need and fight with him.<br>The battle with the Guardian will begin only after more than 50% of the players vote to kill him. You are given 2 attempts to kill the Guardian each round; if you win, you can only summon him again in the next round. If the battle with the Guardian successfully starts, the current round will be reset, after victory or defeat you will be automatically moved to the base and the current round will be restarted, but with one change - you will not receive gold, experience and items for killed mobs."
-		
-		"gate_button_main"					"Stargate"
-		"gate_button_text"					"Quick access to the Stargate system autodial menu."
-		"gate_button_help"					"The Star Gate system is the main mechanic of the project that allows you to move between planets. To auto-diall gates, you need to have a certain number of MNTs, for Pegasus 3, for Universe 6. Detailed information about the amount of energy required, as well as other auto-dialling settings, you can see by opening this menu."
+		"pray_button_main"                  "Prayer"
+        "pray_button_text"                  "Opens the Prayer menu to obtain new characters."
+        "pray_button_help"                  "Prayer is the main way to obtain new heroes and talents for them. Detailed information about the probabilities and rules of the system can be found by clicking the “Details” button in the Prayers window itself."
+        
+		"quest_button_main"                  "Task Terminal"
+        "quest_button_text"                  "Opens the control panel for missions, Stargates and sector scanning."
+        "quest_button_help"                  "The Task Terminal is your main command interface. Here you can track the progress of global quests, manage a set of Gateway addresses for travel, and use the radar to search for rare artifacts and generators. Complete task loops to unlock resources, experience, and unique components."
 
-		"backpack_icon_main"				"Cache"
-		"backpack_icon_text"				"A common cache for all players that contains items that fall from enemies."
-		"backpack_icon_help"				"From this cache, any player can pick up the items he likes; in order to pick up an item, click on it with LMB."
+        "talents_button_main"               "Metallurgical Factory"
+        "talents_button_text"               "Opens the Metallurgical Factory interface for smelting resources and creating items."
+        "talents_button_help"               "The factory is a global production system shared by the entire team. Here, ore extracted from the mines is smelted into complex alloys and high-tech parts. The resource warehouse is common to everyone, but remember: while one player has started the smelting process, the factory will be occupied, and others will not be able to start a new craft until it is completed."
+        
+        "ascension_button_main"             "Ascension"
+        "ascension_button_text"             "Opens the Ascension menu for leveling up your character's characteristics."
+        "ascension_button_help"             "Choose your development path! For completing the game you receive Free Star Glitter, which is used to improve the hero’s parameters. Ascension progress is saved between games and is unique to each character."
+        
+        "boss_button_main"                  "Battle with the Guardian"
+        "boss_button_text"                  "Opens the Guardian selection menu for battle. MNT energy required: "
+        "boss_button_help"                  "The battle with the Guardian becomes available after accumulating a sufficient amount of MNT energy. The battle will begin only if more than 50% of the players vote “FOR”. Each round you are given 2 attempts to kill the boss. If voting starts successfully, the current round is paused. After victory (or defeat), the team returns to base, and the round is restarted, but without receiving gold, experience and items from ordinary enemies."
+        
+        "gate_button_main"                  "Stargate"
+        "gate_button_text"                  "Opens the Stargate AutoDial control panel."
+        "gate_button_help"                  "The Star Gate system is a key mechanic of the project, allowing your team to instantly move between different planets and locations."
 
-		"nuclear_button_main"				"Nuclear reactor"
-		"nuclear_button_text"				"Opens an interface for controlling the Nuclear Reactor."
-		"nuclear_button_help"				"Global mechanics that are needed for many things in the game, for example, to create protection from radiation (so as not to receive radiation in the Final Task), improving Andromeda, items and obtaining MNT energy."
+        "backpack_icon_main"                "Shared Cache"
+        "backpack_icon_text"                "Global storage for trophies dropped by defeated enemies."
+        "backpack_icon_help"                "Loot from killed monsters automatically goes into this cache. The entire team has access to it. Any player can take the item he needs into his inventory - to do this, simply click on the item with the left mouse button (LMB)."
 
+        "nuclear_button_main"               "Nuclear reactor"
+        "nuclear_button_text"               "Opens the Nuclear Reactor control interface."
+        "nuclear_button_help"               "The most important strategic mechanics. Starting and maintaining the reactor is necessary for the later stages of the game: creating radiation protection (for survival in the Final Mission), crafting high-tech items, upgrading the Andromeda ship and generating energy for the MNT."
 
 		"gu_art_stats_help"					"Additional characteristics from Artifacts and Weapons."
 		"gu_const_stats_help"				"Additional characteristics for received copies of your character, each copy, even after 21, adds bonuses that depend on the chosen role of your character, you will also receive +1 to all attributes for each copy of the character but not more than 20."
@@ -7210,10 +7227,6 @@
 		"DOTA_Tooltip_ability_item_subconscious_core_2_Description" 		"<h1>Passive: Subconscious Core</h1>Your successful attacks deal area physical damage to all enemies in a%radius%radius around the primary target. Secondary targets receive%split_shot_damage%%%from your attack's initial damage.<br><br><font color='#ff0000'>Works only on heroes with a ranged attack type!</font>"
 		"DOTA_Tooltip_ability_item_subconscious_core_2_bonus_damage" 		"Damage: "
 
-		"DOTA_Tooltip_ability_item_subconscious_core_3"					"Subconscious Core 3"
-		"DOTA_Tooltip_ability_item_subconscious_core_3_Description" 		"<h1>Passive: Subconscious Core</h1>Your successful attacks deal area physical damage to all enemies in a%radius%radius around the primary target. Secondary targets receive%split_shot_damage%%%from your attack's initial damage.<br><br><font color='#ff0000'>Works only on heroes with a ranged attack type!</font>"
-		"DOTA_Tooltip_ability_item_subconscious_core_3_bonus_damage" 		"Damage: "
- 
 		"DOTA_Tooltip_ability_item_gu_cleave"							"Rift Fury"
 		"DOTA_Tooltip_ability_item_gu_cleave_Description" 					"<h1>Passive: Rift</h1>Deals%cleave_damage%%%damage from your attack to enemy units in front of the owner within a radius of%cleave_distance%, there can be no more than 3 targets.<br><br><font color='#ff0000'>Works only on heroes with a melee attack type!</font>"
 		"DOTA_Tooltip_ability_item_gu_cleave_damage" 						"Damage: "
@@ -7449,21 +7462,20 @@
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_mana_regen"			"Mana Recovery: "
 		"DOTA_Tooltip_ability_item_gu_bounded_field_3_int"					"Intelligence: "
 
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange"					"Equivalent Exchange"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"			"<h1>Passive: Equivalent Exchange</h1>Reduces your current health to 25% of your maximum and also does not allow you to exceed this limit, you cannot take more than%dmg_per_hit%%%damage per hit from your maximum health, provided you have enough energy, consumes 5% of your maximum energy per hit. Cooldown time is%cd%seconds\n<br><br><font color='#ff0000'>「Attention! While the item is on cooldown, its passive ability does not work!」</font>"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_miss"					"Evasion: "
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_armor"				"Armor: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange"                   "Equivalent Exchange"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_Description"       "<h1>Passive: Equivalent Exchange</h1>Reduces your current health to 25% of your maximum and prevents you from exceeding this limit. If the incoming damage per hit exceeds%dmg_per_hit%%%of your max. health, it is completely blocked and replaced with fixed pure damage. Absorbing each such strike consumes 3% of your maximum energy. The flat damage cannot become fatal, and the ability has no cooldown.<br><br><font color='#ff0000'>「Attention! The ability does not work against enemy artillery shots!」</font>"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_miss"              "Evasion: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_armor"             "Armor: "
 
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2"					"Equivalent Exchange 2"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"			"<h1>Passive: Equivalent Exchange</h1>Reduces your current health to 25% of your maximum and also does not allow you to exceed this limit, you cannot take more than%dmg_per_hit%%%damage per hit from your maximum health, provided you have enough energy, consumes 5% of your maximum energy per hit. Cooldown time is%cd%seconds\n<br><br><font color='#ff0000'>「Attention! While the item is on cooldown, its passive ability does not work!」</font>"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_miss"					"Evasion: "
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_armor"					"Armor: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2"                 "Equivalent Exchange 2"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_Description"     "<h1>Passive: Equivalent Exchange</h1>Reduces your current health to 25% of your maximum and prevents you from exceeding this limit. If the incoming damage per hit exceeds%dmg_per_hit%%%of your max. health, it is completely blocked and replaced with fixed pure damage. Absorbing each such strike consumes 3% of your maximum energy. The flat damage cannot become fatal, and the ability has no cooldown.<br><br><font color='#ff0000'>「Attention! The ability does not work against enemy artillery shots!」</font>"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_miss"            "Evasion: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_2_armor"           "Armor: "
 
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3"					"Equivalent Exchange 3"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"			"<h1>Passive: Equivalent Exchange</h1>Reduces your current health to 25% of your maximum and also does not allow you to exceed this limit, you cannot take more than%dmg_per_hit%%%damage per hit from your maximum health, provided you have enough energy, consumes 5% of your maximum energy per hit. Cooldown time is%cd%seconds\n<br><br><font color='#ff0000'>「Attention! While the item is on cooldown, its passive ability does not work!」</font>"
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_miss"					"Evasion: "
-		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_armor"					"Armor: "
-
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3"                 "Equivalent Exchange 3"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_Description"     "<h1>Passive: Equivalent Exchange</h1>Reduces your current health to 25% of your maximum and prevents you from exceeding this limit. If the incoming damage per hit exceeds%dmg_per_hit%%%of your max. health, it is completely blocked and replaced with fixed pure damage. Absorbing each such strike consumes 3% of your maximum energy. The flat damage cannot become fatal, and the ability has no cooldown.<br><br><font color='#ff0000'>「Attention! The ability does not work against enemy artillery shots!」</font>"
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_miss"            "Evasion: "
+		"DOTA_Tooltip_ability_item_gu_equivalent_exchange_3_armor"           "Armor: "
 		"ori_commander"							"Adria"
 		"ori_commander_text_1"					"Attention! We deploy artillery to attack enemy targets!"
 		"ori_commander_text_1_2"				"Andromeda, nothing will help you. ART BATTERY - FIRE!"
@@ -7667,7 +7679,7 @@
 		"bracers_1_lore"					"Standard Valkyrie gauntlets, compromising parts of the fingers and wrists. Even warriors with no close combat experience can easily wield these weapons."
 
 		"bracers_2"						"CAS-II Namiko"
-		"bracers_2_lore"					"The warriors of Siberia are not drunkards armed with blades and spears. They are deadly even when unarmed. "
+		"bracers_2_lore"					"The warriors of Siberia are not drunkards armed with blades and spears. They are deadly even if unarmed. "
 
 		"bracers_3"						"CAS-X Saints"
 		"bracers_3_lore"					"This pair of gloves was formerly a pair of CAS-II Namiko found on a fallen warrior. Schixal then gave it a new designation: X, meaning not the Roman numeral ten, but «unknown». Shiksal also discovered the Mikoyan design bureau's own technologies in these weapons. "
@@ -8630,5 +8642,167 @@
 
 		"DOTA_Tooltip_modifier_hero_artifact_asuran_overload_buff"				"Overload (Wisdom of Asuran)"
 		"DOTA_Tooltip_modifier_hero_artifact_asuran_overload_buff_Description"	"Each charge of this effect increases spell damage by 5% and reduces cooldowns by 3%."
+	
+		// ШАХТЫ И РУДЫ: ТИР 1
+		// ==========================================
+		"DOTA_Tooltip_ability_item_gu_ore_graphite"				"Graphite"
+		"DOTA_Tooltip_ability_item_gu_ore_graphite_Description"	"Carbon mineral. Used to create basic moderator rods when repairing a reactor."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_magnetite"			"Magnetite"
+		"DOTA_Tooltip_ability_item_gu_ore_magnetite_Description""Magnetic iron ore. An important component for reactor electromagnetic systems."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_malachite"			"Malachite"
+		"DOTA_Tooltip_ability_item_gu_ore_malachite_Description""Copper mineral used to repair wiring and basic electronics."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_lead"					"Lead"
+		"DOTA_Tooltip_ability_item_gu_ore_lead_Description"		"Heavy metal. Vital for restoring radiation protection around the core."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_bauxite"				"Bauxite"
+		"DOTA_Tooltip_ability_item_gu_ore_bauxite_Description"	"Bauxite. Used for lightweight and durable hull structures."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_hematite"				"Hematite"
+		"DOTA_Tooltip_ability_item_gu_ore_hematite_Description" "Special ore. Required for crafting health capes and tier 6 items for experience."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_barite"				"Barite"
+		"DOTA_Tooltip_ability_item_gu_ore_barite_Description"	"Valuable crystal. Needed to create a sword for gold mining, crits and splash damage (both in melee and ranged combat)."
+
+		// ==========================================
+		// ШАХТЫ И РУДЫ: ТИР 2
+		// ==========================================
+		"DOTA_Tooltip_ability_item_gu_ore_manganese"			"Manganese ore"
+		"DOTA_Tooltip_ability_item_gu_ore_manganese_Description""Strengthening additive. Allows you to create wear-resistant steel alloys for heavy mechanisms."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_steel"				"Steel"
+		"DOTA_Tooltip_ability_item_gu_ore_steel_Description"	"Hardened alloy. Basic building material for advanced reactor structures."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_zirconium"			"Zirconium"
+		"DOTA_Tooltip_ability_item_gu_ore_zirconium_Description""Refractory metal. Used for shells of reactor fuel elements."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_sodium"				"Borax"
+		"DOTA_Tooltip_ability_item_gu_ore_sodium_Description"	"Source of sodium and boron. It is used as a coolant liquid in the cooling circuit and as an element for controlling the reaction rate in the core, respectively."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_titanium"				"Titanium"
+		"DOTA_Tooltip_ability_item_gu_ore_titanium_Description" "Super strong metal. Needed to upgrade items for survivability: grade 2 capes, grade 5 hearts and grade 3 armor."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_adamantite"			"Adamantite"
+		"DOTA_Tooltip_ability_item_gu_ore_adamantite_Description""Magic metal. Used for the final grades of DPS items: grade 5 galaxy sword, grade 3 weather core and grade 3 mage staff."
+
+		// ==========================================
+		// ШАХТЫ И РУДЫ: ТИР 3
+		// ==========================================
+		"DOTA_Tooltip_ability_item_gu_ore_naquadah"				"Naquadah"
+		"DOTA_Tooltip_ability_item_gu_ore_naquadah_Description" "An extremely rare element with superconductivity. Used to create all final items for Tanks."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_quadrillium"			"Quadrillium"
+		"DOTA_Tooltip_ability_item_gu_ore_quadrillium_Description""Incredibly dense and heavy element. Needed to create all final items for physical damage (DD)."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_aurodium"				"Aurodia"
+		"DOTA_Tooltip_ability_item_gu_ore_aurodium_Description" "The ideal conductor of the magic of the universe. Used to create all final items for Mages."
+		
+		"DOTA_Tooltip_ability_item_gu_ore_gold"             "Gold ore"
+        "DOTA_Tooltip_ability_item_gu_ore_gold_Description" "Precious metal with high electrical conductivity. Indispensable in the production of complex microelectronics for the Nuclear Reactor. Can be purchased at the store for 1000 gold."
+
+		// Инструменты
+		"DOTA_Tooltip_ability_item_gu_drilling_rig"		"Strengthened Drill Rig"
+		"DOTA_Tooltip_ability_item_gu_drilling_rig_Description" "Made from Steel and Zirconium. Apply Tier 3 to the mine, it requires 10,000 reactor energy to start mining relic ores. Caution: Risk of Naquadria Isotope Explosion!"
+	
+		"gu_qvest_rude"		"{player_name}completed mining of the mine"
+
+		"DOTA_Tooltip_ability_item_gu_rude_compass_1"				"Basic Geo-Compass"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_1_Description"	"Tunes to the frequencies of common minerals. When used, scans the area, detects a free Tier 1 ore deposit and installs a mine there. The device has 2 irreplaceable charges, after which they are completely depleted, the device is destroyed."
+		
+		"DOTA_Tooltip_ability_item_gu_rude_compass_2"				"Advanced Geo-Scanner"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_2_Description"	"Enhanced scanner for searching for rare and refractory metals. When used, it performs a comprehensive search, simultaneously detecting free ore deposits of Tiers 1 and 2 and installing mines on them. Disappears after successful use."
+		
+		"DOTA_Tooltip_ability_item_gu_rude_compass_3"				"Resonant Depth Locator"
+		"DOTA_Tooltip_ability_item_gu_rude_compass_3_Description"	"A complex device capable of detecting radiation from relict elements. When activated, it launches a large-scale scan, simultaneously opening vacant Tier 1, 2 and 3 deposits (including veins with Naquadah, Quadrillium and Aurodia) and installing mines there. Disappears after successful use."
+	
+		// ШАГ 1: КОНФАЙНМЕНТ (УДЕРЖАНИЕ)
+        "DOTA_Tooltip_Ability_item_gu_radiation_protection"             "Anti-radiation protection"
+        "DOTA_Tooltip_Ability_item_gu_radiation_protection_Description" "Thickened lead plates needed to block the reactor's deadly radiation."
+
+        "DOTA_Tooltip_Ability_item_gu_support_struts"                   "Bearing supports"
+        "DOTA_Tooltip_Ability_item_gu_support_struts_Description"       "Heavy steel beams that make up the frame of the reactor confinement."
+
+        "DOTA_Tooltip_Ability_item_gu_reactor_casing"                   "Reactor containment vessel"
+        "DOTA_Tooltip_Ability_item_gu_reactor_casing_Description"       "Robust outer dome to prevent leakage of radioactive materials."
+
+        // ШАГ 2: СИСТЕМА УПРАВЛЕНИЯ
+        "DOTA_Tooltip_Ability_item_gu_control_system_casing"            "Control housing"
+        "DOTA_Tooltip_Ability_item_gu_control_system_casing_Description" "Rugged unit to house critical core control electronics."
+
+        "DOTA_Tooltip_Ability_item_gu_main_electronics"                 "Control unit electronics"
+        "DOTA_Tooltip_Ability_item_gu_main_electronics_Description"     "The main computing module responsible for the logic of the reactor plant."
+
+        "DOTA_Tooltip_Ability_item_gu_peripheral_modules"               "Core control modules"
+        "DOTA_Tooltip_Ability_item_gu_peripheral_modules_Description"   "A set of sensors and logic boards for monitoring core parameters."
+
+        // ШАГ 3: АКТИВНАЯ ЗОНА
+        "DOTA_Tooltip_Ability_item_gu_heat_circuit"                     "Heat transfer circuit"
+        "DOTA_Tooltip_Ability_item_gu_heat_circuit_Description"         "Zirconium sodium coolant circulation system for heat removal."
+
+        "DOTA_Tooltip_Ability_item_gu_steam_pipes"                      "Steam transport pipes"
+        "DOTA_Tooltip_Ability_item_gu_steam_pipes_Description"          "Reinforced high-pressure pipes for transferring steam from the reactor to the turbines."
+
+        "DOTA_Tooltip_Ability_item_gu_moderator_rods"                   "Retarder rods"
+        "DOTA_Tooltip_Ability_item_gu_moderator_rods_Description"       "Sodium graphite rods for controlling the rate of nuclear reaction."
+
+        "DOTA_Tooltip_Ability_item_gu_active_zone_shell"                "Core containment"
+        "DOTA_Tooltip_Ability_item_gu_active_zone_shell_Description"    "Internal high-tech shell directly surrounding the retarder rods."
+
+        // ФИНАЛЬНЫЙ ПРЕДМЕТ
+        "DOTA_Tooltip_Ability_item_gu_reactor_repair_kit"               "Reactor repair kit"
+        "DOTA_Tooltip_Ability_item_gu_reactor_repair_kit_Description"   "A complete set of components and assemblies necessary for a major overhaul and restart of the reactor.\n\nIncludes restored confinement (Step 1), control (Step 2) and core (Step 3) systems."
+	
+		"gu_factory_craft_time" 									"Production time: "
+		"gu_factory_waiting" 										"WAITING FOR ISSUANCE..."
+		"gu_factory_crafting" 										"Production..."
+		"gu_factory_waiting" 										"STATUS: WAITING FOR TASK..."
+		"gu_factory_return_output" 									"FREE SLOT"
+		"gu_factory_select_recipe" 									"SELECT DRAWING"
+		"gu_factory_insufficient_resources" 						"NOT ENOUGH RAW MATERIALS"
+		"gu_factory_start_crafting" 								"START PRODUCTION"
+		"gu_factory" 												"METALLURGICAL FACTORY"
+		"gu_factory_inventory" 										"GENERAL RAW MATERIAL WAREHOUSE"
+		"gu_factory_recipes" 										"DRAWINGS AND ALLOYS"
+		"gu_factory_select_recipe" 									"SELECT DRAWING"
+		"gu_factory_error" 											"AN ERROR HAS OCCURRED! TRY AGAIN."
+
+
+		"DOTA_Tooltip_ability_item_gu_zpm_resonator"             "Quantum Resonator MNT"
+		"DOTA_Tooltip_ability_item_gu_zpm_resonator_Description" "A special crystal of the Ancients that remembers energy signatures.\n\n<h1>Passive: Guardian Slayer</h1>\nDeals<font color='#00e5ff'>20%</font>additional damage (from attacks and abilities) to MNT Guardians.\n\nFor each generator successfully removed using the Defuser, the item receives 1 charge. Each charge additionally increases this damage by<font color='#00e5ff'>3%</font>."
+		
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor"             "Bio-Reactor of the Ancients"
+        "DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_Description" "<h1>Passive: Adaptive Regeneration</h1>Restores<font color='#00e5ff'>%base_health_regen_pct%%%</font>from maximum health per second.\n\nRegeneration is additionally increased by<font color='#00e5ff'>0.003%</font>for each unit of physical armor of the hero.\n\n<i>«Organic tissue and alloys fuse together, making the wearer virtually immortal.»</i>"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_strength" "BONUS TO STRENGTH:"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_bonus_health" "HEALTH BONUS:"
+		"DOTA_Tooltip_ability_item_gu_ancient_bio_reactor_base_health_regen_pct" "%Регенерацияhealth:"
+
+		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor"            "Adaptive Regeneration"
+		"DOTA_Tooltip_modifier_item_gu_ancient_bio_reactor_Description" "Health regeneration is enhanced by armor."
+
+		"DOTA_Tooltip_ability_item_gu_replicator_disruptor_1"             "Nano-Transmutator"
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_1_Description" "+%bonus_all_stats%to all\nattributes +%bonus_damage%to damage\n\n<h1>Passive: Transmute</h1>Converts<font color='#00e5ff'>%stat_convert_pct%%%</font>your base strength and intelligence into agility. The item literally takes away these stats, sacrificing survivability and mana for speed.\n\n<h1>Passive: Potential Boost</h1>Increases base (white) attack damage by<font color='#00e5ff'>%base_damage_pct%%%</font>."
+
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2"             "Absolute Transmutator"
+        "DOTA_Tooltip_ability_item_gu_replicator_disruptor_2_Description" "+%bonus_all_stats%to all\nattributes +%bonus_damage%to damage\n\n<h1>Passive: Transmute</h1>Converts<font color='#00e5ff'>%stat_convert_pct%%%</font>your base strength and intelligence into agility.\n\n<h1>Passive: Potential Boost</h1>Increases base (white) attack damage by<font color='#00e5ff'>%base_damage_pct%%%</font>.\n\n<h1>Passive: Replicator Destructor</h1>Deals more damage to<font color='#ff4c4c'>%replicator_damage_pct%%%</font>against any type of Replicator."
+	
+		"DOTA_Tooltip_ability_item_nickel60"             "Nickel-60"
+        "DOTA_Tooltip_ability_item_nickel60_Description" "A stable isotope of nickel produced by the beta decay of radioactive Cobalt-60.\n\nHas extreme heat resistance and structural density. Due to its resistance to corrosion and radiation embrittlement, this metal is the most important raw material for creating coolant circuits and protective vessels of the Nuclear Reactor.\n\n<i>«The deadly radiation fades away, leaving behind metal that can withstand the temperature of a star.»</i>"
+
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1"                "Muramasa (Lv. 1)"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_Description"    "<h1>Passive: Energy Slash</h1>Each of your attacks deals additional magic damage equal to 5% of your current energy.<br><h1>Active: Resonance</h1>Consumes 20% of your current energy. Your next hit within 5 seconds will be a critical hit. The critical damage multiplier depends on the amount of energy absorbed."
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_damage"   "+ Damage:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_agility"  "+ Dexterity:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy"   "+ Max. Energy:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_1_bonus_energy_regen" "+ Energy regeneration:"
+
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2"                "Muramasa (Lv. 2)"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_Description"    "<h1>Passive: Energy Slash</h1>Each of your attacks deals additional magic damage equal to 5% of your current energy.<br><h1>Active: Resonance</h1>Consumes 20% of your current energy. Your next hit within 5 seconds will be a critical hit. The critical damage multiplier depends on the amount of energy absorbed."
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_damage"   "+ Damage:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_agility"  "+ Dexterity:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy"   "+ Max. Energy:"
+		"DOTA_Tooltip_Ability_item_gu_muramasa_2_bonus_energy_regen" "+ Energy regeneration:"
+
 	}	
 }
